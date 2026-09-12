@@ -1,7 +1,7 @@
 import os
 import re
 
-base_dir = "/Users/rishabhjaiswal/ayodhya-darshan"
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 1. Update Dev Deepawali Meta Tags & Callout
 dev_file = os.path.join(base_dir, "blog-varanasi-dev-deepawali-guide.html")

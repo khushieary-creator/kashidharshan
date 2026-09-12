@@ -1,7 +1,7 @@
 import os
 import re
 
-ROOT_DIR = "/Users/rishabhjaiswal/ayodhya-darshan"
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Regex to match floating whatsapp button a-tags, with optional preceding comment, matching across multiple lines
 pattern = re.compile(r'(<!--\s*Floating WhatsApp Button\s*-->\s*)?<a\s+[^>]*class="whatsapp-float"[^>]*>.*?</a>', re.DOTALL)

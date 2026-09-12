@@ -22,7 +22,7 @@ package_files = [
     "ayodhya-prayagraj-chitrakoot-varanasi-tour-package.html"
 ]
 
-base_dir = "/Users/rishabhjaiswal/ayodhya-darshan"
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 for filename in package_files:
     file_path = os.path.join(base_dir, filename)

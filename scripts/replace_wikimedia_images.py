@@ -2,7 +2,7 @@ import os
 import re
 
 # Root directory
-ROOT_DIR = "/Users/rishabhjaiswal/ayodhya-darshan"
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Replacement mappings
 replacements = {

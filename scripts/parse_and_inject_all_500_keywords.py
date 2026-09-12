@@ -1,4 +1,6 @@
 import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+import os
 import re
 
 # Raw text pasted by the user from Google Ads Search Terms report
@@ -1696,7 +1698,7 @@ def extract_and_inject_keywords():
     print(f"General & Itinerary Keywords: {len(general_tours)}")
 
     # 1. Update index.html Meta Keywords tag with top 100 keywords
-    index_path = "/Users/rishabhjaiswal/ayodhya-darshan/index.html"
+    index_path = "" + BASE_DIR + "/index.html"
     with open(index_path, "r", encoding="utf-8") as f:
         index_content = f.read()
 
@@ -1740,7 +1742,7 @@ def extract_and_inject_keywords():
         f.write(index_content)
 
     # 3. Update blog.html meta keywords with all circuit and VIP keywords
-    blog_path = "/Users/rishabhjaiswal/ayodhya-darshan/blog.html"
+    blog_path = "" + BASE_DIR + "/blog.html"
     if os.path.exists(blog_path):
         with open(blog_path, "r", encoding="utf-8") as f:
             blog_content = f.read()
@@ -1754,7 +1756,7 @@ def extract_and_inject_keywords():
             print("✅ Updated blog.html meta keywords with VIP & Circuit search terms")
 
     # 4. Update services.html meta keywords
-    services_path = "/Users/rishabhjaiswal/ayodhya-darshan/services.html"
+    services_path = "" + BASE_DIR + "/services.html"
     if os.path.exists(services_path):
         with open(services_path, "r", encoding="utf-8") as f:
             services_content = f.read()

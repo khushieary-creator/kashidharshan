@@ -1,7 +1,7 @@
 import os
 
 def inject_mobile_cta():
-    root_dir = "/Users/rishabhjaiswal/ayodhya-darshan"
+    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     
     mobile_cta_markup = """
 <!-- Mobile Sticky Bottom CTA Bar -->

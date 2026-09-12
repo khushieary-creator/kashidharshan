@@ -2,7 +2,7 @@ import os
 import re
 
 def fix_giant_icons():
-    root_dir = "/Users/rishabhjaiswal/ayodhya-darshan"
+    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     
     # We want to replace any existing mobile-sticky-cta block with the inline-styled, bulletproof version
     # Let's write a regex that matches the div and replaces it.

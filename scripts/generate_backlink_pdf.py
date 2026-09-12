@@ -1,4 +1,6 @@
 import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+import os
 from fpdf import FPDF
 
 class BacklinkPDF(FPDF):
@@ -225,7 +227,7 @@ def create_backlink_pdf():
     pdf.set_text_color(100, 100, 100)
     pdf.multi_cell(0, 5, "Confidential internal SEO document created for Ayodhya Dharshan marketing execution.")
 
-    output_path = "/Users/rishabhjaiswal/ayodhya-darshan/backlink_campaign_2026.pdf"
+    output_path = "" + BASE_DIR + "/backlink_campaign_2026.pdf"
     pdf.output(output_path)
     print(f"PDF successfully generated at: {output_path}")
 

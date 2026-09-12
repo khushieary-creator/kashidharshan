@@ -4,7 +4,7 @@ def update_pub_id():
     old_id = "ca-pub-7972876869997430"
     new_id = "ca-pub-7513283731802791"
     
-    root_dir = "/Users/rishabhjaiswal/ayodhya-darshan"
+    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     
     # 1. Update HTML files in root directory
     for file in os.listdir(root_dir):

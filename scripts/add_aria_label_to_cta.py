@@ -1,7 +1,7 @@
 import os
 
 # Root directory
-ROOT_DIR = "/Users/rishabhjaiswal/ayodhya-darshan"
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 target_search = 'class="btn btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2C7 9 7 13 12 22 17 13 17 9 12 2Z"/></svg><span class="btn-text">Plan Your Yatra</span></a>'
 target_replace = 'class="btn btn-primary" aria-label="Plan Your Yatra"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2C7 9 7 13 12 22 17 13 17 9 12 2Z"/></svg><span class="btn-text">Plan Your Yatra</span></a>'

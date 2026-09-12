@@ -72,7 +72,7 @@ targets = {
     }
 }
 
-base_dir = "/Users/rishabhjaiswal/ayodhya-darshan"
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 for filename, data in targets.items():
     file_path = os.path.join(base_dir, filename)

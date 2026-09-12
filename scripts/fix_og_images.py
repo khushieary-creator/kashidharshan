@@ -1,7 +1,7 @@
 import os
 
 def fix_og_images():
-    root_dir = "/Users/rishabhjaiswal/ayodhya-darshan"
+    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     wikimedia_prefix = "https://commons.wikimedia.org"
     local_og_image = "https://www.ayodhyadharshan.com/assets/reviews/ayodhya-night.jpg"
     

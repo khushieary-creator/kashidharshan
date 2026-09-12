@@ -1,4 +1,6 @@
 import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+import os
 from fpdf import FPDF
 
 class PressReleasePDF(FPDF):
@@ -107,7 +109,7 @@ def create_pr_pdf():
     )
     pdf.multi_cell(0, 5.5, about_text, border=1, fill=True)
 
-    output_path = "/Users/rishabhjaiswal/ayodhya-darshan/ayodhya_dharshan_press_release_2026.pdf"
+    output_path = "" + BASE_DIR + "/ayodhya_dharshan_press_release_2026.pdf"
     pdf.output(output_path)
     print(f"Press Release PDF generated at: {output_path}")
 

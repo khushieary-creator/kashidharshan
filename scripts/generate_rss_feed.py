@@ -3,7 +3,7 @@ import re
 from xml.sax.saxutils import escape
 
 def generate_rss():
-    base_dir = "/Users/rishabhjaiswal/ayodhya-darshan"
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     site_url = "https://www.ayodhyadharshan.com"
     
     html_files = [f for f in os.listdir(base_dir) if f.startswith("blog-") and f.endswith(".html")]

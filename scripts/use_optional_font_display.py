@@ -1,6 +1,6 @@
 import os
 
-ROOT_DIR = "/Users/rishabhjaiswal/ayodhya-darshan"
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 target_search = 'display=swap'
 target_replace = 'display=optional'

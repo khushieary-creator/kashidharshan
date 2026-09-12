@@ -1,6 +1,6 @@
 import os
 
-ROOT_DIR = "/Users/rishabhjaiswal/ayodhya-darshan"
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 target_search = 'family=Marcellus&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Mukta:wght@300;400;500;600;700&display=swap'
 target_replace = 'family=Marcellus&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Mukta:wght@300;400;500;600;700&display=swap'

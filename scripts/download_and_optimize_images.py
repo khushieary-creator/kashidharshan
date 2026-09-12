@@ -1,10 +1,12 @@
 import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+import os
 import urllib.request
 import urllib.parse
 from PIL import Image
 
 # Directory setup
-DEST_DIR = "/Users/rishabhjaiswal/ayodhya-darshan/assets/destinations"
+DEST_DIR = "" + BASE_DIR + "/assets/destinations"
 os.makedirs(DEST_DIR, exist_ok=True)
 
 # Images to download, convert to webp, and resize to max-width 800px
