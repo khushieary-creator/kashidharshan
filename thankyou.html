@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.png" type="image/png" sizes="192x192">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank You | Kashi Dharshan</title>
+<meta name="robots" content="noindex, follow">
+<meta name="description" content="Thank you for submitting your pilgrimage enquiry with Kashi Dharshan. We are processing your request and connecting you with a yatra expert.">
+<link rel="canonical" href="https://www.ayodhyadharshan.com/thankyou.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Mukta:wght@300;400;500;600;700&display=optional" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .thankyou-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: clamp(40px, 8vw, 80px) 20px;
+    min-height: 60vh;
+    background: var(--bg);
+  }
+  .thankyou-card {
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-radius: var(--r-lg);
+    padding: clamp(30px, 5vw, 50px);
+    max-width: 600px;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .thankyou-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #eaf6e8;
+    border: 1px solid #b6dda9;
+    color: #2c5e22;
+    display: grid;
+    place-items: center;
+    font-size: 2.2rem;
+    animation: scaleIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  @keyframes scaleIn {
+    from { transform: scale(0); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  .thankyou-card h1 {
+    font-family: var(--font-display);
+    color: var(--maroon);
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+  }
+  .thankyou-card p {
+    color: var(--ink-2);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .redirect-notice {
+    font-size: 0.9rem;
+    color: var(--saffron-deep);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .loader-ring {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(221,122,31,0.2);
+    border-top: 2px solid var(--saffron);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+</style>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7513283731802791"
+       crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html" aria-label="Kashi Dharshan home">
+      <img width="500" height="500" src="assets/logo.webp" alt="Kashi Dharshan Logo" class="brand-mark" fetchpriority="high">
+      <span class="brand-name">Kashi Dharshan<small>Teerth Yatra</small></span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary" aria-label="Plan Your Yatra"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2C7 9 7 13 12 22 17 13 17 9 12 2Z"/></svg><span class="btn-text">Plan Your Yatra</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<section class="thankyou-wrapper">
+  <div class="thankyou-card reveal in">
+    <div class="thankyou-icon">🙏</div>
+    <h1 id="headline">Thank You!</h1>
+    <p id="subtext">Your enquiry has been received. A yatra guide will review your details and reach out shortly.</p>
+    
+    <div class="redirect-notice">
+      <div class="loader-ring"></div>
+      <span>Redirecting you to WhatsApp in <span id="countdown">3</span> seconds...</span>
+    </div>
+
+    <a id="whatsappBtn" href="https://wa.me/919235222399" class="btn btn-primary" style="margin-top: 15px;">
+      <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px;"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.457L0 24zm6.59-4.846c1.6.95 3.588 1.45 5.621 1.452 5.4 0 9.794-4.402 9.798-9.823.002-2.624-1.017-5.093-2.868-6.948-1.851-1.854-4.312-2.873-6.93-2.875-5.398 0-9.799 4.403-9.802 9.825-.001 2.056.536 4.07 1.554 5.829l-1.014 3.702 3.791-.994zm11.367-6.051c-.301-.15-1.781-.879-2.056-.979-.275-.1-.475-.15-.675.15-.2.3-.775.979-.95 1.179-.175.2-.35.225-.65.075-.3-.15-1.265-.467-2.41-1.485-.89-.794-1.49-1.775-1.665-2.075-.175-.3-.018-.462.13-.61.137-.133.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.244-.589-.48-.51-.66-.519-.171-.008-.367-.01-.563-.01-.196 0-.517.073-.788.373-.271.3-1.034 1.013-1.034 2.47 0 1.458 1.061 2.864 1.209 3.064.149.2 2.089 3.19 5.06 4.475.707.305 1.258.487 1.687.625.712.227 1.36.195 1.871.118.571-.085 1.781-.729 2.031-1.433.25-.704.25-1.306.175-1.433-.075-.127-.275-.202-.575-.352z"/></svg>
+      Connect via WhatsApp Now
+    </a>
+  </div>
+</section>
+
+<footer class="site-foot">
+  <div class="container foot-grid">
+    <div class="foot-brand">
+      <div class="brand" style="margin-bottom:16px;">
+        <img width="500" height="500" src="assets/logo.webp" alt="Kashi Dharshan Logo" class="brand-mark" fetchpriority="high">
+        <span class="brand-name" style="color:#FCEFD9;">Kashi Dharshan<small>Teerth Yatra</small></span>
+      </div>
+      <p>Soulful, fully-managed pilgrimages across Kashi Vishwanath Dham, Ganga Ghats, and the holiest cities of Uttar Pradesh — guided with reverence and care.</p>
+    </div>
+    <div><h4>Explore</h4>
+      <a href="destinations.html">Destinations</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About Us</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div><h4>Cities</h4>
+      <a href="destinations.html#varanasi">Varanasi (Kashi)</a>
+      <a href="destinations.html#ayodhya">Ayodhya</a>
+      <a href="destinations.html#prayagraj">Prayagraj</a>
+      <a href="destinations.html#chitrakoot">Chitrakoot</a>
+    </div>
+    <div><h4>Reach Us</h4>
+      <a href="tel:+919235222399">+91 92352 22399</a>
+      <a href="mailto:yatra@kashidharshan.com">yatra@kashidharshan.com</a>
+      <a href="contact.html">Godowlia, Near Kashi Vishwanath Temple, Varanasi</a>
+      <a href="https://share.google/Q6wXLDvNd2VDOzNUp" target="_blank" rel="noopener">Find us on Google Maps</a>
+      <a href="https://wa.me/919235222399?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Kashi%20Dharshan%20tour%20packages.">WhatsApp · 24×7</a>
+    </div>
+  </div>
+  <div class="container foot-bottom">
+    <span>© 2026 Kashi Dharshan · Teerth Yatra Seva</span>
+    <span>॥ हर हर महादेव · जय काशी विश्वनाथ ॥</span>
+  </div>
+</footer>
+
+<script>
+  // Mobile Nav Toggle
+  const navToggle=document.getElementById('navToggle'), navLinks=document.getElementById('navLinks');
+  navToggle?.addEventListener('click',()=>navLinks.classList.toggle('open'));
+
+  // Get query parameters
+  const params = new URLSearchParams(window.location.search);
+  const name = params.get('name') || '';
+  const phone = params.get('phone') || '';
+  const city = params.get('city') || 'Kashi Sacred Circuit';
+  const people = params.get('people') || '1-2';
+  const dates = params.get('dates') || 'Not specified';
+
+  // Personalize page content
+  if (name) {
+    document.getElementById('headline').textContent = `Thank You, ${name}!`;
+    document.getElementById('subtext').textContent = `Your enquiry for the ${city} tour package has been successfully registered. We are now redirecting you to WhatsApp to instantly connect with a yatra guide.`;
+  }
+
+  // Build custom WhatsApp link with pre-filled details
+  const whatsappMsg = `Har Har Mahadev! I just submitted an enquiry on the website:
+- Name: ${name}
+- Phone: ${phone}
+- Destination: ${city}
+- Travellers: ${people}
+- Dates: ${dates}
+Please share details and packages.`;
+
+  const finalWhatsappUrl = `https://wa.me/919235222399?text=${encodeURIComponent(whatsappMsg)}`;
+  document.getElementById('whatsappBtn').href = finalWhatsappUrl;
+
+  // Countdown timer and redirect
+  let timeLeft = 2.5; // 2.5 seconds
+  const countdownEl = document.getElementById('countdown');
+  
+  const timer = setInterval(() => {
+    timeLeft -= 0.5;
+    if (countdownEl) {
+      countdownEl.textContent = Math.ceil(timeLeft);
+    }
+    
+    if (timeLeft <= 0) {
+      clearInterval(timer);
+      window.location.href = finalWhatsappUrl;
+    }
+  }, 500);
+</script>
+
+<!-- Mobile Sticky Bottom CTA Bar -->
+<div class="mobile-sticky-cta" style="display: none;">
+  <a href="tel:+919235222399" class="cta-call">
+    <svg viewBox="0 0 24 24" style="width: 20px; height: 20px;"><path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.7,5.25 8.9,6.45 9.27,7.57C9.38,7.92 9.3,8.31 9.03,8.59L6.62,10.79Z"/></svg>
+    <span>Call Now</span>
+  </a>
+  <a href="https://wa.me/919235222399?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Kashi%20Dharshan%20tour%20packages." class="cta-whatsapp" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 24 24" style="width: 20px; height: 20px;"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm5.83 14.12c-.24.68-1.22 1.25-1.7 1.29-.48.04-.97.19-3.07-.63-2.67-1.05-4.4-3.76-4.53-3.94-.13-.18-1.07-1.42-1.07-2.72 0-1.29.67-1.93.91-2.19.24-.26.54-.33.72-.33.18 0 .36.01.52.02.17.01.39-.06.61.47.24.58.82 2.01.89 2.16.07.15.12.33.02.52-.1.19-.21.31-.36.48-.15.17-.32.39-.46.52-.16.15-.33.31-.14.63.19.32.85 1.4 1.82 2.26.97.86 1.79 1.13 2.11 1.26.32.13.51.1.7-.12.19-.22.82-.96 1.04-1.29.22-.33.45-.28.76-.16.31.12 1.99.94 2.33 1.11.34.17.57.26.65.41.08.15.08.88-.16 1.56z"/></svg>
+    <span>WhatsApp Chat</span>
+  </a>
+</div>
+
+<script src="conversion-tracker.js" defer></script>
+</body>
+</html>

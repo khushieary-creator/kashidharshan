@@ -1,0 +1,26 @@
++ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/bin:/bin:/usr/sbin:/sbin
++ PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/bin:/bin:/usr/sbin:/sbin
+++ dirname /Users/rishabhjaiswal/ayodhya-darshan/run_seo_automation.command
++ cd /Users/rishabhjaiswal/ayodhya-darshan
++ echo ============================================================
++ echo '          AYODHYA DHARSHAN AUTOMATED SEO LAUNCHER          '
++ echo ============================================================
++ command -v python3
++ python3 -c 'import PIL'
++ '[' 0 -ne 0 ']'
++ python3 scripts/seo_automation_hub.py
++ echo ''
++ echo '📄 Your master SEO report has been generated at: seo_health_report.md'
++ '[' -t 0 ']'
+To https://github.com/ayodhyadharsha-max/Ayodhya-Darshan.git
+   f040e79..db1f4e9  main -> main
+fatal: unable to access 'https://github.com/ayodhyadharsha-max/Ayodhya-Darshan.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/ayodhyadharsha-max/Ayodhya-Darshan.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/ayodhyadharsha-max/Ayodhya-Darshan.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/ayodhyadharsha-max/Ayodhya-Darshan.git/': Could not resolve host: github.com
+To https://github.com/ayodhyadharsha-max/Ayodhya-Darshan.git
+   abe93fa..3191c4a  main -> main
+fatal: unable to access 'https://github.com/ayodhyadharsha-max/Ayodhya-Darshan.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/ayodhyadharsha-max/Ayodhya-Darshan.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/ayodhyadharsha-max/Ayodhya-Darshan.git/': Could not resolve host: github.com
+fatal: unable to access 'https://github.com/ayodhyadharsha-max/Ayodhya-Darshan.git/': Could not resolve host: github.com
