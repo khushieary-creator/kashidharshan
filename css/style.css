@@ -389,7 +389,7 @@ image-slot{
 
 /* Floating WhatsApp Button */
 .whatsapp-float {
-  display: none !important;
+  display: flex;
   position: fixed;
   width: 60px;
   height: 60px;
