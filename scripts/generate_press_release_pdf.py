@@ -104,7 +104,7 @@ def create_pr_pdf():
         "Media & Booking Contact:\n"
         "- Website: https://www.ayodhyadharshan.com/\n"
         "- Yatra Calculator: https://www.ayodhyadharshan.com/yatra-cost-calculator.html\n"
-        "- Phone / WhatsApp: +91 92352 22399\n"
+        "- Phone / WhatsApp: +91 70119 60307\n"
         "- Location: Ayodhya Dham, Uttar Pradesh, India"
     )
     pdf.multi_cell(0, 5.5, about_text, border=1, fill=True)

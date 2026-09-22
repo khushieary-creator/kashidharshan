@@ -19,7 +19,7 @@ No agency can *guarantee* page-1 — but doing these consistently is how you get
 1. Buy the domain and update **every** `https://www.ayodhyadarshan.in/` in the files
    (canonical, og:url, sitemap.xml, robots.txt) to your real domain.
 2. Replace hotlinked Wikimedia destination photos with **your own** photos.
-3. Confirm phone **+91 92352 22399** and address **RTO Office, Ayodhya, UP** are correct,
+3. Confirm phone **+91 70119 60307** and address **RTO Office, Ayodhya, UP** are correct,
    and drop your real Google Map location into the Contact page map slot.
 
 ## 🚀 Off-page — this is what actually moves ranking
