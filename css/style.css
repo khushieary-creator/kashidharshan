@@ -916,3 +916,36 @@ html, body {
   font-size: .88rem !important;
   color: #B49C82 !important;
 }
+
+
+/* --- FULL-BLEED VIEWPORT SECTIONS (100% EDGE TO EDGE BACKGROUNDS) --- */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.section, section, .page-hero {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+  clear: both !important;
+}
+
+.section > .container, section > .container, .page-hero > .container {
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  box-sizing: border-box !important;
+}
