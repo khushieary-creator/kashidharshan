@@ -31,7 +31,7 @@ def audit_html_files(root_dir):
             file_issues.append("Missing meta description")
             
         # 3. Check Headings hierarchy
-        h1s = re.findall(r'<h1[^>]*>(.*?)</h1>', content, re.IGNORECASE)
+        h1s = re.findall(r'<h1[^>]*>(.*?)</h1>', content, re.DOTALL | re.IGNORECASE)
         if len(h1s) == 0:
             file_issues.append("Missing <h1> tag")
         elif len(h1s) > 1:

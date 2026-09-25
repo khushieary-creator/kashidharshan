@@ -774,3 +774,28 @@ dialog#discountDialog[open]::backdrop {
   z-index: 3;
 }
 
+
+
+/* --- 2-Line Hero Title Architecture --- */
+.hero-title-2line, h1.hero-title, .hero-2line h1 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  line-height: 1.25 !important;
+  margin-bottom: 1rem !important;
+}
+
+.hero-line-1, .hero-title-2line .line-1 {
+  display: block !important;
+  font-size: clamp(1.75rem, 3.2vw, 2.95rem) !important;
+  font-weight: 700 !important;
+  color: var(--text, #1f2937) !important;
+}
+
+.hero-line-2, .hero-title-2line .line-2 {
+  display: block !important;
+  font-size: clamp(1.3rem, 2.5vw, 2.3rem) !important;
+  font-weight: 600 !important;
+  color: #d97706 !important; /* Saffron highlight */
+}
