@@ -776,12 +776,12 @@ dialog#discountDialog[open]::backdrop {
 
 
 
-/* --- 2-Line Hero Title Architecture --- */
+/* --- 2-Line Hero Title Architecture (Left Aligned as requested) --- */
 .hero-title-2line, h1.hero-title, .hero-2line h1 {
   display: flex !important;
   flex-direction: column !important;
-  align-items: center !important;
-  text-align: center !important;
+  align-items: flex-start !important;
+  text-align: left !important;
   line-height: 1.25 !important;
   margin-bottom: 1rem !important;
 }
@@ -798,4 +798,23 @@ dialog#discountDialog[open]::backdrop {
   font-size: clamp(1.3rem, 2.5vw, 2.3rem) !important;
   font-weight: 600 !important;
   color: #d97706 !important; /* Saffron highlight */
+}
+
+
+/* --- Full Width Footer Rule --- */
+.site-foot, footer.site-foot, footer {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-radius: 0 !important;
+  box-sizing: border-box !important;
+  background: var(--bg-deep, #1f140e) !important;
+}
+
+.site-foot .container, footer .container {
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
 }
