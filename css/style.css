@@ -822,12 +822,15 @@ dialog#discountDialog[open]::backdrop {
 
 
 
-/* --- CLEAN 100% FULL WIDTH FOOTER (EDGE TO EDGE) --- */
+
+
+/* --- 100% FULL WIDTH EDGE-TO-EDGE FOOTER --- */
 html, body {
   margin: 0 !important;
   padding: 0 !important;
   width: 100% !important;
   overflow-x: hidden !important;
+  background-color: var(--bg, #fdfbf7);
 }
 
 .site-foot, footer.site-foot, footer {
@@ -836,14 +839,15 @@ html, body {
   max-width: 100% !important;
   margin: 0 !important;
   padding: 60px 0 32px 0 !important;
-  background-color: #1a0d07 !important;
-  background: #1a0d07 !important;
+  background-color: #1c0e07 !important;
+  background: #1c0e07 !important;
   color: #E8D8C2 !important;
   box-sizing: border-box !important;
   border-radius: 0 !important;
   position: relative !important;
   left: 0 !important;
   right: 0 !important;
+  clear: both !important;
 }
 
 .site-foot .container, footer .container {
