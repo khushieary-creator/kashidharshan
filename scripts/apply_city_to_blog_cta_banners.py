@@ -60,50 +60,50 @@ mappings = {
     # Prayagraj
     "prayagraj-tour-package.html": {
         "title": "Want to Read Complete Prayagraj Sangam Travel Guide?",
-        "desc": "Get complete details on Triveni Sangam holy snan procedure, VIP boat booking, Bade Hanuman Mandir, and Magh/Kumbh Mela guide in our dedicated Prayagraj blog post.",
-        "blog_url": "blog-prayagraj-sangam-tour-guide.html",
-        "btn_text": "Read Complete Prayagraj Sangam Blog Guide"
+        "desc": "Get complete details on Triveni Sangam holy snan procedure, VIP boat booking, Bade Hanuman Mandir, and Magh/Kumbh Mela guide in our dedicated Prayagraj guide.",
+        "blog_url": "prayagraj-guide.html",
+        "btn_text": "Read Complete Prayagraj Sangam Guide"
     },
     # Vindhyachal
     "vindhyachal-tour-package.html": {
         "title": "Want to Read Complete Vindhyachal Dham Travel Guide?",
-        "desc": "Get complete details on Maa Vindhyavasini Devi VIP darshan, Kali Khoh & Ashtabhuja Trikon Parikrama in our dedicated Vindhyachal blog post.",
-        "blog_url": "blog-vindhyachal-trikon-parikrama-guide.html",
-        "btn_text": "Read Complete Vindhyachal Parikrama Blog Guide"
+        "desc": "Get complete details on Maa Vindhyavasini Devi VIP darshan, Kali Khoh & Ashtabhuja Trikon Parikrama in our dedicated Vindhyachal guide.",
+        "blog_url": "vindhyachal-guide.html",
+        "btn_text": "Read Complete Vindhyachal Parikrama Guide"
     },
     # Chitrakoot
     "chitrakoot-tour-package.html": {
         "title": "Want to Read Complete Chitrakoot Dham Travel Guide?",
-        "desc": "Get complete details on Kamadgiri 5km parikrama rules, Ram Ghat Aarti, Sphatik Shila, and Gupt Godavari in our dedicated Chitrakoot blog post.",
-        "blog_url": "blog-chitrakoot-ram-vanvas-tour-guide.html",
-        "btn_text": "Read Complete Chitrakoot Ram Vanvas Blog Guide"
+        "desc": "Get complete details on Kamadgiri 5km parikrama rules, Ram Ghat Aarti, Sphatik Shila, and Gupt Godavari in our dedicated Chitrakoot guide.",
+        "blog_url": "chitrakoot-guide.html",
+        "btn_text": "Read Complete Chitrakoot Ram Vanvas Guide"
     },
     # Naimisharanya
     "naimisharanya-tour-package.html": {
         "title": "Want to Read Complete Naimisharanya Dham Travel Guide?",
-        "desc": "Get complete details on Chakra Tirth holy bath, Maa Lalita Devi temple timings, Vyas Gaddi, and Hanuman Garhi in our dedicated Naimisharanya blog post.",
-        "blog_url": "blog-naimisharanya-chakra-tirth-guide.html",
-        "btn_text": "Read Complete Naimisharanya Blog Guide"
+        "desc": "Get complete details on Chakra Tirth holy bath, Maa Lalita Devi temple timings, Vyas Gaddi, and Hanuman Garhi in our dedicated Naimisharanya guide.",
+        "blog_url": "naimisharanya-guide.html",
+        "btn_text": "Read Complete Naimisharanya Guide"
     },
     # Mathura
     "mathura-tour-package.html": {
         "title": "Want to Read Complete Mathura Vrindavan Travel Guide?",
-        "desc": "Get complete details on Shri Krishna Janmabhoomi Garbha Griha VIP pass, Dwarkadhish temple, Vishram Ghat Yamuna Aarti, and 1-day sightseeing travel guides in our dedicated Mathura blog post.",
-        "blog_url": "blog-mathura-vrindavan-vip-darshan-guide.html",
-        "btn_text": "Read Complete Mathura Vrindavan Blog Guide"
+        "desc": "Get complete details on Shri Krishna Janmabhoomi Garbha Griha VIP pass, Dwarkadhish temple, Vishram Ghat Yamuna Aarti, and 1-day sightseeing travel guides in our dedicated Mathura guide.",
+        "blog_url": "mathura-guide.html",
+        "btn_text": "Read Complete Mathura Vrindavan Guide"
     },
     # Vrindavan
     "vrindavan-tour-package.html": {
         "title": "Want to Read Complete Vrindavan Dham Travel Guide?",
-        "desc": "Get complete details on Shri Bankey Bihari VIP pass, Prem Mandir 3D illuminated light show, ISKCON kirtan, and Nidhivan in our dedicated Vrindavan blog post.",
-        "blog_url": "blog-mathura-vrindavan-vip-darshan-guide.html",
-        "btn_text": "Read Complete Vrindavan Dham Blog Guide"
+        "desc": "Get complete details on Shri Bankey Bihari VIP pass, Prem Mandir 3D illuminated light show, ISKCON kirtan, and Nidhivan in our dedicated Vrindavan guide.",
+        "blog_url": "vrindavan-guide.html",
+        "btn_text": "Read Complete Vrindavan Dham Guide"
     },
     "mathura-vrindavan-tour-package.html": {
         "title": "Want to Read Complete Mathura & Vrindavan Travel Guide?",
-        "desc": "Get complete details on Shri Krishna Janmabhoomi, Bankey Bihari VIP pass, Prem Mandir lighting show, and Yamuna Aarti in our dedicated blog post.",
-        "blog_url": "blog-mathura-vrindavan-vip-darshan-guide.html",
-        "btn_text": "Read Complete Mathura Vrindavan Blog Guide"
+        "desc": "Get complete details on Shri Krishna Janmabhoomi, Bankey Bihari VIP pass, Prem Mandir lighting show, and Yamuna Aarti in our dedicated Mathura Vrindavan guide.",
+        "blog_url": "mathura-guide.html",
+        "btn_text": "Read Complete Mathura Vrindavan Guide"
     }
 }
 
