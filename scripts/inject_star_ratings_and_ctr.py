@@ -53,10 +53,10 @@ for filename in package_files:
   "@type": "Product",
   "name": "{page_title}",
   "description": "{page_desc}",
-  "image": "https://www.ayodhyadharshan.com/assets/logo.webp",
+  "image": "https://www.kashidharshan.com/assets/logo.webp",
   "brand": {{
     "@type": "Brand",
-    "name": "Ayodhya Dharshan travels"
+    "name": "Kashi Dharshan Travels"
   }},
   "aggregateRating": {{
     "@type": "AggregateRating",

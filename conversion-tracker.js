@@ -1,5 +1,5 @@
 /**
- * Ayodhya Dharshan - Conversion & Funnel Tracker
+ * Kashi Dharshan - Conversion & Funnel Tracker
  * (A lightweight tracking utility for SEO / AEO conversion signals)
  */
 (function() {

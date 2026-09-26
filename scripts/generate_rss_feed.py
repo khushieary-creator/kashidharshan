@@ -4,7 +4,7 @@ from xml.sax.saxutils import escape
 
 def generate_rss():
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    site_url = "https://www.ayodhyadharshan.com"
+    site_url = "https://www.kashidharshan.com"
     
     html_files = [f for f in os.listdir(base_dir) if f.startswith("blog-") and f.endswith(".html")]
     
@@ -19,7 +19,7 @@ def generate_rss():
         title = title_match.group(1) if title_match else filename.replace('.html', '').replace('-', ' ').title()
         
         desc_match = re.search(r'<meta\s+name="description"\s+content="(.*?)"', content, re.IGNORECASE)
-        desc = desc_match.group(1) if desc_match else "Read pilgrimage guide and yatra travel tips from Ayodhya Dharshan travels."
+        desc = desc_match.group(1) if desc_match else "Read pilgrimage guide and yatra travel tips from Kashi Dharshan travels."
         
         link = f"{site_url}/{filename}"
         
@@ -34,9 +34,9 @@ def generate_rss():
     rss_xml = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Ayodhya Dharshan Travels - Spiritual Yatra &amp; Travel Guides Feed</title>
+  <title>Kashi Dharshan Travels - Spiritual Yatra &amp; Travel Guides Feed</title>
   <link>{site_url}</link>
-  <description>Official RSS feed of Ayodhya Dharshan travels featuring Ram Mandir VIP Darshan guides, Kashi Ganga Cruise booking rates, and travel itineraries.</description>
+  <description>Official RSS feed of Kashi Dharshan travels featuring Kashi Vishwanath VIP Darshan guides, Ganga Cruise booking rates, and Ram Mandir travel itineraries.</description>
   <language>en-us</language>
   <atom:link href="{site_url}/rss.xml" rel="self" type="application/rss+xml" />
 {chr(10).join(rss_items)}

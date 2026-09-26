@@ -13,7 +13,7 @@ KEYWORDS = [
     "lucknow to ayodhya same day tour"
 ]
 
-TARGET_DOMAIN = "ayodhyadharshan.com"
+TARGET_DOMAIN = "kashidharshan.com"
 
 def get_google_rank(keyword, domain):
     headers = {

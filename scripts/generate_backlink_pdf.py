@@ -12,14 +12,14 @@ class BacklinkPDF(FPDF):
         self.set_font('Helvetica', 'B', 8)
         self.set_text_color(150, 150, 150)
         # Using simple ASCII dash "-"
-        self.cell(0, 10, 'AYODHYA DHARSHAN TRAVELS - INTERNAL SEO TEAM DOCUMENT', 0, 0, 'L')
-        self.ln(10)
+        self.cell(0, 10, 'KASHI DHARSHAN TRAVELS - INTERNAL SEO TEAM DOCUMENT', new_x="LMARGIN", new_y="NEXT")
+        self.ln(2)
 
     def footer(self):
         self.set_y(-15)
         self.set_font('Helvetica', 'I', 8)
         self.set_text_color(150, 150, 150)
-        self.cell(0, 10, f'Page {self.page_no()}/{{nb}}', 0, 0, 'C')
+        self.cell(0, 10, f'Page {self.page_no()}/{{nb}}', new_x="LMARGIN", new_y="NEXT")
 
 def create_backlink_pdf():
     pdf = BacklinkPDF()
@@ -31,11 +31,11 @@ def create_backlink_pdf():
     pdf.set_y(25)
     pdf.set_font('Helvetica', 'B', 22)
     pdf.set_text_color(128, 0, 0) # Maroon
-    pdf.cell(0, 12, 'Backlink Campaign 2026', 0, 1, 'L')
+    pdf.cell(0, 12, 'Backlink Campaign 2026', new_x="LMARGIN", new_y="NEXT")
     
     pdf.set_font('Helvetica', 'B', 14)
     pdf.set_text_color(212, 175, 55) # Saffron/Gold
-    pdf.cell(0, 8, 'Step-by-Step Execution Guide & Action Plan', 0, 1, 'L')
+    pdf.cell(0, 8, 'Step-by-Step Execution Guide & Action Plan', new_x="LMARGIN", new_y="NEXT")
     
     pdf.set_y(pdf.get_y() + 5)
     pdf.set_draw_color(200, 200, 200)
@@ -47,7 +47,7 @@ def create_backlink_pdf():
     pdf.set_text_color(40, 40, 40)
     intro_text = (
         "This guide outlines the exact copy-pasteable bio descriptions, directory submission templates, "
-        "and anchor text rules to build high-authority backlinks for ayodhyadharshan.com. "
+        "and anchor text rules to build high-authority backlinks for kashidharshan.com. "
         "Please follow the priorities below in order."
     )
     pdf.multi_cell(0, 6, intro_text)
@@ -205,11 +205,11 @@ def create_backlink_pdf():
     pdf.set_font('Helvetica', '', 9)
     
     rows = [
-        ("Delhi to Ayodhya tour package", "https://www.ayodhyadharshan.com/delhi-to-ayodhya-tour-package.html"),
-        ("Ram Mandir VIP Pass Price", "https://www.ayodhyadharshan.com/blog-ram-mandir-vip-pass-booking-guide.html"),
-        ("Kashi Vishwanath VIP Darshan", "https://www.ayodhyadharshan.com/blog-kashi-vishwanath-sawan-vip-darshan-guide.html"),
-        ("Varanasi Ganga Cruise Booking", "https://www.ayodhyadharshan.com/blog-varanasi-ganga-cruise-booking-guide.html"),
-        ("Mathura Vrindavan Tour Package", "https://www.ayodhyadharshan.com/mathura-vrindavan-tour-package.html")
+        ("Delhi to Ayodhya tour package", "https://www.kashidharshan.com/delhi-to-ayodhya-tour-package.html"),
+        ("Ram Mandir VIP Pass Price", "https://www.kashidharshan.com/blog-ram-mandir-vip-pass-booking-guide.html"),
+        ("Kashi Vishwanath VIP Darshan", "https://www.kashidharshan.com/blog-kashi-vishwanath-sawan-vip-darshan-guide.html"),
+        ("Varanasi Ganga Cruise Booking", "https://www.kashidharshan.com/blog-varanasi-ganga-cruise-booking-guide.html"),
+        ("Mathura Vrindavan Tour Package", "https://www.kashidharshan.com/mathura-vrindavan-tour-package.html")
     ]
     
     toggle = True
@@ -225,9 +225,9 @@ def create_backlink_pdf():
     pdf.ln(8)
     pdf.set_font('Helvetica', 'I', 9.5)
     pdf.set_text_color(100, 100, 100)
-    pdf.multi_cell(0, 5, "Confidential internal SEO document created for Ayodhya Dharshan marketing execution.")
+    pdf.multi_cell(0, 5, "Confidential internal SEO document created for Kashi Dharshan marketing execution.")
 
-    output_path = "" + BASE_DIR + "/backlink_campaign_2026.pdf"
+    output_path = os.path.join(BASE_DIR, "backlink_campaign_2026.pdf")
     pdf.output(output_path)
     print(f"PDF successfully generated at: {output_path}")
 

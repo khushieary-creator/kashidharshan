@@ -40,7 +40,7 @@ for filename, url in images_map.items():
             req = urllib.request.Request(
                 url, 
                 headers={
-                    'User-Agent': 'AyodhyaDharshanBot/1.0 (https://www.ayodhyadharshan.com/; yatra@ayodhyadharshan.com) Pillow/9.0',
+                    'User-Agent': 'AyodhyaDharshanBot/1.0 (https://www.kashidharshan.com/; yatra@kashidharshan.com) Pillow/9.0',
                     'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8'
                 }
             )

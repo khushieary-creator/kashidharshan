@@ -17,7 +17,7 @@ blog_target_packages = {
     "blog-varanasi-to-gaya-pind-daan-tour-guide.html": ("varanasi-tour-package.html", "📋 Book Varanasi Gaya Pind Daan Package"),
 
     # Ayodhya
-    "blog-ayodhya-dharshan-tour-package.html": ("ayodhya-dharshan-tour-package.html", "📋 Book Ayodhya Dharshan Package"),
+    "blog-ayodhya-dharshan-tour-package.html": ("ayodhya-dharshan-tour-package.html", "📋 Book Kashi Dharshan Package"),
     "blog-ayodhya-diwali-yatra-guide.html": ("ayodhya-dharshan-tour-package.html", "📋 Book Ayodhya Deepotsav Package"),
     "blog-ayodhya-food-guide-sattvic-cuisine.html": ("ayodhya-dharshan-tour-package.html", "📋 Book Ayodhya Food & Temple Tour"),
     "blog-ayodhya-same-day-tour-itinerary.html": ("ayodhya-dharshan-tour-package.html", "📋 Book Ayodhya Same Day Tour Package"),
