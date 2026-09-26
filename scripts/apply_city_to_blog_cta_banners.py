@@ -28,34 +28,34 @@ mappings = {
     # Varanasi
     "varanasi-tour-package.html": {
         "title": "Want to Read Complete Kashi Varanasi Travel Guide?",
-        "desc": "Get complete details on Kashi Vishwanath temple VIP darshan, Dashashwamedh Ganga Aarti, boat rides, Sarnath excursion, and 1-day sightseeing travel guides in our dedicated Varanasi blog post.",
-        "blog_url": "blog-varanasi-local-sightseeing-tour-package.html",
-        "btn_text": "Read Complete Varanasi Sightseeing Blog Guide"
+        "desc": "Get complete details on Kashi Vishwanath temple VIP darshan, Dashashwamedh Ganga Aarti, boat rides, Sarnath excursion, and 1-day sightseeing travel guides in our dedicated Varanasi guide.",
+        "blog_url": "varanasi-guide.html",
+        "btn_text": "Read Complete Varanasi Sightseeing Guide"
     },
     "varanasi-same-day-tour-package.html": {
         "title": "Want to Read Complete Kashi Varanasi Travel Guide?",
-        "desc": "Get complete details on Kashi Vishwanath temple VIP darshan, Dashashwamedh Ganga Aarti, boat rides, Sarnath excursion, and cab fares in our dedicated Varanasi blog post.",
-        "blog_url": "blog-varanasi-local-sightseeing-tour-package.html",
-        "btn_text": "Read Complete Varanasi Sightseeing Blog Guide"
+        "desc": "Get complete details on Kashi Vishwanath temple VIP darshan, Dashashwamedh Ganga Aarti, boat rides, Sarnath excursion, and cab fares in our dedicated Varanasi guide.",
+        "blog_url": "varanasi-guide.html",
+        "btn_text": "Read Complete Varanasi Sightseeing Guide"
     },
     # Ayodhya
     "ayodhya-tour-package.html": {
         "title": "Want to Read Complete Ayodhya Dham Travel Guide?",
-        "desc": "Get complete details on Shri Ram Janmabhoomi Mandir VIP passes, Hanuman Garhi, Kanak Bhawan, Saryu Aarti, and 1-day itinerary in our dedicated Ayodhya blog post.",
-        "blog_url": "blog-ayodhya-dharshan-tour-package.html",
-        "btn_text": "Read Complete Ayodhya Dham Blog Guide"
+        "desc": "Get complete details on Shri Ram Janmabhoomi Mandir VIP passes, Hanuman Garhi, Kanak Bhawan, Saryu Aarti, and 1-day itinerary in our dedicated Ayodhya guide.",
+        "blog_url": "ayodhya-guide.html",
+        "btn_text": "Read Complete Ayodhya Dham Guide"
     },
     "ayodhya-dharshan-tour-package.html": {
         "title": "Want to Read Complete Ayodhya Dham Travel Guide?",
-        "desc": "Get complete details on Shri Ram Janmabhoomi Mandir VIP passes, Hanuman Garhi, Kanak Bhawan, Saryu Aarti, and 1-day itinerary in our dedicated Ayodhya blog post.",
-        "blog_url": "blog-ayodhya-dharshan-tour-package.html",
-        "btn_text": "Read Complete Ayodhya Dham Blog Guide"
+        "desc": "Get complete details on Shri Ram Janmabhoomi Mandir VIP passes, Hanuman Garhi, Kanak Bhawan, Saryu Aarti, and 1-day itinerary in our dedicated Ayodhya guide.",
+        "blog_url": "ayodhya-guide.html",
+        "btn_text": "Read Complete Ayodhya Dham Guide"
     },
     "ayodhya-same-day-tour.html": {
         "title": "Want to Read Complete Ayodhya Dham Travel Guide?",
-        "desc": "Get complete details on Shri Ram Janmabhoomi Mandir VIP passes, Hanuman Garhi, Kanak Bhawan, Saryu Aarti, and 1-day itinerary in our dedicated Ayodhya blog post.",
-        "blog_url": "blog-ayodhya-dharshan-tour-package.html",
-        "btn_text": "Read Complete Ayodhya Dham Blog Guide"
+        "desc": "Get complete details on Shri Ram Janmabhoomi Mandir VIP passes, Hanuman Garhi, Kanak Bhawan, Saryu Aarti, and 1-day itinerary in our dedicated Ayodhya guide.",
+        "blog_url": "ayodhya-guide.html",
+        "btn_text": "Read Complete Ayodhya Dham Guide"
     },
     # Prayagraj
     "prayagraj-tour-package.html": {
