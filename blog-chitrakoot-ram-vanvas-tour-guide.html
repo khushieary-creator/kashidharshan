@@ -41,13 +41,44 @@
   }
   </script>
   <meta name="keywords" content="chitrakoot day tour, varanasi to chitrakoot distance, chitrakoot day trip package, places to visit in chitrakoot, chitrakoot cab package, prayagraj chitrakoot tour, chitrakoot bus route, chitrakoot in february, chitrakoot jane ka rasta, chitrakoot group tour package, chitrakoot budget hotels, kamadgiri mandir, places to visit in chitrakoot in one day, sati anusuya chitrakoot history, chitrakoot me kaha ghume, chitrakoot cab booking, chitrakoot tour budget, chitrakoot me kya dekhe, places to see in chitrakoot, chitrakoot nearest railway station, delhi to chitrakoot distance, lord ram chitrakoot, chitrakoot darshan kaise kare, kalinjar near chitrakoot, chitrakoot travel agent">>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('form').forEach(function(form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var nameInput = this.querySelector('[name="name"]') || this.querySelector('[name="fullname"]') || this.querySelector('#name') || {};
+      var phoneInput = this.querySelector('[name="phone"]') || this.querySelector('[name="mobile"]') || this.querySelector('#phone') || {};
+      var dateInput = this.querySelector('[name="date"]') || this.querySelector('[name="travel_date"]') || this.querySelector('#date') || {};
+      
+      var name = nameInput.value || 'Guest';
+      var phone = phoneInput.value || '';
+      var date = dateInput.value || 'Upcoming';
+      var pkg = (document.title.split('|')[0] || 'Tour Package').trim();
+      
+      if (!phone || phone.length < 8) {
+        alert('Please enter a valid mobile number so we can send your itinerary & quote!');
+        return false;
+      }
+      
+      var waText = "Hi Kashi Dharshan! New Inquiry:\nPackage: " + pkg + "\nName: " + name + "\nPhone: " + phone + "\nTravel Date: " + date;
+      var waUrl = "https://wa.me/917408763401?text=" + encodeURIComponent(waText);
+      
+      window.open(waUrl, '_blank');
+      window.location.href = "thankyou.html";
+      return false;
+    });
+  });
+});
+</script>
+
 </head>
 <body>
 <!-- HIGH CONVERSION TOP URGENCY BANNER -->
 <div class="top-navratri-banner" style="background: linear-gradient(90deg, #800000 0%, #FF6B00 50%, #800000 100%); color: #ffffff; text-align: center; padding: 8px 12px; font-size: 13.5px; font-weight: 600; position: relative; z-index: 9999; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
   <div style="max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap;">
     <span>🔥 <strong>SHARDIYA NAVRATRI & DEV DEEPAWALI 2026 ADVANCE BOOKING OPEN:</strong> Reserve Kashi Vishwanath VIP Pass, Ganga Boat & Ayodhya Tour!</span>
-    <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Navratri%20%26%20Dev%20Deepawali%202026%20Special%20Packages" target="_blank" rel="noopener" style="background: #25D366; color: #ffffff; padding: 4px 14px; border-radius: 20px; text-decoration: none; font-size: 13px; font-weight: 700; display: inline-flex; align-items: center; gap: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+    <a href="https://wa.me/917408763401?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Navratri%20%26%20Dev%20Deepawali%202026%20Special%20Packages" target="_blank" rel="noopener" style="background: #25D366; color: #ffffff; padding: 4px 14px; border-radius: 20px; text-decoration: none; font-size: 13px; font-weight: 700; display: inline-flex; align-items: center; gap: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
       💬 Book on WhatsApp Now
     </a>
   </div>
@@ -60,7 +91,7 @@
       <a href="index.html" style="text-decoration:none; color:#374151; font-weight:600;">Home</a>
       <a href="services.html" style="text-decoration:none; color:#374151; font-weight:600;">Packages</a>
       <a href="blog.html" style="text-decoration:none; color:#374151; font-weight:600;">Blog</a>
-      <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20Enquiry%20from%20blog." class="btn" style="background:#25d366; color:#fff; padding:8px 16px; border-radius:6px; text-decoration:none; font-weight:700;" target="_blank" rel="noopener">WhatsApp Us</a>
+      <a href="https://wa.me/917408763401?text=Har%20Har%20Mahadev!%20Enquiry%20from%20blog." class="btn" style="background:#25d366; color:#fff; padding:8px 16px; border-radius:6px; text-decoration:none; font-weight:700;" target="_blank" rel="noopener">WhatsApp Us</a>
     </div>
   </nav>
 
@@ -95,7 +126,7 @@
     <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:12px; padding:24px; text-align:center; margin-bottom:40px;">
       <h3 style="color:#166534; margin-bottom:8px;">💬 Have Questions? Talk to a Yatra Specialist</h3>
       <p style="color:#14532d; margin-bottom:16px;">Call or WhatsApp us 24x7 for custom itinerary planning.</p>
-      <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20have%20questions%20about%20Chitrakoot Ram Vanvas Pilgrimage & Sightseeing Guide 2026" target="_blank" rel="noopener" style="background:#25d366; color:#fff; font-weight:700; padding:12px 24px; border-radius:6px; text-decoration:none; display:inline-block;">Chat on WhatsApp (+91 70119 60307)</a>
+      <a href="https://wa.me/917408763401?text=Har%20Har%20Mahadev!%20I%20have%20questions%20about%20Chitrakoot Ram Vanvas Pilgrimage & Sightseeing Guide 2026" target="_blank" rel="noopener" style="background:#25d366; color:#fff; font-weight:700; padding:12px 24px; border-radius:6px; text-decoration:none; display:inline-block;">Chat on WhatsApp (+91 70119 60307)</a>
     </div>
   </article>
 
@@ -169,7 +200,7 @@ function toggleSearchIndex() {
       <svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-1.156 4.229 4.291-1.124z"/></svg>
       Share on WhatsApp
     </a>
-    <a href="https://wa.me/917011960307?text=Hi%20Kashi%20Dharshan,%20I%20want%20to%20inquire%20about%20Chitrakoot Ram Vanvas Tour Guide%20Tour%20Package." target="_blank" rel="noopener" style="background: var(--saffron-deep); color: #fff; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 0.85rem; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;">
+    <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan,%20I%20want%20to%20inquire%20about%20Chitrakoot Ram Vanvas Tour Guide%20Tour%20Package." target="_blank" rel="noopener" style="background: var(--saffron-deep); color: #fff; padding: 8px 16px; border-radius: 20px; text-decoration: none; font-size: 0.85rem; font-weight: 600; display: inline-flex; align-items: center; gap: 6px;">
       Direct WhatsApp Inquiry →
     </a>
   </div>
@@ -210,7 +241,7 @@ function toggleSearchIndex() {
       <a href="mailto:yatra@kashidharshan.com">yatra@kashidharshan.com</a>
       <a href="contact.html">Godowlia, Near Kashi Vishwanath Temple, Varanasi</a>
       <a href="https://share.google/Q6wXLDvNd2VDOzNUp" target="_blank" rel="noopener">Find us on Google Maps</a>
-      <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Kashi%20Dharshan%20tour%20packages." target="_blank" rel="noopener">WhatsApp · 24×7</a>
+      <a href="https://wa.me/917408763401?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Kashi%20Dharshan%20tour%20packages." target="_blank" rel="noopener">WhatsApp · 24×7</a>
     </div>
   </div>
   <div class="container foot-bottom">
@@ -224,7 +255,7 @@ function toggleSearchIndex() {
     <a href="tel:+917011960307" style="flex: 1; background: #800000; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
       📞 Call Us Now
     </a>
-    <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20am%20on%20website%20and%20want%20instant%20tour%20package%20details" target="_blank" rel="noopener" style="flex: 1; background: #25D366; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+    <a href="https://wa.me/917408763401?text=Har%20Har%20Mahadev!%20I%20am%20on%20website%20and%20want%20instant%20tour%20package%20details" target="_blank" rel="noopener" style="flex: 1; background: #25D366; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
       💬 WhatsApp Inquiry
     </a>
   </div>
