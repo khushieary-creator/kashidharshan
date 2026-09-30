@@ -8,9 +8,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bengaluru to Ayodhya to Kashi Varanasi & Ayodhya Tour Package 2026: Flights, Cabs & VIP Passes</title>
 <meta name="description" content="Book the best Bengaluru (Bangalore) to Ayodhya tour package. Includes direct flight booking support, comfort hotels, private AC cab, and VIP entry.">
-<meta name="keywords" content="Bengaluru to Ayodhya tour package, Bangalore to Ayodhya package by flight, Bangalore to Ayodhya train package, Ayodhya tour package from Bangalore price, ayodhya package from bangalore by train, ayodhya flight package from bangalore, ayodhya trip package from bangalore, ayodhya tour packages from bangalore by train">
+<meta name="keywords" content="Bengaluru to Ayodhya tour package, Bangalore to Ayodhya package by flight, Bangalore to Ayodhya train package, Ayodhya tour package from Bangalore price, ayodhya package from bangalore by train, ayodhya flight package from bangalore, ayodhya trip package from bangalore, ayodhya tour packages from bangalore by train">>
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.kashidharshan.com/bengaluru-to-ayodhya-tour-package.html">
+<link rel="canonical" href="https://www.kashidharshan.com/bengaluru-to-ayodhya-tour-package.html" />
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Kashi Dharshan">
 <meta property="og:title" content="Bengaluru to Ayodhya Tour Package: Stays, Flights &amp; VIP Darshan">
@@ -225,6 +225,39 @@
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7513283731802791"
        crossorigin="anonymous"></script>
+
+<script>
+function submitYatraFormToWhatsApp(event, packageName) {
+    event.preventDefault();
+    var form = event.target;
+    var name = (form.querySelector('[name="fullname"]') || form.querySelector('[name="name"]') || form.querySelector('#name') || {}).value || 'Guest';
+    var phone = (form.querySelector('[name="mobile"]') || form.querySelector('[name="phone"]') || form.querySelector('#phone') || {}).value || '';
+    var date = (form.querySelector('[name="travel_date"]') || form.querySelector('[name="date"]') || form.querySelector('#date') || {}).value || 'Not Specified';
+    var guests = (form.querySelector('[name="guests"]') || form.querySelector('[name="pax"]') || form.querySelector('#guests') || {}).value || '1';
+    var selectedPkg = (form.querySelector('[name="package"]') || {}).value || packageName || 'Kashi Ayodhya Tour Package';
+
+    if (!phone || phone.length < 8) {
+        alert('Please enter a valid mobile number so we can send your itinerary & quote!');
+        return false;
+    }
+
+    var text = "🚩 *NEW TOUR INQUIRY - KASHI DHARSHAN*\n\n" +
+               "👤 *Name:* " + name + "\n" +
+               "📞 *Mobile:* " + phone + "\n" +
+               "📅 *Travel Date:* " + date + "\n" +
+               "👥 *Guests:* " + guests + "\n" +
+               "🛕 *Package:* " + selectedPkg + "\n\n" +
+               "Please send complete itinerary & lowest price quote!";
+
+    var waUrl = "https://wa.me/917011960307?text=" + encodeURIComponent(text);
+    
+    // Open WhatsApp in new tab and redirect to thankyou.html
+    window.open(waUrl, '_blank');
+    window.location.href = "thankyou.html";
+    return false;
+}
+</script>
+
 </head>
 <body>
 <!-- HIGH CONVERSION TOP URGENCY BANNER -->
@@ -306,7 +339,7 @@
         <h3 style="color:var(--maroon); margin-bottom:15px; font-family:var(--font-display);">Get a Free Quote from Bengaluru</h3>
         <p class="muted" style="font-size:0.95rem;">Our South India travel desk coordinates bookings with Kannada / English speaking guides. Fill details below.</p>
         
-        <form action="thankyou.html" method="GET" style="display:grid; gap:16px;">
+        <form action="thankyou.html" method="GET" style="display:grid; gap:16px;" action="thankyou.html" method="GET" onsubmit="return submitYatraFormToWhatsApp(event, 'Bengaluru To Ayodhya Tour Package')">
           <input type="hidden" name="city" value="Bengaluru to Ayodhya Tour">
           
           <div>

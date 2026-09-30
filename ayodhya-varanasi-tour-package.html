@@ -8,9 +8,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Varanasi Ayodhya Tour Package 2026 (4 Days) | Kashi &amp; Ram Mandir</title>
 <meta name="description" content="Explore Kashi and Ayodhya in one trip. Book our 4-Day Ayodhya Varanasi tour package covering Ram Mandir, Kashi Vishwanath temple corridor, and evening Ganga Aarti. Stays & cabs included.">
-<meta name="keywords" content="Ayodhya Varanasi tour package, Ayodhya tour with Varanasi, Varanasi Ayodhya package, Kashi Ayodhya tour package, Ayodhya varanasi tour package 3 days">
+<meta name="keywords" content="Ayodhya Varanasi tour package, Ayodhya tour with Varanasi, Varanasi Ayodhya package, Kashi Ayodhya tour package, Ayodhya varanasi tour package 3 days">>
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://www.kashidharshan.com/ayodhya-varanasi-tour-package.html">
+<link rel="canonical" href="https://www.kashidharshan.com/ayodhya-varanasi-tour-package.html" />
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ayodhya Dharshan">
 <meta property="og:title" content="Ayodhya Varanasi Tour Package | 4-Day Yatra">
@@ -228,6 +228,39 @@
   ]
 }
 </script>
+
+<script>
+function submitYatraFormToWhatsApp(event, packageName) {
+    event.preventDefault();
+    var form = event.target;
+    var name = (form.querySelector('[name="fullname"]') || form.querySelector('[name="name"]') || form.querySelector('#name') || {}).value || 'Guest';
+    var phone = (form.querySelector('[name="mobile"]') || form.querySelector('[name="phone"]') || form.querySelector('#phone') || {}).value || '';
+    var date = (form.querySelector('[name="travel_date"]') || form.querySelector('[name="date"]') || form.querySelector('#date') || {}).value || 'Not Specified';
+    var guests = (form.querySelector('[name="guests"]') || form.querySelector('[name="pax"]') || form.querySelector('#guests') || {}).value || '1';
+    var selectedPkg = (form.querySelector('[name="package"]') || {}).value || packageName || 'Kashi Ayodhya Tour Package';
+
+    if (!phone || phone.length < 8) {
+        alert('Please enter a valid mobile number so we can send your itinerary & quote!');
+        return false;
+    }
+
+    var text = "🚩 *NEW TOUR INQUIRY - KASHI DHARSHAN*\n\n" +
+               "👤 *Name:* " + name + "\n" +
+               "📞 *Mobile:* " + phone + "\n" +
+               "📅 *Travel Date:* " + date + "\n" +
+               "👥 *Guests:* " + guests + "\n" +
+               "🛕 *Package:* " + selectedPkg + "\n\n" +
+               "Please send complete itinerary & lowest price quote!";
+
+    var waUrl = "https://wa.me/917011960307?text=" + encodeURIComponent(text);
+    
+    // Open WhatsApp in new tab and redirect to thankyou.html
+    window.open(waUrl, '_blank');
+    window.location.href = "thankyou.html";
+    return false;
+}
+</script>
+
 </head>
 <body>
 <!-- HIGH CONVERSION TOP URGENCY BANNER -->
@@ -323,7 +356,7 @@
         <h2 style="color:var(--maroon);font-size:1.8rem;margin-bottom:6px;">Book Tour Package</h2>
         <p class="muted" style="margin-bottom:22px;">Book your package today. We'll reply within a few hours. ॥ शुभ यात्रा ॥</p>
         <div class="form-ok" id="formOk">🙏 Thank you! Your enquiry has been received — a yatra guide will reach out to you shortly.</div>
-        <form id="yatraForm" novalidate>
+        <form id="yatraForm" novalidate action="thankyou.html" method="GET" onsubmit="return submitYatraFormToWhatsApp(event, 'Ayodhya Varanasi Tour Package')">
           <div class="field-row">
             <div class="field"><label for="name">Full name</label><input id="name" name="name" type="text" placeholder="Your name" required></div>
             <div class="field"><label for="phone">Phone / WhatsApp</label><input id="phone" name="phone" type="tel" placeholder="+91 ..." required></div>

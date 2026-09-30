@@ -6,15 +6,15 @@
 <link rel="icon" href="favicon.png" type="image/png" sizes="192x192">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Book Kashi Varanasi Ayodhya Tour Package | Contact Kashi Dharshan</title>
+<title>Contact Kashi Dharshan: Book Kashi & Ayodhya Tour Packages</title>
 <meta name="description" content="Enquire &amp; book your Kashi (Varanasi), Ayodhya, Prayagraj darshan tour package. Call +91 70119 60307 or send a free, no-obligation enquiry. 24×7 yatra support from Varanasi.">
-<meta name="keywords" content="book Kashi tour package, Varanasi Ayodhya tour package booking, Kashi darshan contact, Kashi tour package enquiry, Varanasi Prayagraj Ayodhya tour booking, kashi vishwanath registration online, dharamshala booking in varanasi">
+<meta name="keywords" content="book Kashi tour package, Varanasi Ayodhya tour package booking, Kashi darshan contact, Kashi tour package enquiry, Varanasi Prayagraj Ayodhya tour booking, kashi vishwanath registration online, dharamshala booking in varanasi">>
 <meta name="robots" content="index, follow">
 <meta name="geo.region" content="IN-UP">
 <meta name="geo.placename" content="Varanasi">
 <meta name="geo.position" content="25.3176;82.9739">
 <meta name="ICBM" content="25.3176, 82.9739">
-<link rel="canonical" href="https://www.kashidharshan.com/contact.html">
+<link rel="canonical" href="https://www.kashidharshan.com/contact.html" />
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Kashi Dharshan">
 <meta property="og:title" content="Book Your Kashi (Varanasi), Ayodhya &amp; Prayagraj Tour Package">
@@ -67,6 +67,39 @@
     ]
   }
   </script>
+
+<script>
+function submitYatraFormToWhatsApp(event, packageName) {
+    event.preventDefault();
+    var form = event.target;
+    var name = (form.querySelector('[name="fullname"]') || form.querySelector('[name="name"]') || form.querySelector('#name') || {}).value || 'Guest';
+    var phone = (form.querySelector('[name="mobile"]') || form.querySelector('[name="phone"]') || form.querySelector('#phone') || {}).value || '';
+    var date = (form.querySelector('[name="travel_date"]') || form.querySelector('[name="date"]') || form.querySelector('#date') || {}).value || 'Not Specified';
+    var guests = (form.querySelector('[name="guests"]') || form.querySelector('[name="pax"]') || form.querySelector('#guests') || {}).value || '1';
+    var selectedPkg = (form.querySelector('[name="package"]') || {}).value || packageName || 'Kashi Ayodhya Tour Package';
+
+    if (!phone || phone.length < 8) {
+        alert('Please enter a valid mobile number so we can send your itinerary & quote!');
+        return false;
+    }
+
+    var text = "🚩 *NEW TOUR INQUIRY - KASHI DHARSHAN*\n\n" +
+               "👤 *Name:* " + name + "\n" +
+               "📞 *Mobile:* " + phone + "\n" +
+               "📅 *Travel Date:* " + date + "\n" +
+               "👥 *Guests:* " + guests + "\n" +
+               "🛕 *Package:* " + selectedPkg + "\n\n" +
+               "Please send complete itinerary & lowest price quote!";
+
+    var waUrl = "https://wa.me/917011960307?text=" + encodeURIComponent(text);
+    
+    // Open WhatsApp in new tab and redirect to thankyou.html
+    window.open(waUrl, '_blank');
+    window.location.href = "thankyou.html";
+    return false;
+}
+</script>
+
 </head>
 <body>
 <!-- HIGH CONVERSION TOP URGENCY BANNER -->
@@ -158,7 +191,7 @@
       <h2 style="color:var(--maroon);font-size:1.8rem;margin-bottom:6px;">Plan my yatra</h2>
       <p class="muted" style="margin-bottom:22px;">We usually reply within a few hours. ॥ शुभ यात्रा ॥</p>
       <div class="form-ok" id="formOk">🙏 Thank you! Your enquiry has been received — a yatra guide will reach out to you shortly.</div>
-      <form id="yatraForm" novalidate>
+      <form id="yatraForm" novalidate action="thankyou.html" method="GET" onsubmit="return submitYatraFormToWhatsApp(event, 'Contact')">
         <div class="field-row">
           <div class="field"><label for="name">Full name</label><input id="name" name="name" type="text" placeholder="Your name" required></div>
           <div class="field"><label for="phone">Phone / WhatsApp</label><input id="phone" name="phone" type="tel" placeholder="+91 ..." required></div>
