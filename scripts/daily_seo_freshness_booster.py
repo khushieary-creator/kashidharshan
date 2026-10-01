@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Daily SEO Freshness Booster for Kashi Dharshan (30 September 2026):
-1. Updates lastmod tags in sitemap.xml to 2026-09-30 for all 80 HTML pages.
-2. Updates RSS feed pubDate / lastBuildDate to 30 Sep 2026.
-3. Injects/Updates JSON-LD dateModified schema tags in all blog articles and guides to 2026-09-30.
-4. Updates audit report dates to 30 September 2026 and regenerates PDF/DOCX.
+Daily SEO Freshness Booster for Kashi Dharshan (1 October 2026):
+1. Updates lastmod tags in sitemap.xml to 2026-10-01 for all 80 HTML pages.
+2. Updates RSS feed pubDate / lastBuildDate to 01 Oct 2026.
+3. Injects/Updates JSON-LD dateModified schema tags in all blog articles and guides to 2026-10-01.
+4. Updates audit report dates to 1 October 2026 and regenerates PDF/DOCX.
 """
 
 import os
@@ -12,9 +12,9 @@ import re
 from xml.sax.saxutils import escape
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TODAY_DATE = "2026-09-30"
-TODAY_DATETIME = "2026-09-30T12:00:00+05:30"
-TODAY_RSS_DATE = "Wed, 30 Sep 2026 12:00:00 +0530"
+TODAY_DATE = "2026-10-01"
+TODAY_DATETIME = "2026-10-01T10:40:00+05:30"
+TODAY_RSS_DATE = "Thu, 01 Oct 2026 10:40:00 +0530"
 
 def update_sitemap():
     sitemap_path = os.path.join(BASE_DIR, "sitemap.xml")
@@ -83,7 +83,7 @@ def update_schema_dates():
     count = 0
     for root, _, files in os.walk(BASE_DIR):
         for f in files:
-            if f.endswith(".html"):
+            if f.endswith(".html") and not f.startswith("google"):
                 filepath = os.path.join(root, f)
                 with open(filepath, "r", encoding="utf-8") as fh:
                     content = fh.read()
@@ -93,7 +93,6 @@ def update_schema_dates():
                     content = re.sub(r'"dateModified":\s*"[^"]*"', f'"dateModified": "{TODAY_DATETIME}"', content)
                     modified = True
                 else:
-                    # Inject dateModified into existing Article or BlogPosting JSON-LD schemas
                     if '"@type": "Article"' in content or '"@type": "BlogPosting"' in content:
                         content = content.replace('"@type": "BlogPosting",', f'"@type": "BlogPosting",\n  "dateModified": "{TODAY_DATETIME}",')
                         content = content.replace('"@type": "Article",', f'"@type": "Article",\n  "dateModified": "{TODAY_DATETIME}",')
@@ -110,7 +109,7 @@ def main():
     update_sitemap()
     update_rss()
     update_schema_dates()
-    print("✨ Today's SEO freshness update completed!")
+    print("✨ Today's SEO freshness update completed for 1 October 2026!")
 
 if __name__ == "__main__":
     main()
