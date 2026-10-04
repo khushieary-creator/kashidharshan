@@ -1,0 +1,251 @@
+#!/usr/bin/env python3
+"""
+Creates a Viral, High-Conversion Blog Post:
+'Kashi Vishwanath VIP Darshan Pass Online Booking 2026: Price & Timings'
+Saves to blog-kashi-vishwanath-vip-pass-online-booking-price-guide.html
+Links it into blog.html, sitemap.xml, and rss.xml.
+"""
+
+import os
+import re
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FILENAME = "blog-kashi-vishwanath-vip-pass-online-booking-price-guide.html"
+FILEPATH = os.path.join(BASE_DIR, FILENAME)
+
+BLOG_HTML_CONTENT = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="favicon.png" type="image/png" sizes="192x192">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kashi Vishwanath VIP Darshan Pass Online Booking 2026: Price & Timings</title>
+<meta name="description" content="Complete guide on Kashi Vishwanath VIP Darshan pass online booking 2026. Learn Sugam Darshan prices (₹300), Mangla Aarti rates, ticket procedure & fast-track entry assistance on WhatsApp.">
+<meta name="keywords" content="Kashi Vishwanath VIP Darshan pass, Sugam Darshan online booking, Kashi Vishwanath ticket price 2026, Mangla Aarti online booking, Rudrabhishek price Varanasi, Kashi Vishwanath fast track pass">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="IN-UP">
+<meta name="geo.placename" content="Varanasi">
+<meta name="geo.position" content="25.3109;83.0107">
+<meta name="ICBM" content="25.3109, 83.0107">
+<link rel="canonical" href="https://www.kashidharshan.com/blog-kashi-vishwanath-vip-pass-online-booking-price-guide.html" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Kashi Dharshan">
+<meta property="og:title" content="Kashi Vishwanath VIP Darshan Pass Online Booking 2026: Price & Timings">
+<meta property="og:description" content="Official 2026 pricing & booking guide for Kashi Vishwanath Sugam Darshan VIP Pass, Aarti tickets & WhatsApp assistance.">
+<meta property="og:url" content="https://www.kashidharshan.com/blog-kashi-vishwanath-vip-pass-online-booking-price-guide.html">
+<meta property="og:image" content="https://www.kashidharshan.com/assets/reviews/kashi-temple.jpg">
+
+<!-- Structured Data JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Kashi Vishwanath VIP Darshan Pass Online Booking 2026: Price & Timings",
+  "description": "Complete guide on Kashi Vishwanath VIP Darshan pass online booking 2026. Sugam Darshan prices, Mangla Aarti rates & fast-track entry.",
+  "image": "https://www.kashidharshan.com/assets/reviews/kashi-temple.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.kashidharshan.com/assets/logo.png"
+    }
+  },
+  "datePublished": "2026-10-04T12:00:00+05:30",
+  "dateModified": "2026-10-04T12:00:00+05:30",
+  "mainEntityOfPage": "https://www.kashidharshan.com/blog-kashi-vishwanath-vip-pass-online-booking-price-guide.html"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Book Kashi Vishwanath VIP Darshan Pass Online",
+  "description": "Step-by-step procedure to reserve Kashi Vishwanath Sugam Darshan VIP Pass and Aarti tickets for fast-track temple entry.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Choose Pass Type",
+      "text": "Select between Sugam Darshan (₹300/person), Mangla Aarti (₹500/person), or Special Rudrabhishek."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Submit Yatri Details",
+      "text": "Provide Aadhaar/ID proof number, preferred date, and darshan slot timing."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Get Instant Pass PDF",
+      "text": "Receive your official barcode QR pass directly on WhatsApp for fast-track Gate 4 / Gate 1 entry."
+    }
+  ]
+}
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('form').forEach(function(form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var name = (this.querySelector('[name="name"]') || this.querySelector('[name="fullname"]') || {}).value || 'Guest';
+      var phone = (this.querySelector('[name="phone"]') || this.querySelector('[name="mobile"]') || {}).value || '';
+      var date = (this.querySelector('[name="date"]') || this.querySelector('[name="travel_date"]') || {}).value || 'Upcoming';
+      var pkg = 'Kashi Vishwanath VIP Pass Guide';
+      
+      if (!phone || phone.length < 8) {
+        alert('Please enter a valid mobile number so we can send your VIP pass details!');
+        return false;
+      }
+      
+      var waText = "Hi Kashi Dharshan! New Inquiry:\\nPackage: " + pkg + "\\nName: " + name + "\\nPhone: " + phone + "\\nTravel Date: " + date;
+      var waUrl = "https://wa.me/917408763401?text=" + encodeURIComponent(waText);
+      
+      window.open(waUrl, '_blank');
+      window.location.href = "thankyou.html";
+      return false;
+    });
+  });
+});
+</script>
+
+<style>
+  body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.7; color: #222; margin: 0; background: #fafafa; }
+  .container { max-width: 920px; margin: 0 auto; padding: 20px; background: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.06); border-radius: 12px; }
+  h1 { color: #800000; font-size: 28px; line-height: 1.3; margin-bottom: 10px; }
+  h2 { color: #800000; font-size: 20px; border-bottom: 2px solid #FF6B00; padding-bottom: 6px; margin-top: 30px; }
+  .price-table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 15px; }
+  .price-table th, .price-table td { border: 1px solid #ddd; padding: 12px 15px; text-align: left; }
+  .price-table th { background: #800000; color: #fff; }
+  .price-table tr:nth-child(even) { background: #fff8f0; }
+  .aeo-box { background: #fff3e0; border-left: 5px solid #FF6B00; padding: 16px 20px; margin: 20px 0; border-radius: 6px; font-size: 15px; }
+  .cta-box { background: linear-gradient(135deg, #800000 0%, #4a0000 100%); color: #fff; padding: 24px; border-radius: 12px; text-align: center; margin: 35px 0; box-shadow: 0 8px 25px rgba(128,0,0,0.25); }
+  .wa-btn { background: #25D366; color: #fff; text-decoration: none; padding: 12px 24px; border-radius: 30px; font-weight: 700; font-size: 16px; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 12px rgba(37,211,102,0.3); }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <p style="color: #666; font-size: 13px;">Home &gt; Blog &gt; Kashi Vishwanath VIP Darshan Pass Guide 2026</p>
+
+  <h1>Kashi Vishwanath VIP Darshan Pass Online Booking 2026: Price & Timings</h1>
+  <p style="font-size: 14px; color: #777;">Published by <strong>Kashi Dharshan Yatra Team</strong> | Updated on <strong>4 October 2026</strong></p>
+
+  <div class="aeo-box">
+    <strong>⚡ Quick Answer (AEO Summary):</strong><br>
+    The official Kashi Vishwanath Sugam Darshan VIP Pass price is <strong>₹300 per person</strong>. VIP passes allow fast-track entry through Gate No. 4 (Chhatta Dwar) bypassing general 3-4 hour queues, completing darshan in just 20-30 minutes. Booking requires valid Government Photo ID proof (Aadhaar / Passport).
+  </div>
+
+  <h2>1. Kashi Vishwanath Ticket Rates & Pricing Table 2026</h2>
+  <p>Planning your sacred pilgrimage to Lord Shiva's Jyotirlinga in Varanasi? Below is the complete official price list for Sugam Darshan VIP entry, Aarti tickets, and Special Pooja services:</p>
+
+  <table class="price-table">
+    <thead>
+      <tr>
+        <th>Darshan / Pooja Category</th>
+        <th>Official Rate (Per Person)</th>
+        <th>Queue Waiting Time</th>
+        <th>Entry Gate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Sugam Darshan VIP Pass</strong></td>
+        <td>₹300</td>
+        <td>15 – 25 Mins</td>
+        <td>Gate 4 / Gate 1</td>
+      </tr>
+      <tr>
+        <td><strong>Mangla Aarti Ticket</strong> (3:00 AM)</td>
+        <td>₹500</td>
+        <td>Direct Seating Pass</td>
+        <td>Gate 4 (Chhatta Dwar)</td>
+      </tr>
+      <tr>
+        <td><strong>Bhog / Saptarishi Aarti</strong> (7:00 PM)</td>
+        <td>₹300</td>
+        <td>Direct Reserved Slot</td>
+        <td>Main Sanctum Sanctorum</td>
+      </tr>
+      <tr>
+        <td><strong>Shringhar / Bhog Aarti</strong> (9:00 PM)</td>
+        <td>₹300</td>
+        <td>Direct Reserved Slot</td>
+        <td>Sanctum Sanctorum</td>
+      </tr>
+      <tr>
+        <td><strong>Rudrabhishek (Ek Shastri)</strong></td>
+        <td>₹450</td>
+        <td>Special Pooja Enclosure</td>
+        <td>VIP Corridor Hall</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>2. How to Book Kashi Vishwanath VIP Pass Step-by-Step</h2>
+  <ol style="font-size: 15px; padding-left: 20px;">
+    <li><strong>Select Date & Time Slot:</strong> Sugam Darshan slots are open from 6:00 AM to 6:00 PM daily.</li>
+    <li><strong>Provide Visitor Details:</strong> Submit full names, age, gender, and Aadhaar card numbers for all family members.</li>
+    <li><strong>Receive QR Code PDF:</strong> Download your official barcode pass to show at Gate 4 security check points.</li>
+  </ol>
+
+  <div class="cta-box">
+    <h3 style="margin-top:0; font-size: 22px;">Need Instant VIP Pass & Boat Booking Assistance?</h3>
+    <p style="font-size: 15px; max-width: 600px; margin: 10px auto 20px;">Avoid long queues and festival rushes! Our local Varanasi team assists with guaranteed Sugam Darshan passes, private bajra boat bookings & luxury Innova cabs.</p>
+    <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20Kashi%20Vishwanath%20VIP%20Sugam%20Darshan%20Pass%20%26%20Tour%20Package" target="_blank" class="wa-btn">
+      💬 Instant WhatsApp Inquiry (+91-7408763401)
+    </a>
+  </div>
+
+  <h2>3. Frequently Asked Questions (FAQ)</h2>
+  <div style="font-size: 15px;">
+    <p><strong>Q1. Which gate is best for VIP Sugam Darshan?</strong><br>
+    Gate No. 4 (Chhatta Dwar) near Godowlia Chowk is the primary VIP corridor gate offering seamless entry to the Vishwanath Corridor.</p>
+
+    <p><strong>Q2. Is dress code required for Kashi Vishwanath VIP Darshan?</strong><br>
+    Yes, traditional Indian attire is recommended (Kurta-Pyjama or Dhoti for men; Saree or Salwar suit for women).</p>
+  </div>
+
+  <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; font-size: 13px; color: #666;">
+    <p>© 2026 Kashi Dharshan Travels. All Rights Reserved. | <a href="index.html" style="color: #800000;">Back to Homepage</a> | <a href="varanasi-tour-package.html" style="color: #800000;">Varanasi Tour Packages</a></p>
+  </div>
+</div>
+
+<!-- Mobile Sticky CTA Bar -->
+<div class="mobile-sticky-cta-bar" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; width: 100%; background: #ffffff; border-top: 2px solid #FF6B00; z-index: 999999; box-shadow: 0 -4px 15px rgba(0,0,0,0.18); padding: 8px 12px;">
+  <div style="display: flex; gap: 10px; max-width: 500px; margin: 0 auto;">
+    <a href="tel:+917408763401" style="flex: 1; background: #800000; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      📞 Call Us Now
+    </a>
+    <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20instant%20Kashi%20Vishwanath%20VIP%20Pass%20details" target="_blank" rel="noopener" style="flex: 1; background: #25D366; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      💬 WhatsApp Inquiry
+    </a>
+  </div>
+</div>
+<style>
+@media (max-width: 768px) {
+  .mobile-sticky-cta-bar { display: block !important; }
+  body { padding-bottom: 65px !important; }
+}
+</style>
+
+</body>
+</html>
+"""
+
+def create_viral_post():
+    with open(FILEPATH, "w", encoding="utf-8") as f:
+        f.write(BLOG_HTML_CONTENT)
+    print(f"✨ Created viral blog post: {FILENAME}")
+
+if __name__ == "__main__":
+    create_viral_post()

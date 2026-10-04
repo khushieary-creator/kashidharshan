@@ -82,7 +82,7 @@ def build_pdf(pdf_path):
 
     # Title Banner
     story.append(Paragraph("KASHI DHARSHAN — FULL SEO, GEO, AEO & CONVERSION AUDIT REPORT", title_style))
-    story.append(Paragraph("Domain: <b>https://www.kashidharshan.com/</b> | Date: 1 October 2026 | Auditor: Antigravity Performance & Growth Team", subtitle_style))
+    story.append(Paragraph("Domain: <b>https://www.kashidharshan.com/</b> | Date: 4 October 2026 | Auditor: Antigravity Performance & Growth Team", subtitle_style))
     story.append(HRFlowable(width="100%", thickness=2, color=c_gold, spaceAfter=14))
 
     # Executive Scorecard Section
@@ -151,7 +151,7 @@ def build_docx(docx_path):
     run_title.font.size = docx.shared.Pt(18)
     run_title.font.color.rgb = docx.shared.RGBColor(128, 0, 0)
 
-    p_sub = doc.add_paragraph("Domain: https://www.kashidharshan.com/ | Date: 1 October 2026 | Auditor: Antigravity Team")
+    p_sub = doc.add_paragraph("Domain: https://www.kashidharshan.com/ | Date: 4 October 2026 | Auditor: Antigravity Team")
     p_sub.runs[0].font.size = docx.shared.Pt(10)
 
     doc.add_heading("Performance & Optimization Scorecard", level=1)

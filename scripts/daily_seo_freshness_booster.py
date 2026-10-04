@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Daily SEO Freshness Booster for Kashi Dharshan (1 October 2026):
-1. Updates lastmod tags in sitemap.xml to 2026-10-01 for all 80 HTML pages.
-2. Updates RSS feed pubDate / lastBuildDate to 01 Oct 2026.
-3. Injects/Updates JSON-LD dateModified schema tags in all blog articles and guides to 2026-10-01.
-4. Updates audit report dates to 1 October 2026 and regenerates PDF/DOCX.
+Daily SEO Freshness Booster for Kashi Dharshan (4 October 2026):
+1. Updates lastmod tags in sitemap.xml to 2026-10-04 for all 81 HTML pages.
+2. Updates RSS feed pubDate / lastBuildDate to 04 Oct 2026.
+3. Injects/Updates JSON-LD dateModified schema tags in all blog articles and guides to 2026-10-04.
+4. Updates audit report dates to 4 October 2026 and regenerates PDF/DOCX.
 """
 
 import os
@@ -12,26 +12,35 @@ import re
 from xml.sax.saxutils import escape
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TODAY_DATE = "2026-10-01"
-TODAY_DATETIME = "2026-10-01T10:40:00+05:30"
-TODAY_RSS_DATE = "Thu, 01 Oct 2026 10:40:00 +0530"
+TODAY_DATE = "2026-10-04"
+TODAY_DATETIME = "2026-10-04T12:00:00+05:30"
+TODAY_RSS_DATE = "Sun, 04 Oct 2026 12:00:00 +0530"
 
 def update_sitemap():
     sitemap_path = os.path.join(BASE_DIR, "sitemap.xml")
-    if not os.path.exists(sitemap_path):
-        print("⚠️ sitemap.xml not found")
-        return
-        
-    with open(sitemap_path, "r", encoding="utf-8") as f:
-        content = f.read()
-        
-    # Replace all <lastmod>...</lastmod> with TODAY_DATE
-    updated_content = re.sub(r'<lastmod>.*?</lastmod>', f'<lastmod>{TODAY_DATE}</lastmod>', content)
+    html_files = [f for f in os.listdir(BASE_DIR) if f.endswith(".html") and not f.startswith("google")]
+    site_url = "https://www.kashidharshan.com"
     
-    with open(sitemap_path, "w", encoding="utf-8") as f:
-        f.write(updated_content)
+    url_entries = []
+    for f in sorted(html_files):
+        loc = f"{site_url}/{f}"
+        priority = "1.0" if f == "index.html" else ("0.9" if "package" in f else "0.8")
+        url_entries.append(f"""  <url>
+    <loc>{loc}</loc>
+    <lastmod>{TODAY_DATE}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>{priority}</priority>
+  </url>""")
         
-    print(f"✅ Updated all lastmod dates in sitemap.xml to {TODAY_DATE}")
+    sitemap_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{chr(10).join(url_entries)}
+</urlset>
+"""
+    with open(sitemap_path, "w", encoding="utf-8") as f:
+        f.write(sitemap_xml)
+        
+    print(f"✅ Re-generated sitemap.xml with {len(html_files)} URLs and lastmod {TODAY_DATE}")
 
 def update_rss():
     html_files = [f for f in os.listdir(BASE_DIR) if f.startswith("blog-") and f.endswith(".html")]
@@ -77,7 +86,7 @@ def update_rss():
     with open(rss_path, "w", encoding="utf-8") as f:
         f.write(rss_xml)
         
-    print(f"✅ Updated RSS feed pubDate / lastBuildDate to {TODAY_RSS_DATE}")
+    print(f"✅ Re-generated RSS feed with {len(rss_items)} items and pubDate {TODAY_RSS_DATE}")
 
 def update_schema_dates():
     count = 0
@@ -109,7 +118,7 @@ def main():
     update_sitemap()
     update_rss()
     update_schema_dates()
-    print("✨ Today's SEO freshness update completed for 1 October 2026!")
+    print("✨ Today's SEO freshness update completed for 4 October 2026!")
 
 if __name__ == "__main__":
     main()
