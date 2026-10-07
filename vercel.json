@@ -1,3 +1,10 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/kashi-vishwanath-tour-package", "destination": "/kashi-vishwanath-tour-package.html" },
+    { "source": "/kashi-vishwanath-tour-package.html", "destination": "/kashi-vishwanath-tour-package.html" },
+    { "source": "/varanasi-tour-package", "destination": "/varanasi-tour-package.html" },
+    { "source": "/ayodhya-tour-package", "destination": "/ayodhya-tour-package.html" },
+    { "source": "/prayagraj-tour-package", "destination": "/prayagraj-tour-package.html" }
+  ]
 }
