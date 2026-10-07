@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Daily SEO Freshness Booster for Kashi Dharshan (6 October 2026):
-1. Updates lastmod tags in sitemap.xml to 2026-10-06 for all 81 HTML pages.
-2. Updates RSS feed pubDate / lastBuildDate to 06 Oct 2026.
-3. Injects/Updates JSON-LD dateModified schema tags in all blog articles and guides to 2026-10-06.
-4. Updates audit report dates to 6 October 2026 and regenerates PDF/DOCX.
+Daily SEO Freshness Booster for Kashi Dharshan (7 October 2026):
+1. Updates lastmod tags in sitemap.xml to 2026-10-07 for all 82 HTML pages.
+2. Updates RSS feed pubDate / lastBuildDate to 07 Oct 2026.
+3. Injects/Updates JSON-LD dateModified schema tags in all blog articles and guides to 2026-10-07.
+4. Updates audit report dates to 7 October 2026 and regenerates PDF/DOCX.
 """
 
 import os
@@ -12,9 +12,9 @@ import re
 from xml.sax.saxutils import escape
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TODAY_DATE = "2026-10-06"
-TODAY_DATETIME = "2026-10-06T09:45:00+05:30"
-TODAY_RSS_DATE = "Tue, 06 Oct 2026 09:45:00 +0530"
+TODAY_DATE = "2026-10-07"
+TODAY_DATETIME = "2026-10-07T13:18:00+05:30"
+TODAY_RSS_DATE = "Wed, 07 Oct 2026 13:18:00 +0530"
 
 def update_sitemap():
     sitemap_path = os.path.join(BASE_DIR, "sitemap.xml")
@@ -118,7 +118,7 @@ def main():
     update_sitemap()
     update_rss()
     update_schema_dates()
-    print("✨ Today's SEO freshness update completed for 6 October 2026!")
+    print("✨ Today's SEO freshness update completed for 7 October 2026!")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,244 @@
+#!/usr/bin/env python3
+"""
+Creates a Viral, High-Conversion Blog Post for 7 October 2026:
+'Varanasi Dev Deepawali 2026: VIP Boat Booking & Ghat Guide'
+Saves to blog-varanasi-dev-deepawali-2026-vip-boat-booking-guide.html
+Links it into blog.html, sitemap.xml, and rss.xml.
+"""
+
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FILENAME = "blog-varanasi-dev-deepawali-2026-vip-boat-booking-guide.html"
+FILEPATH = os.path.join(BASE_DIR, FILENAME)
+
+BLOG_HTML_CONTENT = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="favicon.png" type="image/png" sizes="192x192">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Varanasi Dev Deepawali 2026: VIP Boat Booking & Ghat Guide</title>
+<meta name="description" content="Complete guide on Varanasi Dev Deepawali 2026 VIP boat booking, private bajra rates, Ganga Aarti timings, laser show viewing & direct WhatsApp reservation (+91-7408763401).">
+<meta name="keywords" content="Varanasi Dev Deepawali 2026, Dev Deepawali boat booking price, Kashi Dev Deepawali VIP bajra rates, Ganga Aarti Dev Deepawali cruise, Dev Deepawali 84 ghat illumination guide">
+<meta name="robots" content="index, follow">
+<meta name="geo.region" content="IN-UP">
+<meta name="geo.placename" content="Varanasi">
+<meta name="geo.position" content="25.3109;83.0107">
+<meta name="ICBM" content="25.3109, 83.0107">
+<link rel="canonical" href="https://www.kashidharshan.com/blog-varanasi-dev-deepawali-2026-vip-boat-booking-guide.html" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Kashi Dharshan">
+<meta property="og:title" content="Varanasi Dev Deepawali 2026: VIP Boat Booking & Ghat Guide">
+<meta property="og:description" content="Official 2026 Dev Deepawali VIP bajra boat rates, Ganga Aarti illumination timings & instant WhatsApp booking guide.">
+<meta property="og:url" content="https://www.kashidharshan.com/blog-varanasi-dev-deepawali-2026-vip-boat-booking-guide.html">
+<meta property="og:image" content="https://www.kashidharshan.com/assets/reviews/ganga-aarti-night.jpg">
+
+<!-- Structured Data JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Varanasi Dev Deepawali 2026: VIP Boat Booking & Ghat Guide",
+  "description": "Complete guide on Varanasi Dev Deepawali 2026 VIP boat booking, bajra rates, Ganga Aarti timings & illumination.",
+  "image": "https://www.kashidharshan.com/assets/reviews/ganga-aarti-night.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.kashidharshan.com/assets/logo.png"
+    }
+  },
+  "datePublished": "2026-10-07T13:18:00+05:30",
+  "dateModified": "2026-10-07T13:18:00+05:30",
+  "mainEntityOfPage": "https://www.kashidharshan.com/blog-varanasi-dev-deepawali-2026-vip-boat-booking-guide.html"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Book VIP Boat for Varanasi Dev Deepawali 2026",
+  "description": "Step-by-step guide to reserve private Bajra, Motorboat or Cruise for 84 Ghats Dev Deepawali illumination in Varanasi.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Choose Boat Category",
+      "text": "Select from Shared Bajra (₹1,500/seat), Private Motorboat (10-15 Pax), or Luxury Double Decker Cruise."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Select Boarding Ghat",
+      "text": "Choose convenient boarding points like Assi Ghat, Dashashwamedh Ghat, or Namo Ghat."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Confirm WhatsApp Voucher",
+      "text": "Receive your instant booking pass and driver/boat captain contact details directly on WhatsApp."
+    }
+  ]
+}
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('form').forEach(function(form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var name = (this.querySelector('[name="name"]') || this.querySelector('[name="fullname"]') || {}).value || 'Guest';
+      var phone = (this.querySelector('[name="phone"]') || this.querySelector('[name="mobile"]') || {}).value || '';
+      var date = (this.querySelector('[name="date"]') || this.querySelector('[name="travel_date"]') || {}).value || 'Dev Deepawali 2026';
+      var pkg = 'Dev Deepawali VIP Boat Booking Guide';
+      
+      if (!phone || phone.length < 8) {
+        alert('Please enter a valid mobile number so we can send your Dev Deepawali boat voucher!');
+        return false;
+      }
+      
+      var waText = "Hi Kashi Dharshan! New Inquiry:\\nPackage: " + pkg + "\\nName: " + name + "\\nPhone: " + phone + "\\nTravel Date: " + date;
+      var waUrl = "https://wa.me/917408763401?text=" + encodeURIComponent(waText);
+      
+      window.open(waUrl, '_blank');
+      window.location.href = "thankyou.html";
+      return false;
+    });
+  });
+});
+</script>
+
+<style>
+  body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.7; color: #222; margin: 0; background: #fafafa; }
+  .container { max-width: 920px; margin: 0 auto; padding: 20px; background: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.06); border-radius: 12px; }
+  h1 { color: #800000; font-size: 28px; line-height: 1.3; margin-bottom: 10px; }
+  h2 { color: #800000; font-size: 20px; border-bottom: 2px solid #FF6B00; padding-bottom: 6px; margin-top: 30px; }
+  .price-table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 15px; }
+  .price-table th, .price-table td { border: 1px solid #ddd; padding: 12px 15px; text-align: left; }
+  .price-table th { background: #800000; color: #fff; }
+  .price-table tr:nth-child(even) { background: #fff8f0; }
+  .aeo-box { background: #fff3e0; border-left: 5px solid #FF6B00; padding: 16px 20px; margin: 20px 0; border-radius: 6px; font-size: 15px; }
+  .cta-box { background: linear-gradient(135deg, #800000 0%, #4a0000 100%); color: #fff; padding: 24px; border-radius: 12px; text-align: center; margin: 35px 0; box-shadow: 0 8px 25px rgba(128,0,0,0.25); }
+  .wa-btn { background: #25D366; color: #fff; text-decoration: none; padding: 12px 24px; border-radius: 30px; font-weight: 700; font-size: 16px; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 12px rgba(37,211,102,0.3); }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <p style="color: #666; font-size: 13px;">Home &gt; Blog &gt; Dev Deepawali 2026 VIP Boat Booking Guide</p>
+
+  <h1>Varanasi Dev Deepawali 2026: VIP Boat Booking & Ghat Guide</h1>
+  <p style="font-size: 14px; color: #777;">Published by <strong>Kashi Dharshan Yatra Team</strong> | Updated on <strong>7 October 2026</strong></p>
+
+  <div class="aeo-box">
+    <strong>⚡ Quick Answer (AEO Summary):</strong><br>
+    Varanasi Dev Deepawali 2026 takes place on Kartik Purnima when 10 Lakh+ diyas illuminate all 84 ghats. Official VIP boat booking rates range from <strong>₹1,500 per seat for shared Bajra</strong> to <strong>₹18,000 – ₹45,000 for private motorboats</strong>. Advance booking is mandatory due to heavy demand and river traffic regulations.
+  </div>
+
+  <h2>1. Dev Deepawali 2026 Boat Booking Rate Card</h2>
+  <p>Experience the divine spectacle of gods descending on the holy Ganga riverbank in Kashi. Below are the official estimated rates for Dev Deepawali boat rentals:</p>
+
+  <table class="price-table">
+    <thead>
+      <tr>
+        <th>Boat Type / Category</th>
+        <th>Capacity / Pax</th>
+        <th>Estimated Dev Deepawali Rate</th>
+        <th>Inclusions & Features</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Shared Wooden Bajra Seat</strong></td>
+        <td>1 Person</td>
+        <td>₹1,500 – ₹2,500</td>
+        <td>Ganga Aarti View + Cushion Seating</td>
+      </tr>
+      <tr>
+        <td><strong>Private Small Motorboat</strong></td>
+        <td>4 – 8 Persons</td>
+        <td>₹15,000 – ₹22,000</td>
+        <td>Private Family Boat + Life Jackets</td>
+      </tr>
+      <tr>
+        <td><strong>Medium Family Motorboat</strong></td>
+        <td>10 – 15 Persons</td>
+        <td>₹25,000 – ₹35,000</td>
+        <td>84 Ghats Round Trip Cruise + Aarti</td>
+      </tr>
+      <tr>
+        <td><strong>Luxury Air-Conditioned Cruise</strong></td>
+        <td>Per Passenger</td>
+        <td>₹4,500 – ₹6,500</td>
+        <td>Dinner Buffet + Live Cultural Shehnai</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>2. Highlights of Dev Deepawali in Kashi</h2>
+  <ul style="font-size: 15px; padding-left: 20px;">
+    <li><strong>10 Lakh Diya Illumination:</strong> All 84 historic ghats lit up with earthen lamps from Ravidas Ghat to Rajghat.</li>
+    <li><strong>Maha Ganga Aarti at Dashashwamedh:</strong> 21 priests perform grand synchronization Aarti with 108-lamp brass pyramids.</li>
+    <li><strong>Green Fireworks & Laser Show:</strong> Spectators enjoy state-of-the-art 3D laser projection on Chet Singh Fort.</li>
+  </ul>
+
+  <div class="cta-box">
+    <h3 style="margin-top:0; font-size: 22px;">Reserve Your Dev Deepawali 2026 Boat Before Seats Fill Up!</h3>
+    <p style="font-size: 15px; max-width: 600px; margin: 10px auto 20px;">Over 80% of private boats get sold out 1 month in advance. Contact our local Varanasi team to lock in your private bajra & VIP Ganga Aarti passes at official rates!</p>
+    <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20reserve%20Dev%20Deepawali%202026%20VIP%20Boat%20%26%20Tour%20Package" target="_blank" class="wa-btn">
+      💬 Reserve on WhatsApp (+91-7408763401)
+    </a>
+  </div>
+
+  <h2>3. Frequently Asked Questions (FAQ)</h2>
+  <div style="font-size: 15px;">
+    <p><strong>Q1. What is the best time to board the boat on Dev Deepawali?</strong><br>
+    Boarding begins between 4:30 PM and 5:00 PM before sunset to ensure your boat secures prime position opposite Dashashwamedh Ghat for Ganga Aarti.</p>
+
+    <p><strong>Q2. Can we combine Dev Deepawali boat tour with Kashi Vishwanath VIP Darshan?</strong><br>
+    Yes, Kashi Dharshan provides combined packages including Sugam Darshan VIP pass in the morning and private boat cruise in the evening.</p>
+  </div>
+
+  <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; font-size: 13px; color: #666;">
+    <p>© 2026 Kashi Dharshan Travels. All Rights Reserved. | <a href="index.html" style="color: #800000;">Back to Homepage</a> | <a href="varanasi-tour-package.html" style="color: #800000;">Varanasi Tour Packages</a></p>
+  </div>
+</div>
+
+<!-- Mobile Sticky CTA Bar -->
+<div class="mobile-sticky-cta-bar" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; width: 100%; background: #ffffff; border-top: 2px solid #FF6B00; z-index: 999999; box-shadow: 0 -4px 15px rgba(0,0,0,0.18); padding: 8px 12px;">
+  <div style="display: flex; gap: 10px; max-width: 500px; margin: 0 auto;">
+    <a href="tel:+917408763401" style="flex: 1; background: #800000; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      📞 Call Us Now
+    </a>
+    <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20Dev%20Deepawali%202026%20VIP%20boat%20details" target="_blank" rel="noopener" style="flex: 1; background: #25D366; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      💬 WhatsApp Inquiry
+    </a>
+  </div>
+</div>
+<style>
+@media (max-width: 768px) {
+  .mobile-sticky-cta-bar { display: block !important; }
+  body { padding-bottom: 65px !important; }
+}
+</style>
+
+</body>
+</html>
+"""
+
+def create_dev_deepawali_blog():
+    with open(FILEPATH, "w", encoding="utf-8") as f:
+        f.write(BLOG_HTML_CONTENT)
+    print(f"✨ Created new viral blog post: {FILENAME}")
+
+if __name__ == "__main__":
+    create_dev_deepawali_blog()
