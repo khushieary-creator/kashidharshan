@@ -31,7 +31,7 @@
     
     // Check if it's a WhatsApp link
     if (href.includes('wa.me') || anchor.classList.contains('whatsapp-float')) {
-      const pagePath = window.location.pathname.split('/').pop() || 'index.html';
+      const pagePath = window.location.pathname.split('/').pop() || 'index';
       const textParam = new URLSearchParams(href.split('?')[1] || '').get('text') || '';
       
       dispatchTrackingEvent('whatsapp_click', {
@@ -43,9 +43,9 @@
   });
 
   // 2. Track Form Enquiry Submissions (Redirect to Thank You Page)
-  // Since the forms redirect to thankyou.html, we can detect if the current page is thankyou.html
+  // Detect if the current page is thankyou (clean URL or .html)
   const currentPath = window.location.pathname.split('/').pop() || '';
-  if (currentPath.includes('thankyou.html')) {
+  if (currentPath.includes('thankyou')) {
     const params = new URLSearchParams(window.location.search);
     const name = params.get('name');
     const phone = params.get('phone');
