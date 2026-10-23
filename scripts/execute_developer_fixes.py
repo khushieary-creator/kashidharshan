@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Developer Requested Lead Conversion & SEO Title Fixes:
-1. Replaces form submission script with requested WhatsApp listener for phone: 917408763401.
+1. Replaces form submission script with requested WhatsApp listener for phone: 917011960307.
 2. Connects Homepage Hero Form on index.html.
 3. Sets exact requested SEO Titles:
    - Homepage: "Kashi Vishwanath & Ayodhya Ram Mandir Tour Packages 2026" (57 chars)
@@ -13,7 +13,7 @@ import os
 import re
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TARGET_WA_NUMBER = "917408763401"
+TARGET_WA_NUMBER = "917011960307"
 
 UNIVERSAL_FORM_JS = """
 <script>
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       
       var waText = "Hi Kashi Dharshan! New Inquiry:\\nPackage: " + pkg + "\\nName: " + name + "\\nPhone: " + phone + "\\nTravel Date: " + date;
-      var waUrl = "https://wa.me/917408763401?text=" + encodeURIComponent(waText);
+      var waUrl = "https://wa.me/917011960307?text=" + encodeURIComponent(waText);
       
       window.open(waUrl, '_blank');
       window.location.href = "thankyou.html";
@@ -74,7 +74,7 @@ def apply_fixes():
                 if "submitYatraFormToWhatsApp" in content:
                     content = re.sub(r'<script>\s*function submitYatraFormToWhatsApp.*?</script>', '', content, flags=re.DOTALL)
                     
-                if "917408763401" not in content:
+                if "917011960307" not in content:
                     if '</head>' in content:
                         content = content.replace('</head>', UNIVERSAL_FORM_JS + '\n</head>')
                     elif '</body>' in content:
@@ -90,9 +90,9 @@ def apply_fixes():
                     
                 content = re.sub(r'<form[^>]*>', fix_form_tag, content, flags=re.IGNORECASE)
                 
-                # 4. Update any standalone WhatsApp links to 917408763401 if requested
-                content = content.replace('wa.me/917011960307', 'wa.me/917408763401')
-                content = content.replace('phone=917011960307', 'phone=917408763401')
+                # 4. Update any standalone WhatsApp links to 917011960307 if requested
+                content = content.replace('wa.me/917011960307', 'wa.me/917011960307')
+                content = content.replace('phone=917011960307', 'phone=917011960307')
                 
                 if content != orig_content:
                     with open(filepath, "w", encoding="utf-8") as fh:

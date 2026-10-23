@@ -12,7 +12,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 1. Hyper-Optimized Homepage Meta Tags
 INDEX_TITLE = "Kashi Darshan Tour Package 2026: Kashi Vishwanath VIP Pass"
-INDEX_DESC = "Book official Kashi Darshan tour packages with Kashi Vishwanath VIP pass, Ganga Aarti private boat & local cab transfers. 4.9★ rated agency. Call/WhatsApp +91-7408763401."
+INDEX_DESC = "Book official Kashi Darshan tour packages with Kashi Vishwanath VIP pass, Ganga Aarti private boat & local cab transfers. 4.9★ rated agency. Call/WhatsApp +91 70119 60307."
 
 # 2. High-Intent Authority Callout Box for all 39 Blog Articles
 AUTHORITY_LINK_BOX = """

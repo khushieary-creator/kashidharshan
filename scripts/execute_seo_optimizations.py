@@ -169,7 +169,7 @@ mangla_blog_html = """<!DOCTYPE html>
       <a href="kashi-vishwanath-tour-package.html">Kashi Packages</a>
       <a href="varanasi-tour-package.html">Varanasi Tour</a>
       <a href="ayodhya-tour-package.html">Ayodhya Tour</a>
-      <a href="tel:+917408763401" class="btn btn-gold">Call: +91-7408763401</a>
+      <a href="tel:+917011960307" class="btn btn-gold">Call: +91 70119 60307</a>
     </nav>
   </div>
 </header>
@@ -209,7 +209,7 @@ mangla_blog_html = """<!DOCTYPE html>
     <div style="background: var(--maroon); color: #fff; padding: 30px; border-radius: 12px; text-align: center; margin: 40px 0;">
       <h3 style="color: #fde68a; margin-bottom: 10px;">Book Kashi Vishwanath VIP Darshan & Boat Yatra</h3>
       <p style="font-size: 1.1rem; margin-bottom: 20px;">Include Mangla Aarti, VIP Sugam Darshan, Private Ganga Aarti Boat Ride & Hotel Stays in one click.</p>
-      <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20Kashi%20Vishwanath%20VIP%20Darshan%20and%20Mangla%20Aarti%20Package." class="btn btn-gold" style="padding: 14px 28px; font-size: 1.1rem; text-decoration: none; display: inline-block;">WhatsApp Inquiry: +91-7408763401</a>
+      <a href="https://wa.me/917011960307?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20Kashi%20Vishwanath%20VIP%20Darshan%20and%20Mangla%20Aarti%20Package." class="btn btn-gold" style="padding: 14px 28px; font-size: 1.1rem; text-decoration: none; display: inline-block;">WhatsApp Inquiry: +91 70119 60307</a>
     </div>
 
     <h2>5. Frequently Asked Questions (FAQs)</h2>

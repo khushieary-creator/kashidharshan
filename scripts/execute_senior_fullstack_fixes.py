@@ -74,7 +74,7 @@ SCHEMAS_5_BLOCKS = """
   "logo": "https://www.kashidharshan.com/assets/logo.png",
   "image": "https://www.kashidharshan.com/assets/reviews/kashi-temple.jpg",
   "description": "Official UP local pilgrimage travel operator providing Kashi Vishwanath VIP Darshan passes, Varanasi Ganga Aarti boat booking, and Ayodhya Ram Mandir tour packages.",
-  "telephone": "+91-7408763401",
+  "telephone": "+91 70119 60307",
   "priceRange": "₹₹",
   "address": {
     "@type": "PostalAddress",
@@ -131,7 +131,7 @@ SCHEMAS_5_BLOCKS = """
       "name": "How to book Kashi Vishwanath VIP Sugam Darshan Pass online?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Kashi Vishwanath Sugam Darshan VIP Pass (₹300 per person) provides fast-track priority entry through Gate No. 4 (Chhatta Dwar) bypassing general 3-4 hour lines, allowing darshan within 20-30 minutes. You can reserve your VIP pass directly via our WhatsApp line +91-7408763401 or our package booking portal."
+        "text": "Kashi Vishwanath Sugam Darshan VIP Pass (₹300 per person) provides fast-track priority entry through Gate No. 4 (Chhatta Dwar) bypassing general 3-4 hour lines, allowing darshan within 20-30 minutes. You can reserve your VIP pass directly via our WhatsApp line +91 70119 60307 or our package booking portal."
       }
     },
     {
@@ -203,7 +203,7 @@ SCHEMAS_5_BLOCKS = """
       "name": "How do I book a tour package with Kashi Dharshan?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Call or WhatsApp +91-7408763401, email yatra@kashidharshan.com, or fill out the lead inquiry form on our homepage. Our yatra coordinator will instantly provide a customized itinerary and quote."
+        "text": "Call or WhatsApp +91 70119 60307, email yatra@kashidharshan.com, or fill out the lead inquiry form on our homepage. Our yatra coordinator will instantly provide a customized itinerary and quote."
       }
     }
   ]
@@ -250,7 +250,7 @@ SCHEMAS_5_BLOCKS = """
   "logo": "https://www.kashidharshan.com/assets/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+91-7408763401",
+    "telephone": "+91 70119 60307",
     "contactType": "customer service",
     "areaServed": "IN",
     "availableLanguage": ["en", "hi"]

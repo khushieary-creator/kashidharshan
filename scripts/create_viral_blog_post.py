@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       
       var waText = "Hi Kashi Dharshan! New Inquiry:\\nPackage: " + pkg + "\\nName: " + name + "\\nPhone: " + phone + "\\nTravel Date: " + date;
-      var waUrl = "https://wa.me/917408763401?text=" + encodeURIComponent(waText);
+      var waUrl = "https://wa.me/917011960307?text=" + encodeURIComponent(waText);
       
       window.open(waUrl, '_blank');
       window.location.href = "thankyou.html";
@@ -201,8 +201,8 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="cta-box">
     <h3 style="margin-top:0; font-size: 22px;">Need Instant VIP Pass & Boat Booking Assistance?</h3>
     <p style="font-size: 15px; max-width: 600px; margin: 10px auto 20px;">Avoid long queues and festival rushes! Our local Varanasi team assists with guaranteed Sugam Darshan passes, private bajra boat bookings & luxury Innova cabs.</p>
-    <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20Kashi%20Vishwanath%20VIP%20Sugam%20Darshan%20Pass%20%26%20Tour%20Package" target="_blank" class="wa-btn">
-      💬 Instant WhatsApp Inquiry (+91-7408763401)
+    <a href="https://wa.me/917011960307?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20Kashi%20Vishwanath%20VIP%20Sugam%20Darshan%20Pass%20%26%20Tour%20Package" target="_blank" class="wa-btn">
+      💬 Instant WhatsApp Inquiry (+91 70119 60307)
     </a>
   </div>
 
@@ -223,10 +223,10 @@ document.addEventListener('DOMContentLoaded', function() {
 <!-- Mobile Sticky CTA Bar -->
 <div class="mobile-sticky-cta-bar" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; width: 100%; background: #ffffff; border-top: 2px solid #FF6B00; z-index: 999999; box-shadow: 0 -4px 15px rgba(0,0,0,0.18); padding: 8px 12px;">
   <div style="display: flex; gap: 10px; max-width: 500px; margin: 0 auto;">
-    <a href="tel:+917408763401" style="flex: 1; background: #800000; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+    <a href="tel:+917011960307" style="flex: 1; background: #800000; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
       📞 Call Us Now
     </a>
-    <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20instant%20Kashi%20Vishwanath%20VIP%20Pass%20details" target="_blank" rel="noopener" style="flex: 1; background: #25D366; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+    <a href="https://wa.me/917011960307?text=Hi%20Kashi%20Dharshan!%20I%20want%20instant%20Kashi%20Vishwanath%20VIP%20Pass%20details" target="_blank" rel="noopener" style="flex: 1; background: #25D366; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
       💬 WhatsApp Inquiry
     </a>
   </div>

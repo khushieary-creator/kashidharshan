@@ -41,7 +41,7 @@ WINNING_SCHEMA_GRAPH = """<script type="application/ld+json">
       "logo": "https://www.kashidharshan.com/assets/logo.png",
       "image": "https://www.kashidharshan.com/assets/reviews/kashi-temple.jpg",
       "description": "Guided, fully-managed pilgrimage tour packages across Varanasi (Kashi), Ayodhya, Prayagraj, Chitrakoot, Naimisharanya, Vindhyachal, Mathura and Vrindavan.",
-      "telephone": "+91-7408763401",
+      "telephone": "+91 70119 60307",
       "priceRange": "₹₹",
       "address": {
         "@type": "PostalAddress",
@@ -55,7 +55,7 @@ WINNING_SCHEMA_GRAPH = """<script type="application/ld+json">
       "sameAs": [
         "https://www.instagram.com/",
         "https://www.facebook.com/",
-        "https://wa.me/917408763401?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Kashi%20Dharshan%20tour%20packages."
+        "https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Kashi%20Dharshan%20tour%20packages."
       ],
       "aggregateRating": {
         "@type": "AggregateRating",

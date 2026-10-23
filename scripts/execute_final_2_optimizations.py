@@ -405,7 +405,7 @@ mega_kashi_guide = """
 
           <div style="border-bottom: 1px solid #f3f4f6; padding-bottom: 16px;">
             <h4 style="font-size: 1.15rem; color: #78350f; margin-bottom: 6px;">Q6: How can I book a combined Varanasi, Ayodhya & Prayagraj tour package?</h4>
-            <p style="color: #4b5563; line-height: 1.7;">Kashi Dharshan offers customized 5-Day and 6-Day Sacred Triangle tour packages covering Kashi Vishwanath, Triveni Sangam Prayagraj, and Shri Ram Janmabhoomi Ayodhya with dedicated private AC cabs, verified hotel stays, and priority VIP passes. Contact our local helpline at +91-7408763401 for instant custom itineraries.</p>
+            <p style="color: #4b5563; line-height: 1.7;">Kashi Dharshan offers customized 5-Day and 6-Day Sacred Triangle tour packages covering Kashi Vishwanath, Triveni Sangam Prayagraj, and Shri Ram Janmabhoomi Ayodhya with dedicated private AC cabs, verified hotel stays, and priority VIP passes. Contact our local helpline at +91 70119 60307 for instant custom itineraries.</p>
           </div>
 
         </div>

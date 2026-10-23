@@ -126,8 +126,8 @@ page1_html = """<!DOCTYPE html>
       <a href="contact">Contact</a>
     </div>
     <div class="nav-cta">
-      <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20Kashi%20Vishwanath%20Sugam%20Darshan%20VIP%20Pass." class="btn btn-primary" aria-label="Book VIP Pass">
-        <span class="btn-text">WhatsApp: +91-7408763401</span>
+      <a href="https://wa.me/917011960307?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20Kashi%20Vishwanath%20Sugam%20Darshan%20VIP%20Pass." class="btn btn-primary" aria-label="Book VIP Pass">
+        <span class="btn-text">WhatsApp: +91 70119 60307</span>
       </a>
     </div>
   </div>
@@ -152,7 +152,7 @@ page1_html = """<!DOCTYPE html>
         <li><strong>Average Time Taken:</strong> 15 to 25 minutes (vs. 2 to 4 hours in General Line)</li>
         <li><strong>Entry Gates:</strong> Gate No. 2 (Saraswati Gate / Bansphatak) &amp; Gate No. 4 (Ganga Riverfront Corridor Gate)</li>
         <li><strong>Permitted Darshan:</strong> Direct view of Golden Jyotirlinga + Jalabhishekam via Argha pipe + Annapurna Mandir visit</li>
-        <li><strong>Booking Assistance Helpline:</strong> Call or WhatsApp <a href="https://wa.me/917408763401" style="color: #b45309; font-weight: 700;">+91-7408763401</a></li>
+        <li><strong>Booking Assistance Helpline:</strong> Call or WhatsApp <a href="https://wa.me/917011960307" style="color: #b45309; font-weight: 700;">+91 70119 60307</a></li>
       </ul>
     </div>
 
@@ -222,8 +222,8 @@ page1_html = """<!DOCTYPE html>
     <div style="background: var(--maroon); color: #fff; padding: 35px; border-radius: 16px; text-align: center; margin: 50px 0;">
       <h3 style="color: #fde68a; font-size: 1.8rem; margin-top: 0; margin-bottom: 12px; font-family: var(--font-display);">Need Sugam Darshan VIP Pass Assistance?</h3>
       <p style="font-size: 1.1rem; max-width: 650px; margin: 0 auto 24px; color: #fef3c7;">Avoid online sold-out dates. We arrange verified VIP Sugam Darshan tickets, local pandit accompaniment, and hotel pickup across Varanasi.</p>
-      <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20Kashi%20Vishwanath%20Sugam%20Darshan%20VIP%20Pass%20for%20my%20family." class="btn btn-gold" style="padding: 14px 32px; font-size: 1.1rem; text-decoration: none; display: inline-block; font-weight: 700;">
-        Book Sugam Darshan via WhatsApp (+91-7408763401)
+      <a href="https://wa.me/917011960307?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20Kashi%20Vishwanath%20Sugam%20Darshan%20VIP%20Pass%20for%20my%20family." class="btn btn-gold" style="padding: 14px 32px; font-size: 1.1rem; text-decoration: none; display: inline-block; font-weight: 700;">
+        Book Sugam Darshan via WhatsApp (+91 70119 60307)
       </a>
     </div>
 
@@ -359,8 +359,8 @@ page2_html = """<!DOCTYPE html>
       <a href="contact">Contact</a>
     </div>
     <div class="nav-cta">
-      <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20a%20private%20Ganga%20Aarti%20boat%20ride." class="btn btn-primary" aria-label="Book Boat Ride">
-        <span class="btn-text">WhatsApp: +91-7408763401</span>
+      <a href="https://wa.me/917011960307?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20a%20private%20Ganga%20Aarti%20boat%20ride." class="btn btn-primary" aria-label="Book Boat Ride">
+        <span class="btn-text">WhatsApp: +91 70119 60307</span>
       </a>
     </div>
   </div>
@@ -430,8 +430,8 @@ page2_html = """<!DOCTYPE html>
     <div style="background: var(--maroon); color: #fff; padding: 35px; border-radius: 16px; text-align: center; margin: 50px 0;">
       <h3 style="color: #fde68a; font-size: 1.8rem; margin-top: 0; margin-bottom: 12px; font-family: var(--font-display);">Reserve Your Private Aarti Boat in Advance</h3>
       <p style="font-size: 1.1rem; max-width: 650px; margin: 0 auto 24px; color: #fef3c7;">Avoid chaotic spot negotiations on crowded ghat stairs. Get confirmed front-row boat slips with verified boatmen.</p>
-      <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20reserve%20a%20private%20boat%20for%20Varanasi%20Ganga%20Aarti." class="btn btn-gold" style="padding: 14px 32px; font-size: 1.1rem; text-decoration: none; display: inline-block; font-weight: 700;">
-        Book Boat on WhatsApp (+91-7408763401)
+      <a href="https://wa.me/917011960307?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20reserve%20a%20private%20boat%20for%20Varanasi%20Ganga%20Aarti." class="btn btn-gold" style="padding: 14px 32px; font-size: 1.1rem; text-decoration: none; display: inline-block; font-weight: 700;">
+        Book Boat on WhatsApp (+91 70119 60307)
       </a>
     </div>
 
@@ -567,8 +567,8 @@ page3_html = """<!DOCTYPE html>
       <a href="contact">Contact</a>
     </div>
     <div class="nav-cta">
-      <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20Mangla%20Aarti%20VIP%20Pass." class="btn btn-primary" aria-label="Book Mangla Aarti">
-        <span class="btn-text">WhatsApp: +91-7408763401</span>
+      <a href="https://wa.me/917011960307?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20Mangla%20Aarti%20VIP%20Pass." class="btn btn-primary" aria-label="Book Mangla Aarti">
+        <span class="btn-text">WhatsApp: +91 70119 60307</span>
       </a>
     </div>
   </div>
@@ -594,7 +594,7 @@ page3_html = """<!DOCTYPE html>
         <li><strong>Reporting Gate:</strong> Gate No. 2 (Saraswati Gate / Bansphatak)</li>
         <li><strong>Dress Code for Men:</strong> Traditional unstitched Dhoti and Kurta (Jeans/leather belts strictly banned)</li>
         <li><strong>Dress Code for Women:</strong> Traditional Indian Saree or full Salwar Kameez</li>
-        <li><strong>Helpline:</strong> Call or WhatsApp <a href="https://wa.me/917408763401" style="color: #b45309; font-weight: 700;">+91-7408763401</a></li>
+        <li><strong>Helpline:</strong> Call or WhatsApp <a href="https://wa.me/917011960307" style="color: #b45309; font-weight: 700;">+91 70119 60307</a></li>
       </ul>
     </div>
 
@@ -612,8 +612,8 @@ page3_html = """<!DOCTYPE html>
     <div style="background: var(--maroon); color: #fff; padding: 35px; border-radius: 16px; text-align: center; margin: 50px 0;">
       <h3 style="color: #fde68a; font-size: 1.8rem; margin-top: 0; margin-bottom: 12px; font-family: var(--font-display);">Want Confirmed Mangla Aarti Assistance?</h3>
       <p style="font-size: 1.1rem; max-width: 650px; margin: 0 auto 24px; color: #fef3c7;">Include Mangla Aarti passes, corridor hotel stays, and personal pandit accompaniment in your Kashi tour package.</p>
-      <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20need%20Mangla%20Aarti%20pass%20assistance%20for%20Kashi%20Vishwanath." class="btn btn-gold" style="padding: 14px 32px; font-size: 1.1rem; text-decoration: none; display: inline-block; font-weight: 700;">
-        Book Mangla Aarti via WhatsApp (+91-7408763401)
+      <a href="https://wa.me/917011960307?text=Hi%20Kashi%20Dharshan!%20I%20need%20Mangla%20Aarti%20pass%20assistance%20for%20Kashi%20Vishwanath." class="btn btn-gold" style="padding: 14px 32px; font-size: 1.1rem; text-decoration: none; display: inline-block; font-weight: 700;">
+        Book Mangla Aarti via WhatsApp (+91 70119 60307)
       </a>
     </div>
 
@@ -749,8 +749,8 @@ page4_html = """<!DOCTYPE html>
       <a href="contact">Contact</a>
     </div>
     <div class="nav-cta">
-      <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20a%20cab%20from%20Varanasi%20Airport%20to%20Kashi%20Vishwanath." class="btn btn-primary" aria-label="Book Cab">
-        <span class="btn-text">WhatsApp: +91-7408763401</span>
+      <a href="https://wa.me/917011960307?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20a%20cab%20from%20Varanasi%20Airport%20to%20Kashi%20Vishwanath." class="btn btn-primary" aria-label="Book Cab">
+        <span class="btn-text">WhatsApp: +91 70119 60307</span>
       </a>
     </div>
   </div>
@@ -815,8 +815,8 @@ page4_html = """<!DOCTYPE html>
     <div style="background: var(--maroon); color: #fff; padding: 35px; border-radius: 16px; text-align: center; margin: 50px 0;">
       <h3 style="color: #fde68a; font-size: 1.8rem; margin-top: 0; margin-bottom: 12px; font-family: var(--font-display);">Pre-Book Your Varanasi Airport Cab Now</h3>
       <p style="font-size: 1.1rem; max-width: 650px; margin: 0 auto 24px; color: #fef3c7;">Driver waits with name board at airport arrival gate. Zero cancellation fees, 24x7 WhatsApp support.</p>
-      <a href="https://wa.me/917408763401?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20a%20fixed%20rate%20cab%20from%20Varanasi%20Airport%20to%20Kashi%20Vishwanath." class="btn btn-gold" style="padding: 14px 32px; font-size: 1.1rem; text-decoration: none; display: inline-block; font-weight: 700;">
-        Book Airport Cab on WhatsApp (+91-7408763401)
+      <a href="https://wa.me/917011960307?text=Hi%20Kashi%20Dharshan!%20I%20want%20to%20book%20a%20fixed%20rate%20cab%20from%20Varanasi%20Airport%20to%20Kashi%20Vishwanath." class="btn btn-gold" style="padding: 14px 32px; font-size: 1.1rem; text-decoration: none; display: inline-block; font-weight: 700;">
+        Book Airport Cab on WhatsApp (+91 70119 60307)
       </a>
     </div>
 

@@ -13,7 +13,7 @@ extra_content_5 = """
           <li><strong>Kashi Tourist Police Station (Dashashwamedh):</strong> +91-542-2450001</li>
           <li><strong>Shri Kashi Vishwanath Temple Control Room:</strong> +91-542-2392600</li>
           <li><strong>Lal Bahadur Shastri Airport Tourist Counter:</strong> +91-542-2622155</li>
-          <li><strong>Kashi Dharshan Direct Local Yatra Helpline:</strong> +91-7408763401 / WhatsApp Assistance</li>
+          <li><strong>Kashi Dharshan Direct Local Yatra Helpline:</strong> +91 70119 60307 / WhatsApp Assistance</li>
         </ul>
 
         <h4 style="font-size: 1.25rem; color: #78350f; margin: 20px 0 10px;">The Kashi Dharshan Yatra Commitment:</h4>
