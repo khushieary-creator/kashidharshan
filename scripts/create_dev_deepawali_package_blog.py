@@ -1,0 +1,383 @@
+"""
+Script: create_dev_deepawali_package_blog.py
+Purpose: Creates the high-ranking seasonal package blog:
+blog-varanasi-dev-deepawali-tour-package-2026-complete-itinerary-cost.html
+"""
+
+html_content = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="favicon.png" type="image/png" sizes="192x192">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dev Deepawali Varanasi Tour Package 2026: 3-Day Yatra Cost, VIP Boat Booking &amp; Itinerary | Kashi Dharshan</title>
+<meta name="description" content="Official Dev Deepawali Varanasi Tour Package 2026 (24 Nov Kartik Purnima). Includes 3-star hotel stay, VIP Ganga Aarti boat booking, Kashi Vishwanath Sugam Darshan pass &amp; AC cab transfers. 4.9★ rated.">
+<meta name="keywords" content="dev deepawali varanasi tour package 2026, dev deepawali kashi tour package, dev deepawali 2026 boat booking, varanasi dev deepawali package cost, dev deepawali 24 november 2026 kashi yatra">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="geo.region" content="IN-UP">
+<meta name="geo.placename" content="Varanasi">
+<meta name="geo.position" content="25.3109;83.0107">
+<meta name="ICBM" content="25.3109, 83.0107">
+<link rel="canonical" href="https://www.kashidharshan.com/blog-varanasi-dev-deepawali-tour-package-2026-complete-itinerary-cost" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Kashi Dharshan">
+<meta property="og:title" content="Dev Deepawali Varanasi Tour Package 2026: 3-Day Yatra Cost &amp; VIP Boat Booking">
+<meta property="og:description" content="Experience 10 Lakh+ diyas across 84 ghats on 24 Nov 2026. Complete 3D/2N Dev Deepawali package with hotel, private boat &amp; VIP Kashi Vishwanath pass.">
+<meta property="og:url" content="https://www.kashidharshan.com/blog-varanasi-dev-deepawali-tour-package-2026-complete-itinerary-cost">
+<meta property="og:image" content="https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dev Deepawali Varanasi Tour Package 2026 | Itinerary &amp; Boat Booking">
+<meta name="twitter:description" content="All-inclusive 2026 Dev Deepawali Kashi Tour Package with guaranteed boat seats &amp; hotel stays.">
+<meta name="twitter:image" content="https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Cormorant+Garamond:wght@400;600;700&family=Mukta:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Structured Data: BlogPosting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Dev Deepawali Varanasi Tour Package 2026: 3-Day Yatra Cost, VIP Boat Booking & Itinerary",
+  "description": "Complete visitor guide and booking rates for Dev Deepawali 2026 tour packages in Varanasi on Tuesday, 24 November 2026 (Kartik Purnima). Includes VIP riverfront bajra boat booking, hotel stay, and Kashi Vishwanath VIP pass.",
+  "image": "https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.kashidharshan.com/assets/logo.png"
+    }
+  },
+  "datePublished": "2026-10-28T18:35:00+05:30",
+  "dateModified": "2026-10-28T18:35:00+05:30",
+  "mainEntityOfPage": "https://www.kashidharshan.com/blog-varanasi-dev-deepawali-tour-package-2026-complete-itinerary-cost"
+}
+</script>
+
+<!-- Structured Data: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When is Varanasi Dev Deepawali in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Varanasi Dev Deepawali will be celebrated on Tuesday, 24 November 2026 on the sacred day of Kartik Purnima. Festivities begin at sunset (05:00 PM) as 10 Lakh+ diyas are lit simultaneously across all 84 ghats from Assi to Namo Ghat."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a Dev Deepawali Varanasi tour package cost in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A complete 3 Days / 2 Nights Dev Deepawali tour package ranges between ₹9,999 to ₹16,500 per person. This includes verified 3-star hotel accommodation, reserved boat viewing seats on River Ganga for the grand illumination, Kashi Vishwanath VIP Sugam Darshan pass, and dedicated private AC cab transfers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is advance boat booking required for Dev Deepawali in Varanasi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, absolutely! On Dev Deepawali evening, over 10 lakh pilgrims gather on the ghats. Boat tickets, bajras, and motorboats get 100% booked 3 to 4 weeks in advance. Spot booking is nearly impossible or subject to extreme 3x-4x surge rates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which ghat has the best view for Dev Deepawali?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dashashwamedh Ghat hosts the grand Maha Aarti with 21 priests. Chet Singh Ghat showcases the 3D laser projection and musical sound show. Watching from a boat in the middle of River Ganga allows you to see all 84 illuminated crescent ghats continuously."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Structured Data: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.kashidharshan.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.kashidharshan.com/blog" },
+    { "@type": "ListItem", "position": 3, "name": "Dev Deepawali Tour Package 2026", "item": "https://www.kashidharshan.com/blog-varanasi-dev-deepawali-tour-package-2026-complete-itinerary-cost" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="/" aria-label="Kashi Dharshan home">
+      <img width="500" height="500" src="assets/logo.webp" alt="Kashi Dharshan Logo" class="brand-mark" fetchpriority="high" decoding="async">
+      <span class="brand-name">Kashi Dharshan<small>Teerth Yatra</small></span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="/">Home</a>
+      <a href="kashi-tour-package">Kashi Tour Packages</a>
+      <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats">Hotels</a>
+      <a href="destinations">Destinations</a>
+      <a href="services">Services</a>
+      <a href="blog" class="active">Blog</a>
+      <a href="contact">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="contact" class="btn btn-primary" aria-label="Plan Your Yatra">
+        <span class="btn-text">Plan Your Yatra</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="/">Home</a> &nbsp;/&nbsp; <a href="blog">Blog</a> &nbsp;/&nbsp; Dev Deepawali Varanasi Tour Package 2026</p>
+    <p class="eyebrow">🪔 Kartik Purnima · 24 November 2026 · The Festival of Lights of the Gods 🪔</p>
+    <h1 class="display hero-title-2line"><span class="hero-line-1">Dev Deepawali Varanasi Tour Package 2026: </span> <span class="hero-line-2">3-Day Yatra Cost, VIP Boat Booking &amp; Itinerary</span></h1>
+    <p class="lead">Complete festival yatra package for Varanasi Dev Deepawali on Tuesday, 24 November 2026. Includes verified 3-star hotel stays, guaranteed riverfront boat seating, Kashi Vishwanath VIP Sugam Darshan pass, and dedicated private AC cab.</p>
+  </div>
+</section>
+
+<main class="section">
+  <div class="container" style="max-width: 1000px; margin: 0 auto; padding: 20px;">
+    
+    <div class="featured-image-container" style="margin: 0 0 32px; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.12); border: 1px solid rgba(212,175,55,0.25);">
+      <img width="900" height="480" src="assets/destinations/ganga-aarti.webp" alt="Dev Deepawali Varanasi 2026 84 Ghats Illumination" style="width: 100%; height: auto; max-height: 440px; object-fit: cover; display: block;" loading="lazy" decoding="async">
+    </div>
+
+    <!-- DATE & SURGE NOTICE BANNER -->
+    <div style="background: #fffbeb; border: 2px solid #f59e0b; border-radius: 12px; padding: 22px 24px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(245,158,11,0.15);">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
+        <span style="font-size: 28px;">🪔</span>
+        <h3 style="color: #92400e; margin: 0; font-size: 1.35rem; font-weight: 700; font-family: var(--font-display);">Official Date: Tuesday, 24 November 2026 (Kartik Purnima)</h3>
+      </div>
+      <p style="color: #78350f; margin: 0 0 10px 0; font-size: 1.02rem; line-height: 1.7;">
+        <strong>Dev Deepawali</strong> (the "Diwali of the Gods") is celebrated exactly 15 days after Diwali on Kartik Purnima. On this divine night, it is believed that the 33 crore Hindu deities descend to the holy city of Kashi to take a dip in River Ganga and celebrate Lord Shiva's victory over the demon Tripurasura.
+      </p>
+      <p style="color: #78350f; margin: 0; font-size: 0.96rem; line-height: 1.6;">
+        ⚠️ <strong>Booking Warning:</strong> Hotel rooms and private boats for 23, 24, and 25 November are already 75% booked. Last-minute boat charges on the ghats spike to ₹20,000–₹50,000. Book your all-inclusive package today to secure verified rates!
+      </p>
+    </div>
+
+    <!-- PACKAGE COST TABLE -->
+    <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 2rem; margin-top: 36px;">1. Dev Deepawali Varanasi Package Options &amp; Rates (2026)</h2>
+    <p style="color: #374151; line-height: 1.8;">We offer specially curated Dev Deepawali packages ensuring you get prime boat viewing, hassle-free hotel stays, and priority temple passes.</p>
+
+    <div style="overflow-x: auto; margin: 20px 0 36px;">
+      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.96rem; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
+        <thead>
+          <tr style="background: var(--maroon); color: #fff;">
+            <th style="padding: 14px 16px; border: 1px solid #ddd;">Package Tier</th>
+            <th style="padding: 14px 16px; border: 1px solid #ddd;">Duration</th>
+            <th style="padding: 14px 16px; border: 1px solid #ddd;">Key Inclusions</th>
+            <th style="padding: 14px 16px; border: 1px solid #ddd;">Price Per Person</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fffcf7;">
+            <td style="padding: 12px 16px; border: 1px solid #eee; font-weight: 700; color: #9a3412;">Standard Dev Deepawali Package</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;">3 Days / 2 Nights<br>(23–25 Nov)</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;">3-Star AC Hotel + Shared Bajra Boat Seat + VIP Sugam Pass + AC Cab</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee; color: #15803d; font-weight: 700; font-size: 1.1rem;">₹9,999</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px 16px; border: 1px solid #eee; font-weight: 700; color: #9a3412;">Premium Family Package</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;">3 Days / 2 Nights<br>(23–25 Nov)</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;">4-Star Cantt Hotel + Private Motorboat + VIP Pass + Sarnath + AC SUV</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee; color: #15803d; font-weight: 700; font-size: 1.1rem;">₹14,500</td>
+          </tr>
+          <tr style="background: #fffcf7;">
+            <td style="padding: 12px 16px; border: 1px solid #eee; font-weight: 700; color: #9a3412;">Grand 5-Day Circuit (Kashi + Ayodhya)</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;">5 Days / 4 Nights<br>(22–26 Nov)</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;">Kashi Dev Deepawali + Ayodhya Ram Mandir VIP Darshan + Prayagraj Sangam</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee; color: #15803d; font-weight: 700; font-size: 1.1rem;">₹21,900</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 3-DAY ITINERARY -->
+    <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 2rem; margin-top: 36px;">2. 3-Day Dev Deepawali Master Itinerary (23 to 25 November 2026)</h2>
+
+    <div style="background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px; margin: 20px 0;">
+      <h3 style="color: var(--saffron-deep); margin-top: 0; font-size: 1.3rem;">Day 1 (23 Nov): Arrival in Kashi, Temple Visits &amp; Pre-Festive Vibrations</h3>
+      <p style="color: #4b5563; line-height: 1.8;">
+        Arrive at Varanasi Airport/Railway Station. Private AC transfer to your hotel. Visit the grand Kashi Vishwanath Dham Corridor using your pre-arranged <a href="kashi-vishwanath-sugam-darshan-vip-pass" style="color: var(--maroon); font-weight: 700;">VIP Sugam Darshan Pass</a>. Visit Maa Annapurna Mandir and Kaal Bhairav. Evening walk across Godowlia and Dashashwamedh Ghat to experience the lighting preparations. Overnight stay in Varanasi.
+      </p>
+
+      <h3 style="color: var(--saffron-deep); font-size: 1.3rem; margin-top: 24px;">Day 2 (24 Nov - Dev Deepawali): The Grand Divine Illumination of 84 Ghats</h3>
+      <p style="color: #4b5563; line-height: 1.8;">
+        Early morning visit to historic Sarnath. Post lunch, relax before the mega evening. By 04:30 PM, board your reserved private or shared boat at the ghat. As the sun sets, witness all 84 ghats lit with 10 Lakh+ clay lamps (*diyas*). Watch the world-renowned <strong>21-priest Maha Aarti at Dashashwamedh Ghat</strong>, followed by the spectacular 3D Laser &amp; Sound projection show on the historic stone facade of Chet Singh Fort, concluded with sky-illuminating green fireworks across the riverbank. Return to hotel by 09:30 PM.
+      </p>
+
+      <h3 style="color: var(--saffron-deep); font-size: 1.3rem; margin-top: 24px;">Day 3 (25 Nov): Subah-e-Banaras, Holy Dip &amp; Departure</h3>
+      <p style="color: #4b5563; line-height: 1.8;">
+        Experience serene Subah-e-Banaras sunrise Aarti at Assi Ghat. Take a holy snan in Maa Ganga, visit Sankat Mochan Temple and BHU New Vishwanath Temple. Enjoy traditional Banarasi breakfast (Kachori Jalebi &amp; winter Malaiyo). On-time transfer to Varanasi Airport/Railway Station with blessed prasad.
+      </p>
+    </div>
+
+    <!-- BOOKING CTA BOX -->
+    <div style="background: linear-gradient(135deg, #7C261A, #9A3415); color: #fff; border-radius: 14px; padding: 32px; margin: 36px 0; text-align: center; box-shadow: 0 10px 30px rgba(92,26,18,0.3);">
+      <h3 style="font-size: 1.8rem; margin: 0 0 12px; font-family: var(--font-display); color: #FFE9C2;">Secure Your Dev Deepawali 2026 Package Now</h3>
+      <p style="max-width: 650px; margin: 0 auto 24px; color: #FCEFD9; line-height: 1.7; font-size: 1.05rem;">
+        Avoid last-minute hotel surges and sold-out boats. Connect directly with our local Varanasi pilgrimage desk on WhatsApp for custom itineraries, group discounts, and confirmed boat reservations.
+      </p>
+      <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+        <a href="kashi-tour-package" class="btn btn-saffron" style="font-weight: 700; padding: 12px 28px;">Explore Kashi Packages</a>
+        <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20book%20Dev%20Deepawali%202026%20Tour%20Package%20and%20Boat." target="_blank" rel="noopener" class="btn" style="background: #25D366; color: #fff; font-weight: 700; padding: 12px 26px; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+          💬 WhatsApp Instant Booking (+91 70119 60307)
+        </a>
+      </div>
+    </div>
+
+    <!-- FAQS ACCORDION -->
+    <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 2rem; margin-top: 36px;">3. Frequently Asked Questions (Dev Deepawali FAQs)</h2>
+    <div class="faq-list" style="margin-top: 20px;">
+      <details style="background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px 20px; margin-bottom: 12px;">
+        <summary style="font-weight: 700; font-size: 1.05rem; color: var(--maroon); cursor: pointer;">Can senior citizens comfortably watch Dev Deepawali?</summary>
+        <div style="margin-top: 10px; color: #4b5563; line-height: 1.7;">
+          Yes! The best and most comfortable way for senior citizens is from a pre-booked private motorboat or large Bajra. It completely avoids the massive 10-lakh pedestrian crowds on the ghat steps and allows peaceful viewing from cushioned seats.
+        </div>
+      </details>
+      <details style="background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px 20px; margin-bottom: 12px;">
+        <summary style="font-weight: 700; font-size: 1.05rem; color: var(--maroon); cursor: pointer;">Are cars and cabs allowed near Godowlia on Dev Deepawali?</summary>
+        <div style="margin-top: 10px; color: #4b5563; line-height: 1.7;">
+          No, the Varanasi police enforces a complete vehicle curfew (no four-wheelers) within 2 km of the ghats from 12:00 PM onwards on 24 November. Staying at a hotel walking distance to the ghats or having our local guide escort you via approved e-rickshaw routes is essential.
+        </div>
+      </details>
+      <details style="background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px 20px; margin-bottom: 12px;">
+        <summary style="font-weight: 700; font-size: 1.05rem; color: var(--maroon); cursor: pointer;">What is the cancellation policy for festival bookings?</summary>
+        <div style="margin-top: 10px; color: #4b5563; line-height: 1.7;">
+          Because boat slots and festival hotel rooms are strictly limited, full details are shared upon quotation. Free date adjustments or partial refunds are provided as per our transparent pilgrimage terms.
+        </div>
+      </details>
+    </div>
+
+  </div>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-foot">
+  <div class="container foot-grid">
+    <div class="foot-brand">
+      <div class="brand" style="margin-bottom:16px;">
+        <img width="500" height="500" src="assets/logo.webp" alt="Kashi Dharshan Logo" class="brand-mark" fetchpriority="high" decoding="async">
+        <span class="brand-name" style="color:#FCEFD9;">Kashi Dharshan<small style="display:block; color:#D8C3AB; font-size:0.75rem;">Teerth Yatra</small></span>
+      </div>
+      <p style="color:#C3AD93; max-width:32ch; line-height:1.6; font-size:0.95rem;">Soulful, fully-managed pilgrimages across the holiest cities of Uttar Pradesh — guided with reverence and care.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="destinations">Destinations</a>
+      <a href="services">Services</a>
+      <a href="yatra-cost-calculator">Calculator</a>
+      <a href="about">About Us</a>
+      <a href="blog">Blog</a>
+      <a href="contact">Contact</a>
+    </div>
+    <div>
+      <h4>Cities</h4>
+      <a href="ayodhya-tour-package">Ayodhya</a>
+      <a href="varanasi-tour-package">Varanasi</a>
+      <a href="prayagraj-tour-package">Prayagraj</a>
+      <a href="chitrakoot-tour-package">Chitrakoot</a>
+      <a href="naimisharanya-tour-package">Naimisharanya</a>
+      <a href="vindhyachal-tour-package">Vindhyachal</a>
+      <a href="mathura-tour-package">Mathura</a>
+      <a href="vrindavan-tour-package">Vrindavan</a>
+    </div>
+    <div>
+      <h4>Reach Us</h4>
+      <a href="tel:+917011960307">+91 70119 60307</a>
+      <a href="mailto:yatra@kashidharshan.com">yatra@kashidharshan.com</a>
+      <a href="contact">Godowlia, Near Kashi Vishwanath Temple, Varanasi</a>
+      <a href="https://share.google/Q6wXLDvNd2VDOzNUp" target="_blank" rel="noopener">Find us on Google Maps</a>
+      <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Dev%20Deepawali%20Tour%20Package." target="_blank" rel="noopener">WhatsApp · 24×7</a>
+    </div>
+  </div>
+  
+  <div class="foot-quick-services" style="border-top:1px solid rgba(255,255,255,0.12); padding:16px 0; margin-top:28px;">
+    <div class="container" style="display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; justify-content:center; font-size:0.86rem; text-align:center;">
+      <span style="color:var(--gold-soft, #f59e0b); font-weight:700; text-transform:uppercase; letter-spacing:0.8px; font-size:0.78rem;">⚡ Quick VIP Services:</span>
+      <a href="kashi-tour-package" style="color:#FCEFD9; text-decoration:none; font-weight:700;">Kashi Tour Package (Best Rates)</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="kashi-vishwanath-sugam-darshan-vip-pass" style="color:#FCEFD9; text-decoration:none;">Kashi Vishwanath VIP Sugam Pass</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="varanasi-ganga-aarti-boat-booking-cost" style="color:#FCEFD9; text-decoration:none;">Ganga Aarti Boat Booking Rates</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="mangla-aarti-kashi-vishwanath-booking-guide" style="color:#FCEFD9; text-decoration:none;">Mangla Aarti Booking Guide</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="varanasi-airport-to-kashi-vishwanath-taxi-fare" style="color:#FCEFD9; text-decoration:none;">Varanasi Airport Cab Fare</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="kashi-vishwanath-tour-package" style="color:#FCEFD9; text-decoration:none;">Kashi Vishwanath Tour Package</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="varanasi-guide" style="color:#FCEFD9; text-decoration:none;">Varanasi Complete Travel Guide</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats" style="color:#FCEFD9; text-decoration:none;">Hotels in Varanasi (3★, 4★, 5★)</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="blog-varanasi-air-show-2026-wings-over-ganges-guide" style="color:#FCEFD9; text-decoration:none;">Varanasi Air Show 2026 Schedule</a>
+    </div>
+  </div>
+
+  <div class="container foot-bottom">
+    <span>© 2026 Kashi Dharshan · Teerth Yatra Seva</span>
+    <span>॥ हर हर महादेव ॥</span>
+  </div>
+</footer>
+
+<!-- Desktop Floating WhatsApp Button -->
+<a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Dev%20Deepawali%20Tour%20Package." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm5.83 14.12c-.24.68-1.22 1.25-1.7 1.29-.48.04-.97.19-3.07-.63-2.67-1.05-4.4-3.76-4.53-3.94-.13-.18-1.07-1.42-1.07-2.72 0-1.29.67-1.93.91-2.19.24-.26.54-.33.72-.33.18 0 .36.01.52.02.17.01.39-.06.61.47.24.58.82 2.01.89 2.16.07.15.12.33.02.52-.1.19-.21.31-.36.48-.15.17-.32.39-.46.52-.16.15-.33.31-.14.63.19.32.85 1.4 1.82 2.26.97.86 1.79 1.13 2.11 1.26.32.13.51.1.7-.12.19-.22.82-.96 1.04-1.29.22-.33.45-.28.76-.16.31.12 1.99.94 2.33 1.11.34.17.57.26.65.41.08.15.08.88-.16 1.56z"/></svg>
+</a>
+
+<!-- Mobile Sticky CTA Bar -->
+<div class="mobile-sticky-cta-bar" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; width: 100%; background: #ffffff; border-top: 2px solid #FF6B00; z-index: 999999; box-shadow: 0 -4px 15px rgba(0,0,0,0.18); padding: 8px 12px;">
+  <div style="display: flex; gap: 10px; max-width: 500px; margin: 0 auto;">
+    <a href="tel:+917011960307" style="flex: 1; background: #800000; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      📞 Call Helpline
+    </a>
+    <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20book%20Dev%20Deepawali%20Tour%20Package." target="_blank" rel="noopener" style="flex: 1; background: #25D366; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      💬 WhatsApp Quote
+    </a>
+  </div>
+</div>
+<style>
+@media (max-width: 768px) {
+  .mobile-sticky-cta-bar { display: block !important; }
+  body { padding-bottom: 65px !important; }
+}
+</style>
+
+<script>
+const navToggle=document.getElementById('navToggle'), navLinks=document.getElementById('navLinks');
+navToggle?.addEventListener('click',()=>navLinks.classList.toggle('open'));
+</script>
+</body>
+</html>
+"""
+
+with open("blog-varanasi-dev-deepawali-tour-package-2026-complete-itinerary-cost.html", "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+print("Created blog-varanasi-dev-deepawali-tour-package-2026-complete-itinerary-cost.html successfully!")
