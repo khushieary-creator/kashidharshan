@@ -1,0 +1,425 @@
+"""
+Script: create_subah_e_banaras_blog.py
+Purpose: Creates high-search-volume evergreen guide:
+blog-subah-e-banaras-assi-ghat-morning-aarti-timings-guide.html
+"""
+
+html_content = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="favicon.png" type="image/png" sizes="192x192">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subah-e-Banaras Assi Ghat Timings 2026: Morning Ganga Aarti, Sunrise Boat Tour Rates &amp; Schedule | Kashi Dharshan</title>
+<meta name="description" content="Complete 2026 guide to Subah-e-Banaras at Assi Ghat: Morning Ganga Aarti timings (05:00 AM - 07:00 AM), Vedic Hawan, sunrise boat tour price, yoga, classical music &amp; yatra guide.">
+<meta name="keywords" content="subah e banaras timings 2026, assi ghat morning aarti time, subah e banaras sunrise boat tour price, assi ghat aarti timing today, subah e banaras cultural program schedule, best morning boat tour varanasi, sunrise boat ride assi ghat to manikarnika">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="geo.region" content="IN-UP">
+<meta name="geo.placename" content="Varanasi">
+<meta name="geo.position" content="25.2882;83.0062">
+<meta name="ICBM" content="25.2882, 83.0062">
+<link rel="canonical" href="https://www.kashidharshan.com/blog-subah-e-banaras-assi-ghat-morning-aarti-timings-guide" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Kashi Dharshan">
+<meta property="og:title" content="Subah-e-Banaras Assi Ghat Timings 2026: Morning Ganga Aarti &amp; Sunrise Boat Tour">
+<meta property="og:description" content="Witness the world-famous Subah-e-Banaras at Assi Ghat. Morning Ganga Aarti timings, Vedic chanting, sunrise boat tour prices &amp; breakfast trail.">
+<meta property="og:url" content="https://www.kashidharshan.com/blog-subah-e-banaras-assi-ghat-morning-aarti-timings-guide">
+<meta property="og:image" content="https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Subah-e-Banaras Assi Ghat Timings 2026 | Morning Aarti &amp; Boat Tour">
+<meta name="twitter:description" content="Complete guide to early morning rituals, sunrise Ganga Aarti and boat ride at Assi Ghat Varanasi.">
+<meta name="twitter:image" content="https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Cormorant+Garamond:wght@400;600;700&family=Mukta:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Structured Data: BlogPosting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Subah-e-Banaras Assi Ghat Timings 2026: Morning Ganga Aarti, Sunrise Boat Tour Rates & Schedule",
+  "description": "Exhaustive guide to the Subah-e-Banaras morning cultural tradition at Assi Ghat Varanasi, featuring daily Aarti timings, Vedic Hawan, sunrise boat ride rates, and classical music performances.",
+  "image": "https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.kashidharshan.com/assets/logo.png"
+    }
+  },
+  "datePublished": "2026-10-29T14:30:00+05:30",
+  "dateModified": "2026-10-29T14:30:00+05:30",
+  "mainEntityOfPage": "https://www.kashidharshan.com/blog-subah-e-banaras-assi-ghat-morning-aarti-timings-guide"
+}
+</script>
+
+<!-- Structured Data: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What time does Subah-e-Banaras morning Aarti start at Assi Ghat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Subah-e-Banaras begins at 05:00 AM in summers and 05:30 AM in winters at Assi Ghat. The rituals start with Vedic Hawan and Yagya, followed by the grand sunrise Ganga Aarti by young Batuk priests at 05:30 AM to 06:00 AM."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there any ticket or entry fee for Subah-e-Banaras at Assi Ghat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, Subah-e-Banaras is 100% free and open to the public. Anyone can sit on the stone steps of Assi Ghat and witness the Vedic rituals, Ganga Aarti, and classical music performance without any ticket."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a sunrise boat ride from Assi Ghat cost in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A traditional row wooden boat costs ₹1,000 to ₹1,500 for a private 1.5-hour tour covering Assi Ghat to Dashashwamedh and Manikarnika Ghats. Motorboats cost ₹2,500 to ₹3,500, while shared seats on larger boats cost ₹200 to ₹300 per person."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between Dashashwamedh Aarti and Assi Ghat Morning Aarti?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dashashwamedh Ghat is famous for its grand evening Ganga Aarti at sunset (06:30 PM), which is massive and theatrical. Assi Ghat hosts Subah-e-Banaras at dawn (05:00 AM), which focuses on spiritual meditation, Vedic chanting, morning yoga, and the mesmerizing golden sunrise over River Ganga."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Structured Data: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.kashidharshan.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.kashidharshan.com/blog" },
+    { "@type": "ListItem", "position": 3, "name": "Subah-e-Banaras Assi Ghat Guide", "item": "https://www.kashidharshan.com/blog-subah-e-banaras-assi-ghat-morning-aarti-timings-guide" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="/" aria-label="Kashi Dharshan home">
+      <img width="500" height="500" src="assets/logo.webp" alt="Kashi Dharshan Logo" class="brand-mark" fetchpriority="high" decoding="async">
+      <span class="brand-name">Kashi Dharshan<small>Teerth Yatra</small></span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="/">Home</a>
+      <a href="kashi-tour-package">Kashi Tour Packages</a>
+      <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats">Hotels</a>
+      <a href="destinations">Destinations</a>
+      <a href="services">Services</a>
+      <a href="blog" class="active">Blog</a>
+      <a href="contact">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="contact" class="btn btn-primary" aria-label="Plan Your Yatra">
+        <span class="btn-text">Plan Your Yatra</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="/">Home</a> &nbsp;/&nbsp; <a href="blog">Blog</a> &nbsp;/&nbsp; Subah-e-Banaras Assi Ghat Guide</p>
+    <p class="eyebrow">॥ सुबह-ए-बनारस · The Awakening of the Eternal City · 2026 Guide ॥</p>
+    <h1 class="display hero-title-2line"><span class="hero-line-1">Subah-e-Banaras Assi Ghat Timings 2026: </span> <span class="hero-line-2">Morning Ganga Aarti, Sunrise Boat Tour &amp; Schedule</span></h1>
+    <p class="lead">Complete pilgrim guide to experiencing the ethereal dawn of Varanasi at Assi Ghat. Morning Ganga Aarti timings, Vedic Hawan rituals, sunrise boat ride fares, classical Raga recitals, and famous Banarasi morning breakfast spots.</p>
+  </div>
+</section>
+
+<main class="section">
+  <div class="container" style="max-width: 1000px; margin: 0 auto; padding: 20px;">
+    
+    <div class="featured-image-container" style="margin: 0 0 32px; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.12); border: 1px solid rgba(212,175,55,0.25);">
+      <img width="900" height="480" src="assets/destinations/ganga-aarti.webp" alt="Subah e Banaras Assi Ghat Morning Ganga Aarti Sunrise" style="width: 100%; height: auto; max-height: 440px; object-fit: cover; display: block;" loading="lazy" decoding="async">
+    </div>
+
+    <!-- QUICK HIGHLIGHT NOTICE BANNER -->
+    <div style="background: #fffcf7; border: 2px solid var(--saffron); border-radius: 12px; padding: 22px 24px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(220,122,31,0.12);">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
+        <span style="font-size: 28px;">🌅</span>
+        <h3 style="color: var(--maroon); margin: 0; font-size: 1.35rem; font-weight: 700; font-family: var(--font-display);">Why You Must Wake Up at 5:00 AM for Subah-e-Banaras</h3>
+      </div>
+      <p style="color: #4b5563; margin: 0 0 10px 0; font-size: 1.02rem; line-height: 1.7;">
+        Legend has it that Mark Twain once wrote: <em>"Benares is older than history, older than tradition, older even than legend, and looks twice as old as all of them put together."</em> Nowhere is this timeless eternity felt more deeply than at <strong>Assi Ghat at dawn</strong>. 
+      </p>
+      <p style="color: #4b5563; margin: 0; font-size: 0.98rem; line-height: 1.6;">
+        Known as <strong>"Subah-e-Banaras"</strong>, this daily cultural and spiritual tradition weaves together Vedic yagya, rhythmic chanting, multi-tiered brass oil lamps, morning ragas, and a sunrise boat cruise across the misty waters of Mother Ganga.
+      </p>
+    </div>
+
+    <!-- DAILY TIMETABLE SECTION -->
+    <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 2rem; margin-top: 36px;">1. Subah-e-Banaras Daily Morning Schedule (2026 Updated)</h2>
+    <p style="color: #374151; line-height: 1.8;">The entire program is conducted daily on the raised concrete podium of <strong>Assi Ghat</strong> and follows a strict time-honored sequence:</p>
+
+    <div style="overflow-x: auto; margin: 20px 0 36px;">
+      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.96rem; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.06);">
+        <thead>
+          <tr style="background: var(--maroon); color: #fff;">
+            <th style="padding: 14px 16px; border: 1px solid #ddd;">Time Slot</th>
+            <th style="padding: 14px 16px; border: 1px solid #ddd;">Ritual / Event</th>
+            <th style="padding: 14px 16px; border: 1px solid #ddd;">Key Spiritual Highlights</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background: #fffcf7;">
+            <td style="padding: 12px 16px; border: 1px solid #eee; font-weight: 700; color: #9a3412;">05:00 AM – 05:30 AM</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;"><strong>Vedic Yagya &amp; Hawan</strong></td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;">Young Batuk Brahmins chant Rigvedic and Shukla Yajurvedic hymns around sacred fire altars.</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px 16px; border: 1px solid #eee; font-weight: 700; color: #9a3412;">05:30 AM – 06:15 AM</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;"><strong>Grand Sunrise Ganga Aarti</strong></td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;">5 priests perform synchronized brass lamp aarti facing the rising sun as conch shells resound.</td>
+          </tr>
+          <tr style="background: #fffcf7;">
+            <td style="padding: 12px 16px; border: 1px solid #eee; font-weight: 700; color: #9a3412;">06:15 AM – 07:00 AM</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;"><strong>Classical Music Recital (Raga)</strong></td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;">Vocal classical music, Shehnai, Flute, and Sitar performances by Banaras Gharana maestros.</td>
+          </tr>
+          <tr>
+            <td style="padding: 12px 16px; border: 1px solid #eee; font-weight: 700; color: #9a3412;">07:00 AM – 07:45 AM</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;"><strong>Open Yoga &amp; Pranayama</strong></td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;">Guided public yoga and meditation session by expert instructors. Free for all attendees.</td>
+          </tr>
+          <tr style="background: #fffcf7;">
+            <td style="padding: 12px 16px; border: 1px solid #eee; font-weight: 700; color: #9a3412;">06:00 AM – 08:00 AM</td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;"><strong>Sunrise Ganga Boat Ride</strong></td>
+            <td style="padding: 12px 16px; border: 1px solid #eee;">Cruise from Assi Ghat to Dashashwamedh, Manikarnika, and Scindia Ghats to view morning snan rituals.</td>
+          </tr>
+        </tbody>
+      </table>
+      <small style="color: #6b7280; display: block; margin-top: 8px;"><em>Note: In peak winter (Dec–Jan), morning timings shift slightly by 30 minutes (05:30 AM start) to align with dawn sunrise.</em></small>
+    </div>
+
+    <!-- SUNRISE BOAT TOUR COST CARD -->
+    <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 2rem; margin-top: 36px;">2. Assi Ghat Sunrise Boat Tour: Options &amp; Fare Rates (2026)</h2>
+    <p style="color: #374151; line-height: 1.8;">
+      Right after watching the Aarti, boarding a boat at Assi Ghat to cruise past the 84 ghats is the highlight of every Varanasi trip. You get to photograph the iconic sunrise over the eastern banks, watch sadhus performing Surya Namaskar, and see life unfold along the riverfront.
+    </p>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+      <div style="background: #fff; border: 2px solid #fed7aa; border-radius: 12px; padding: 22px;">
+        <span style="background: #ffedd5; color: #9a3412; font-size: 0.8rem; font-weight: 700; padding: 4px 10px; border-radius: 999px; text-transform: uppercase;">Traditional Experience</span>
+        <h3 style="color: var(--maroon); margin: 10px 0 6px;">Private Wooden Row Boat</h3>
+        <div style="font-size: 1.5rem; font-weight: 800; color: var(--maroon); margin-bottom: 10px;">₹1,000 – ₹1,500 <small style="font-size: 0.85rem; color: #666;">/ boat (1–4 Persons)</small></div>
+        <p style="color: #4b5563; font-size: 0.94rem; line-height: 1.6; margin: 0 0 12px;">Quiet, motor-less wooden boat steered by an experienced local boatman. Perfect for silent photography, bird watching, and spiritual reflection.</p>
+        <ul style="color: #4b5563; font-size: 0.9rem; line-height: 1.6; padding-left: 18px; margin: 0;">
+          <li>Duration: 1.5 to 2 Hours</li>
+          <li>Route: Assi Ghat ➔ Dashashwamedh ➔ Manikarnika ➔ Return</li>
+        </ul>
+      </div>
+
+      <div style="background: #fff; border: 2px solid #bbf7d0; border-radius: 12px; padding: 22px;">
+        <span style="background: #dcfce7; color: #166534; font-size: 0.8rem; font-weight: 700; padding: 4px 10px; border-radius: 999px; text-transform: uppercase;">Family &amp; Group Choice</span>
+        <h3 style="color: var(--maroon); margin: 10px 0 6px;">Private Motorboat (Speedboat)</h3>
+        <div style="font-size: 1.5rem; font-weight: 800; color: var(--maroon); margin-bottom: 10px;">₹2,500 – ₹3,500 <small style="font-size: 0.85rem; color: #666;">/ boat (Up to 10 Persons)</small></div>
+        <p style="color: #4b5563; font-size: 0.94rem; line-height: 1.6; margin: 0 0 12px;">Faster, spacious motorboat covering the entire 7 km ghat stretch from Assi Ghat all the way to Namo Ghat (Khidkiya Ghat) and back comfortably.</p>
+        <ul style="color: #4b5563; font-size: 0.9rem; line-height: 1.6; padding-left: 18px; margin: 0;">
+          <li>Duration: 2 Hours</li>
+          <li>Covers: All 84 Ghats including Namo Ghat</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- POST-AARTI BANARASI BREAKFAST TRAIL -->
+    <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 2rem; margin-top: 36px;">3. Post-Aarti Breakfast: Iconic Banarasi Morning Delicacies</h2>
+    <p style="color: #374151; line-height: 1.8;">No morning in Varanasi is complete without treating your tastebuds to authentic street breakfast right behind Assi Ghat:</p>
+    <ul style="color: #4b5563; line-height: 1.9; font-size: 1rem;">
+      <li><strong>Kachori Sabzi &amp; Jalebi:</strong> Fresh, piping-hot round kachoris served with spicy aloo-chana gravy and crispy desi ghee jalebis at <em>Pahalwan Lassi</em> or <em>Ram Bhandar</em>.</li>
+      <li><strong>Winter Malaiyo (Makhan Malai):</strong> Available exclusively from October through February, this cloud-like saffron milk foam flavored with pistachios and almonds melts on your tongue.</li>
+      <li><strong>Kullhad Masala Chai &amp; Toast:</strong> Fresh ginger-cardamom tea brewed in clay kullhads at the legendary <em>Pappu Tea Stall</em> near Assi.</li>
+      <li><strong>Blue Lassi / Assi Pomegranate Lassi:</strong> Thick churned curd topped with fresh malai and fruit crushes.</li>
+    </ul>
+
+    <!-- HOW TO PLAN IN KASHI TOUR PACKAGE -->
+    <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 2rem; margin-top: 36px;">4. How to Combine Subah-e-Banaras with Your Kashi Darshan</h2>
+    <p style="color: #374151; line-height: 1.8;">
+      To make the most of your morning, our popular <a href="kashi-tour-package" style="color: var(--maroon); font-weight: 700;">3-Day Kashi Tour Package</a> seamlessly includes:
+    </p>
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 22px; margin: 20px 0;">
+      <ul style="color: #334155; line-height: 1.8; margin: 0; padding-left: 20px;">
+        <li><strong>05:00 AM:</strong> Private AC cab pickup from your <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats" style="color: var(--maroon); font-weight: 600;">hotel near Godowlia</a> to Assi Ghat.</li>
+        <li><strong>05:30 AM:</strong> Reserved seating for Subah-e-Banaras Ganga Aarti and musical performance.</li>
+        <li><strong>06:15 AM:</strong> Board your pre-arranged private wooden boat to cruise to Manikarnika Ghat.</li>
+        <li><strong>08:00 AM:</strong> Banarasi breakfast trail, followed by morning <a href="kashi-vishwanath-sugam-darshan-vip-pass" style="color: var(--maroon); font-weight: 600;">Kashi Vishwanath Sugam Darshan Pass</a> entry through Gate 4.</li>
+      </ul>
+    </div>
+
+    <!-- BOOKING CTA BOX -->
+    <div style="background: linear-gradient(135deg, #7C261A, #9A3415); color: #fff; border-radius: 14px; padding: 32px; margin: 36px 0; text-align: center; box-shadow: 0 10px 30px rgba(92,26,18,0.3);">
+      <h3 style="font-size: 1.8rem; margin: 0 0 12px; font-family: var(--font-display); color: #FFE9C2;">Book Your Subah-e-Banaras Sunrise Boat &amp; Yatra</h3>
+      <p style="max-width: 650px; margin: 0 auto 24px; color: #FCEFD9; line-height: 1.7; font-size: 1.05rem;">
+        Reserve your verified sunrise boat ride, morning pickup cab, and VIP Kashi Vishwanath Darshan without haggling with boatmen on the ghats.
+      </p>
+      <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+        <a href="kashi-tour-package" class="btn btn-saffron" style="font-weight: 700; padding: 12px 28px;">Explore Kashi Packages</a>
+        <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20book%20Subah-e-Banaras%20sunrise%20boat%20and%20Kashi%20yatra." target="_blank" rel="noopener" class="btn" style="background: #25D366; color: #fff; font-weight: 700; padding: 12px 26px; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+          💬 WhatsApp Instant Booking (+91 70119 60307)
+        </a>
+      </div>
+    </div>
+
+    <!-- FAQS ACCORDION -->
+    <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 2rem; margin-top: 36px;">5. Frequently Asked Questions (Pilgrim FAQs)</h2>
+    <div class="faq-list" style="margin-top: 20px;">
+      <details style="background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px 20px; margin-bottom: 12px;">
+        <summary style="font-weight: 700; font-size: 1.05rem; color: var(--maroon); cursor: pointer;">How far is Assi Ghat from Kashi Vishwanath Temple / Godowlia?</summary>
+        <div style="margin-top: 10px; color: #4b5563; line-height: 1.7;">
+          Assi Ghat is approximately 3.2 km south of Godowlia and Kashi Vishwanath Gate 4. An e-rickshaw takes about 10–12 minutes (₹20 per seat or ₹150 for private hire). Alternatively, you can take a morning boat from Dashashwamedh Ghat to Assi Ghat.
+        </div>
+      </details>
+      <details style="background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px 20px; margin-bottom: 12px;">
+        <summary style="font-weight: 700; font-size: 1.05rem; color: var(--maroon); cursor: pointer;">Is advance booking necessary for the sunrise boat ride?</summary>
+        <div style="margin-top: 10px; color: #4b5563; line-height: 1.7;">
+          During peak tourist months (October through March) and festivals (like Dev Deepawali and Mahashivratri), pre-booking your boat guarantees fixed government-approved rates and punctual 05:45 AM departure.
+        </div>
+      </details>
+      <details style="background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 16px 20px; margin-bottom: 12px;">
+        <summary style="font-weight: 700; font-size: 1.05rem; color: var(--maroon); cursor: pointer;">Can senior citizens participate in morning yoga?</summary>
+        <div style="margin-top: 10px; color: #4b5563; line-height: 1.7;">
+          Yes! The yoga sessions include gentle pranayama, breathing exercises, and mild stretches suitable for senior citizens. Mats are laid out on the stone steps, and participation is completely voluntary.
+        </div>
+      </details>
+    </div>
+
+  </div>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-foot">
+  <div class="container foot-grid">
+    <div class="foot-brand">
+      <div class="brand" style="margin-bottom:16px;">
+        <img width="500" height="500" src="assets/logo.webp" alt="Kashi Dharshan Logo" class="brand-mark" fetchpriority="high" decoding="async">
+        <span class="brand-name" style="color:#FCEFD9;">Kashi Dharshan<small style="display:block; color:#D8C3AB; font-size:0.75rem;">Teerth Yatra</small></span>
+      </div>
+      <p style="color:#C3AD93; max-width:32ch; line-height:1.6; font-size:0.95rem;">Soulful, fully-managed pilgrimages across the holiest cities of Uttar Pradesh — guided with reverence and care.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="destinations">Destinations</a>
+      <a href="services">Services</a>
+      <a href="yatra-cost-calculator">Calculator</a>
+      <a href="about">About Us</a>
+      <a href="blog">Blog</a>
+      <a href="contact">Contact</a>
+    </div>
+    <div>
+      <h4>Cities</h4>
+      <a href="ayodhya-tour-package">Ayodhya</a>
+      <a href="varanasi-tour-package">Varanasi</a>
+      <a href="prayagraj-tour-package">Prayagraj</a>
+      <a href="chitrakoot-tour-package">Chitrakoot</a>
+      <a href="naimisharanya-tour-package">Naimisharanya</a>
+      <a href="vindhyachal-tour-package">Vindhyachal</a>
+      <a href="mathura-tour-package">Mathura</a>
+      <a href="vrindavan-tour-package">Vrindavan</a>
+    </div>
+    <div>
+      <h4>Reach Us</h4>
+      <a href="tel:+917011960307">+91 70119 60307</a>
+      <a href="mailto:yatra@kashidharshan.com">yatra@kashidharshan.com</a>
+      <a href="contact">Godowlia, Near Kashi Vishwanath Temple, Varanasi</a>
+      <a href="https://share.google/Q6wXLDvNd2VDOzNUp" target="_blank" rel="noopener">Find us on Google Maps</a>
+      <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Kashi%20Dharshan%20tour%20packages." target="_blank" rel="noopener">WhatsApp · 24×7</a>
+    </div>
+  </div>
+  
+  <div class="foot-quick-services" style="border-top:1px solid rgba(255,255,255,0.12); padding:16px 0; margin-top:28px;">
+    <div class="container" style="display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; justify-content:center; font-size:0.86rem; text-align:center;">
+      <span style="color:var(--gold-soft, #f59e0b); font-weight:700; text-transform:uppercase; letter-spacing:0.8px; font-size:0.78rem;">⚡ Quick VIP Services:</span>
+      <a href="kashi-tour-package" style="color:#FCEFD9; text-decoration:none; font-weight:700;">Kashi Tour Package (Best Rates)</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="kashi-vishwanath-sugam-darshan-vip-pass" style="color:#FCEFD9; text-decoration:none;">Kashi Vishwanath VIP Sugam Pass</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="varanasi-ganga-aarti-boat-booking-cost" style="color:#FCEFD9; text-decoration:none;">Ganga Aarti Boat Booking Rates</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="mangla-aarti-kashi-vishwanath-booking-guide" style="color:#FCEFD9; text-decoration:none;">Mangla Aarti Booking Guide</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="varanasi-airport-to-kashi-vishwanath-taxi-fare" style="color:#FCEFD9; text-decoration:none;">Varanasi Airport Cab Fare</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="kashi-vishwanath-tour-package" style="color:#FCEFD9; text-decoration:none;">Kashi Vishwanath Tour Package</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="varanasi-guide" style="color:#FCEFD9; text-decoration:none;">Varanasi Complete Travel Guide</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats" style="color:#FCEFD9; text-decoration:none;">Hotels in Varanasi (3★, 4★, 5★)</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="blog-varanasi-air-show-2026-wings-over-ganges-guide" style="color:#FCEFD9; text-decoration:none;">Varanasi Air Show 2026 Schedule</a>
+    </div>
+  </div>
+
+  <div class="container foot-bottom">
+    <span>© 2026 Kashi Dharshan · Teerth Yatra Seva</span>
+    <span>॥ हर हर महादेव ॥</span>
+  </div>
+</footer>
+
+<!-- Desktop Floating WhatsApp Button -->
+<a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Subah-e-Banaras%20and%20Kashi%20Tour%20Packages." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm5.83 14.12c-.24.68-1.22 1.25-1.7 1.29-.48.04-.97.19-3.07-.63-2.67-1.05-4.4-3.76-4.53-3.94-.13-.18-1.07-1.42-1.07-2.72 0-1.29.67-1.93.91-2.19.24-.26.54-.33.72-.33.18 0 .36.01.52.02.17.01.39-.06.61.47.24.58.82 2.01.89 2.16.07.15.12.33.02.52-.1.19-.21.31-.36.48-.15.17-.32.39-.46.52-.16.15-.33.31-.14.63.19.32.85 1.4 1.82 2.26.97.86 1.79 1.13 2.11 1.26.32.13.51.1.7-.12.19-.22.82-.96 1.04-1.29.22-.33.45-.28.76-.16.31.12 1.99.94 2.33 1.11.34.17.57.26.65.41.08.15.08.88-.16 1.56z"/></svg>
+</a>
+
+<!-- Mobile Sticky Call/WhatsApp Bar -->
+<div class="mobile-sticky-cta-bar" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; width: 100%; background: #ffffff; border-top: 2px solid #FF6B00; z-index: 999999; box-shadow: 0 -4px 15px rgba(0,0,0,0.18); padding: 8px 12px;">
+  <div style="display: flex; gap: 10px; max-width: 500px; margin: 0 auto;">
+    <a href="tel:+917011960307" style="flex: 1; background: #800000; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      📞 Call Helpline
+    </a>
+    <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20details%20for%20Subah-e-Banaras%20sunrise%20boat%20and%20Kashi%20yatra." target="_blank" rel="noopener" style="flex: 1; background: #25D366; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      💬 WhatsApp Booking
+    </a>
+  </div>
+</div>
+<style>
+@media (max-width: 768px) {
+  .mobile-sticky-cta-bar { display: block !important; }
+  body { padding-bottom: 65px !important; }
+}
+</style>
+
+<script>
+const navToggle=document.getElementById('navToggle'), navLinks=document.getElementById('navLinks');
+navToggle?.addEventListener('click',()=>navLinks.classList.toggle('open'));
+</script>
+</body>
+</html>
+"""
+
+output_path = "blog-subah-e-banaras-assi-ghat-morning-aarti-timings-guide.html"
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+print(f"Created {output_path} successfully!")
