@@ -1,0 +1,556 @@
+import os
+
+blog_html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="favicon.png" type="image/png" sizes="192x192">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Varanasi Chhath Puja 2026: Ghat Arghya Timings (15-16 Nov), Boat Rates &amp; Schedule | Kashi Dharshan</title>
+<meta name="description" content="Complete 2026 guide to Chhath Puja at Varanasi ghats: Sandhya Arghya sunset (15 Nov 5:12 PM), Usha Arghya sunrise (16 Nov 6:18 AM), private boat booking rates &amp; yatra tips.">
+<meta name="keywords" content="chhath puja 2026 varanasi, varanasi chhath puja arghya timings 2026, chhath puja sunset sunrise time varanasi, varanasi ghat chhath puja boat booking, best ghats for chhath puja in varanasi, chhath puja 4 day schedule kashi, kashi tour package">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="geo.region" content="IN-UP">
+<meta name="geo.placename" content="Varanasi">
+<meta name="geo.position" content="25.3109;83.0107">
+<meta name="ICBM" content="25.3109, 83.0107">
+<link rel="canonical" href="https://www.kashidharshan.com/blog-varanasi-chhath-puja-2026-ghat-arghya-timings-boat-booking-guide" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Kashi Dharshan">
+<meta property="og:title" content="Varanasi Chhath Puja 2026: Ghat Arghya Timings &amp; Boat Booking Guide">
+<meta property="og:description" content="Witness the divine Chhath Mahaparv across 84 ghats of Varanasi. Sandhya Arghya (15 Nov 5:12 PM), Usha Arghya (16 Nov 6:18 AM), boat booking rates &amp; yatra tips.">
+<meta property="og:url" content="https://www.kashidharshan.com/blog-varanasi-chhath-puja-2026-ghat-arghya-timings-boat-booking-guide">
+<meta property="og:image" content="https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Varanasi Chhath Puja 2026: Arghya Timings &amp; Boat Guide">
+<meta name="twitter:description" content="Complete schedule of Chhath Puja 2026 in Varanasi: Sunset and Sunrise Arghya times, private boat hire, and best ghats.">
+<meta name="twitter:image" content="https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Cormorant+Garamond:wght@400;600;700&family=Mukta:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Structured Data: BlogPosting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Varanasi Chhath Puja 2026: Ghat Arghya Timings (15-16 Nov), Boat Rates & Schedule",
+  "description": "Comprehensive guide to celebrating Chhath Puja 2026 on the sacred ghats of Varanasi, detailing Sandhya Arghya and Usha Arghya timings, private boat hiring rates for Vratis, best viewing ghats, and family yatra logistics.",
+  "image": "https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.kashidharshan.com/assets/logo.png"
+    }
+  },
+  "datePublished": "2026-11-04T10:30:00+05:30",
+  "dateModified": "2026-11-04T10:30:00+05:30",
+  "mainEntityOfPage": "https://www.kashidharshan.com/blog-varanasi-chhath-puja-2026-ghat-arghya-timings-boat-booking-guide",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".aeo-direct-answer", ".aeo-faq-item"]
+  }
+}
+</script>
+
+<!-- Structured Data: Event Schema for Chhath Puja -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Varanasi Chhath Puja Mahaparv 2026",
+  "startDate": "2026-11-13T06:00:00+05:30",
+  "endDate": "2026-11-16T08:00:00+05:30",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": {
+    "@type": "Place",
+    "name": "84 Ghats of River Ganga (Dashashwamedh, Assi & Namo Ghat)",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Ganga Ghats, Godowlia",
+      "addressLocality": "Varanasi",
+      "postalCode": "221001",
+      "addressRegion": "UP",
+      "addressCountry": "IN"
+    }
+  },
+  "image": [
+    "https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp"
+  ],
+  "description": "Grand 4-day solar worship festival celebrated with sacred holy dips, fasting, and offering Sandhya and Usha Arghya to Surya Dev on the illuminated ghats of Varanasi.",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.kashidharshan.com/kashi-tour-package",
+    "price": "0",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2026-11-04T00:00:00+05:30"
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels",
+    "url": "https://www.kashidharshan.com/"
+  }
+}
+</script>
+
+<!-- Structured Data: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the exact dates and Arghya timings for Chhath Puja 2026 in Varanasi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chhath Puja 2026 runs from Friday, 13 November to Monday, 16 November 2026. The 1st Arghya (Sandhya Arghya) is offered at sunset on Sunday, 15 November 2026 at 05:12 PM. The 2nd Arghya (Usha Arghya) is offered at sunrise on Monday, 16 November 2026 at 06:18 AM."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can devotees rent a private boat for offering Chhath Puja Arghya in River Ganga?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, renting a private wooden row boat or motorboat is the most preferred option for families. It allows Vratis to carry their Puja Daura and Soop directly into the calm waters of the Ganges and offer Arghya peacefully without struggling through massive ghat crowds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a boat ride cost for Chhath Puja in Varanasi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "During Chhath Puja, private wooden row boats (4 to 6 persons) cost ₹1,500 to ₹2,500 for a 3-hour booking. Medium motorboats cost ₹3,000 to ₹4,500, and shared seats on double-decker Bajras cost ₹300 to ₹500 per person."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which ghats in Varanasi are best for performing Chhath Puja?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dashashwamedh Ghat is the most vibrant and grand. Assi Ghat offers wide stone steps and easy access. For elderly devotees and families with wheelchairs, Namo Ghat is the best due to barrier-free ramps, clean facilities, and dedicated car parking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What time should families reach the ghats for Sandhya Arghya?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Families should reach their chosen ghat by 03:30 PM on Sunday, 15 November 2026. Sunset occurs at 05:12 PM, but ghat stone steps fill up completely with colorful Daura and diyas by 04:15 PM."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the 4 days of Chhath Puja called and what rituals happen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Day 1 is Nahay Khay (13 Nov: ritual bath and Kaddu-Bhaat). Day 2 is Kharna (14 Nov: 36-hour nirjala fast begins, Rasiyaav kheer prasad at dusk). Day 3 is Sandhya Arghya (15 Nov: sunset offering with Thekua and fruits). Day 4 is Usha Arghya & Paran (16 Nov: sunrise offering and breaking of fast)."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Structured Data: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.kashidharshan.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.kashidharshan.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Varanasi Chhath Puja 2026 Guide",
+      "item": "https://www.kashidharshan.com/blog-varanasi-chhath-puja-2026-ghat-arghya-timings-boat-booking-guide"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="/" aria-label="Kashi Dharshan home">
+      <img width="500" height="500" src="assets/logo.webp" alt="Kashi Dharshan Logo" class="brand-mark" fetchpriority="high" decoding="async">
+      <span class="brand-name">Kashi Dharshan<small>Teerth Yatra</small></span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="/">Home</a>
+      <a href="kashi-tour-package">Kashi Tour Packages</a>
+      <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats">Hotels</a>
+      <a href="destinations">Destinations</a>
+      <a href="services">Services</a>
+      <a href="blog" class="active">Blog</a>
+      <a href="contact">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="contact" class="btn btn-primary" aria-label="Plan Your Yatra">
+        <span class="btn-text">Plan Your Yatra</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="/">Home</a> &nbsp;/&nbsp; <a href="blog">Blog</a> &nbsp;/&nbsp; Varanasi Chhath Puja 2026 Guide</p>
+    <p class="eyebrow">॥ ॐ सूर्याय नमः · छठ महापर्व वाराणसी घाट अर्घ्य समय सारिणी २०२६ ॥</p>
+    <h1 class="display hero-title-2line"><span class="hero-line-1">Varanasi Chhath Puja 2026: </span> <span class="hero-line-2">Ghat Arghya Timings (15–16 Nov), Boat Rates &amp; Schedule</span></h1>
+    <p class="lead">Complete pilgrim guide to experiencing the divine glory of <strong>Chhath Puja Mahaparv</strong> on the 84 ghats of River Ganga in Varanasi. Sandhya Arghya sunset timings (15 Nov at 05:12 PM), Usha Arghya sunrise timings (16 Nov at 06:18 AM), private boat booking rates, best ghats, and family yatra arrangements.</p>
+  </div>
+</section>
+
+<main class="section">
+  <div class="container" style="max-width: 1000px; margin: 0 auto; padding: 20px;">
+    
+    <div class="featured-image-container" style="margin: 0 0 32px; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.12); border: 1px solid rgba(212,175,55,0.25);">
+      <img width="900" height="480" src="assets/destinations/ganga-aarti.webp" alt="Chhath Puja Varanasi Ghats Sandhya Arghya River Ganga" style="width: 100%; height: auto; max-height: 440px; object-fit: cover; display: block;" loading="lazy" decoding="async">
+    </div>
+
+    <!-- AEO DIRECT ANSWER HIGHLIGHT BOX (Zero-Click Answer Engine Target) -->
+    <div class="aeo-direct-answer" style="background: #fffcf7; border: 2.5px solid var(--saffron); border-radius: 14px; padding: 24px; margin-bottom: 34px; box-shadow: 0 6px 20px rgba(220,122,31,0.15);">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+        <span style="font-size: 2rem;">🌅</span>
+        <h2 style="font-size: 1.4rem; color: var(--maroon); margin: 0; font-family: var(--font-display);">Direct Answer: What are Chhath Puja 2026 Arghya Timings in Varanasi?</h2>
+      </div>
+      <p style="font-size: 1.1rem; line-height: 1.7; color: var(--ink); margin: 0 0 14px; font-weight: 500;">
+        In Varanasi, the 1st Arghya (<strong>Sandhya Arghya</strong>) to the setting Sun God will take place on <strong>Sunday, 15 November 2026 at 05:12 PM</strong>. The 2nd Arghya (<strong>Usha Arghya</strong>) to the rising Sun God will be offered on <strong>Monday, 16 November 2026 at 06:18 AM</strong>. The 4-day Mahaparv begins with Nahay Khay on Friday, 13 November and Kharna on Saturday, 14 November 2026.
+      </p>
+      <div style="background: rgba(180,83,9,0.08); border-left: 4px solid #b45309; padding: 10px 14px; border-radius: 4px; font-size: 0.95rem; color: #78350f;">
+        <strong>🚤 Boat Booking Advisory:</strong> Over 5 Lakh devotees converge upon Dashashwamedh and Assi Ghats. For fasting Vratis and families with children, pre-booking a private row boat or motorboat allows you to carry your Puja Daura safely and offer Arghya directly in the pure river current without standing in dense crowds.
+      </div>
+    </div>
+
+    <!-- SECTION 1: 4-DAY CHHATH MAHAPARV SCHEDULE MATRIX (GEO TABLE) -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 1.9rem; border-bottom: 2px solid rgba(212,175,55,0.3); padding-bottom: 8px;">1. 4-Day Chhath Puja 2026 Varanasi Calendar &amp; Arghya Timings</h2>
+      <p style="line-height: 1.7; color: var(--ink-2); font-size: 1.05rem;">Chhath is the only festival where the setting sun is worshipped first, followed by the rising sun. Here is the verified 4-day ritual schedule for Varanasi:</p>
+
+      <div style="overflow-x: auto; margin-top: 18px;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.96rem; text-align: left;">
+          <thead>
+            <tr style="background: var(--maroon); color: #fff;">
+              <th style="padding: 13px 14px; border: 1px solid rgba(255,255,255,0.2);">Day &amp; Ritual</th>
+              <th style="padding: 13px 14px; border: 1px solid rgba(255,255,255,0.2);">Date (2026)</th>
+              <th style="padding: 13px 14px; border: 1px solid rgba(255,255,255,0.2);">Key Rituals on River Ganga</th>
+              <th style="padding: 13px 14px; border: 1px solid rgba(255,255,255,0.2);">Exact Timings</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background: #ffffff; border-bottom: 1px solid var(--line);">
+              <td style="padding: 13px 14px; font-weight: 700; color: var(--maroon);">Day 1: Nahay Khay</td>
+              <td style="padding: 13px 14px; font-weight: 700; color: #b45309;">Friday, 13 Nov 2026</td>
+              <td style="padding: 13px 14px;">Holy dip (Snan) in River Ganga, cooking Kaddu-Bhaat &amp; Chana Dal in brass utensils using mango wood.</td>
+              <td style="padding: 13px 14px; color: #047857; font-weight: 600;">Morning Snan: 06:00 AM – 10:00 AM</td>
+            </tr>
+            <tr style="background: #faf7f2; border-bottom: 1px solid var(--line);">
+              <td style="padding: 13px 14px; font-weight: 700; color: var(--maroon);">Day 2: Kharna (Lohanda)</td>
+              <td style="padding: 13px 14px; font-weight: 700; color: #b45309;">Saturday, 14 Nov 2026</td>
+              <td style="padding: 13px 14px;">Full-day Nirjala fast. In evening, Rasiyaav (Jaggery kheer) &amp; ghee roti offered to Chhathi Maiya; 36-hr fast commences.</td>
+              <td style="padding: 13px 14px; color: #047857; font-weight: 600;">Kharna Puja: 05:13 PM (Dusk)</td>
+            </tr>
+            <tr style="background: #ffffff; border-bottom: 1px solid var(--line);">
+              <td style="padding: 13px 14px; font-weight: 700; color: var(--maroon);">Day 3: Sandhya Arghya (Pehla Arghya)</td>
+              <td style="padding: 13px 14px; font-weight: 700; color: #dc2626;">Sunday, 15 Nov 2026</td>
+              <td style="padding: 13px 14px; font-weight: 600;">Procession to Ganga ghats with decorated Daura &amp; sugarcane. Fasting devotees stand waist-deep in water offering milk &amp; water Arghya.</td>
+              <td style="padding: 13px 14px; color: #dc2626; font-weight: 700;">Sunset Time: 05:12 PM (Reach ghat by 03:30 PM)</td>
+            </tr>
+            <tr style="background: #faf7f2; border-bottom: 1px solid var(--line);">
+              <td style="padding: 13px 14px; font-weight: 700; color: var(--maroon);">Day 4: Usha Arghya (Doosra Arghya) &amp; Paran</td>
+              <td style="padding: 13px 14px; font-weight: 700; color: #dc2626;">Monday, 16 Nov 2026</td>
+              <td style="padding: 13px 14px; font-weight: 600;">Dawn Arghya to rising sun; prayers to Chhathi Maiya for family prosperity; breaking of 36-hour fast with Thekua prasad.</td>
+              <td style="padding: 13px 14px; color: #dc2626; font-weight: 700;">Sunrise Time: 06:18 AM (Reach ghat by 05:15 AM)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SECTION 2: TOP GHATS IN VARANASI FOR CHHATH PUJA -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 1.9rem; border-bottom: 2px solid rgba(212,175,55,0.3); padding-bottom: 8px;">2. Best Ghats in Varanasi to Perform &amp; Witness Chhath Puja</h2>
+      
+      <div style="display: flex; flex-direction: column; gap: 18px; margin-top: 20px;">
+        
+        <div style="background: #ffffff; border: 1px solid var(--line); border-left: 4px solid var(--maroon); border-radius: 8px; padding: 18px 22px;">
+          <h3 style="color: var(--maroon); margin: 0 0 8px; font-size: 1.3rem;">Dashashwamedh Ghat &amp; Dr. Rajendra Prasad Ghat</h3>
+          <p style="margin: 0; color: var(--ink-2); line-height: 1.65;">The spiritual epicenter of Varanasi. The vast stone expanse is completely blanketed with thousands of glowing earthen lamps, fresh yellow marigolds, and colorful bamboo Soop baskets. The combination of Chhath devotion and the evening Maha Ganga Aarti creates an unforgettable spiritual atmosphere.</p>
+        </div>
+
+        <div style="background: #ffffff; border: 1px solid var(--line); border-left: 4px solid var(--saffron); border-radius: 8px; padding: 18px 22px;">
+          <h3 style="color: var(--maroon); margin: 0 0 8px; font-size: 1.3rem;">Assi Ghat (Spacious &amp; Peaceful)</h3>
+          <p style="margin: 0; color: var(--ink-2); line-height: 1.65;">Located at the southern end where River Assi meets Ganga, Assi Ghat has exceptionally wide stone steps, making it much easier for large joint families to set up their puja sthal and plant fresh sugarcane stalks (Kosi Bharai). Excellent e-rickshaw connectivity from Sigra and Lanka.</p>
+        </div>
+
+        <div style="background: #ffffff; border: 1px solid var(--line); border-left: 4px solid #047857; border-radius: 8px; padding: 18px 22px;">
+          <h3 style="color: var(--maroon); margin: 0 0 8px; font-size: 1.3rem;">Namo Ghat (Best for Senior Citizen Vratis)</h3>
+          <p style="margin: 0; color: var(--ink-2); line-height: 1.65;">The modern northern ghat with illuminated folded-hands sculptures. It features wheelchair-friendly ramps directly down to the water, clean changing rooms, safe shallow water barricades, and dedicated parking for private AC cabs—ideal for families with elderly fasting mothers.</p>
+        </div>
+
+        <div style="background: #ffffff; border: 1px solid var(--line); border-left: 4px solid #b45309; border-radius: 8px; padding: 18px 22px;">
+          <h3 style="color: var(--maroon); margin: 0 0 8px; font-size: 1.3rem;">Panchganga Ghat &amp; Scindia Ghat (Ancient Heritage)</h3>
+          <p style="margin: 0; color: var(--ink-2); line-height: 1.65;">Where five sacred rivers are believed to meet secretly. The towering backdrop of the Alamgir Mosque and ancient stone havelis illuminated with Akash Deep (hanging lanterns) makes Panchganga Ghat deeply traditional and beloved by photographers.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: BOAT BOOKING FOR CHHATH PUJA -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 1.9rem; border-bottom: 2px solid rgba(212,175,55,0.3); padding-bottom: 8px;">3. Private Boat Booking for Chhath Puja Arghya in Varanasi</h2>
+      <p style="line-height: 1.7; color: var(--ink-2);">Due to intense crowd density on the steps, hundreds of families hire private boats. The boat is anchored a few meters off the ghat, allowing Vratis to stand in clean river water and offer milk and water Arghya with complete peace and dignity.</p>
+
+      <div style="overflow-x: auto; margin-top: 16px;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; text-align: left;">
+          <thead>
+            <tr style="background: var(--maroon); color: #fff;">
+              <th style="padding: 12px 14px; border: 1px solid rgba(255,255,255,0.2);">Boat Category</th>
+              <th style="padding: 12px 14px; border: 1px solid rgba(255,255,255,0.2);">Capacity</th>
+              <th style="padding: 12px 14px; border: 1px solid rgba(255,255,255,0.2);">Chhath Puja Special Rate (3 Hours)</th>
+              <th style="padding: 12px 14px; border: 1px solid rgba(255,255,255,0.2);">Boarding Timing</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background: #fff; border-bottom: 1px solid var(--line);">
+              <td style="padding: 12px 14px; font-weight: 700; color: var(--maroon);">Traditional Wooden Row Boat</td>
+              <td style="padding: 12px 14px;">4–6 Persons + Daura</td>
+              <td style="padding: 12px 14px; font-weight: 700; color: #047857;">₹1,500 – ₹2,500</td>
+              <td style="padding: 12px 14px;">Sandhya: 03:45 PM | Usha: 05:15 AM</td>
+            </tr>
+            <tr style="background: #faf7f2; border-bottom: 1px solid var(--line);">
+              <td style="padding: 12px 14px; font-weight: 700; color: var(--maroon);">Private Motorboat (Speed / Canopy)</td>
+              <td style="padding: 12px 14px;">8–12 Persons + Family</td>
+              <td style="padding: 12px 14px; font-weight: 700; color: #047857;">₹3,000 – ₹4,500</td>
+              <td style="padding: 12px 14px;">Sandhya: 03:45 PM | Usha: 05:15 AM</td>
+            </tr>
+            <tr style="background: #fff; border-bottom: 1px solid var(--line);">
+              <td style="padding: 12px 14px; font-weight: 700; color: var(--maroon);">Double-Decker VIP Bajra (Shared Deck)</td>
+              <td style="padding: 12px 14px;">Per Person / Tourist</td>
+              <td style="padding: 12px 14px; font-weight: 700; color: #047857;">₹300 – ₹500 / seat</td>
+              <td style="padding: 12px 14px;">Board 45 mins prior to Sunset/Sunrise</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size: 0.88rem; color: var(--ink-3); margin-top: 8px;"><em>*All boats booked through Kashi Dharshan Travels include certified life jackets, licensed local boatmen, and priority anchoring near Dashashwamedh or Assi Ghats.</em></p>
+    </section>
+
+    <!-- SECTION 4: PILGRIMAGE & VRATI ADVISORY -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 1.9rem; border-bottom: 2px solid rgba(212,175,55,0.3); padding-bottom: 8px;">4. Essential Advisory for Chhath Devotees Visiting Varanasi</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; margin-top: 18px;">
+        
+        <div style="background: #fffcf7; border: 1px solid var(--line); border-radius: 10px; padding: 18px;">
+          <h4 style="color: var(--maroon); margin: 0 0 8px; font-size: 1.15rem;">🧥 Cold Morning Weather &amp; Ganga Breeze</h4>
+          <p style="color: var(--ink-2); font-size: 0.95rem; line-height: 1.6; margin: 0;">During Usha Arghya on 16 November (05:00 AM – 06:30 AM), early winter mist and chilly river winds drop temperatures to 14°C. Carry warm shawls and dry clothes for Vratis immediately after coming out of the river.</p>
+        </div>
+
+        <div style="background: #fffcf7; border: 1px solid var(--line); border-radius: 10px; padding: 18px;">
+          <h4 style="color: var(--maroon); margin: 0 0 8px; font-size: 1.15rem;">🚫 Traffic Diversions at Godowlia</h4>
+          <p style="color: var(--ink-2); font-size: 0.95rem; line-height: 1.6; margin: 0;">On 15 November afternoon, all vehicular traffic (including auto-rickshaws) is stopped at Luxa and Maidagin. Pilgrims carrying heavy Daura must either walk 10 minutes or use pre-booked e-rickshaws.</p>
+        </div>
+
+        <div style="background: #fffcf7; border: 1px solid var(--line); border-radius: 10px; padding: 18px;">
+          <h4 style="color: var(--maroon); margin: 0 0 8px; font-size: 1.15rem;">🔱 Vishwanath Darshan Coordination</h4>
+          <p style="color: var(--ink-2); font-size: 0.95rem; line-height: 1.6; margin: 0;">Most families combine Chhath with Baba Kashi Vishwanath Darshan. Pre-booking a VIP Sugam Darshan pass allows fasting devotees to complete darshan smoothly in 30 minutes without waiting in 3-hour queues.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 5: PACKAGE & BOAT BOOKING CTA -->
+    <div style="background: linear-gradient(135deg, #180900, #381206); border: 2px solid var(--gold-soft, #f59e0b); border-radius: 14px; padding: 32px 28px; text-align: center; color: #fff; margin-bottom: 40px; box-shadow: 0 12px 36px rgba(0,0,0,0.25);">
+      <span style="color: var(--gold-soft, #f59e0b); text-transform: uppercase; letter-spacing: 2px; font-weight: 700; font-size: 0.85rem;">Official Kashi Teerth Yatra Seva</span>
+      <h3 style="color: #FCEFD9; font-family: var(--font-display); font-size: clamp(1.6rem, 3.5vw, 2.3rem); margin: 8px 0 14px;">Book Chhath Puja Private Boat &amp; Kashi Yatra Package</h3>
+      <p style="max-width: 680px; margin: 0 auto 24px; color: #EAD9C2; font-size: 1.05rem; line-height: 1.6;">Ensure a comfortable, soulful pilgrimage for your family. Verified 3-star/4-star hotels near Godowlia, reserved private boat for Sandhya &amp; Usha Arghya, AC cab transfers, and Kashi Vishwanath VIP passes.</p>
+      
+      <div style="display: flex; flex-wrap: wrap; gap: 14px; justify-content: center;">
+        <a href="kashi-tour-package" class="btn btn-saffron" style="padding: 13px 28px; font-weight: 700;">View Kashi Tour Packages (From ₹2,900)</a>
+        <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20book%20a%20private%20boat%20and%20yatra%20package%20for%20Chhath%20Puja%20in%20Varanasi." class="btn" style="background:#25d366; color:#fff; font-weight:700; padding:13px 26px; border-radius:8px; text-decoration:none; display:inline-flex; align-items:center; gap:8px;" target="_blank" rel="noopener">💬 WhatsApp Chhath Booking</a>
+      </div>
+    </div>
+
+    <!-- SECTION 6: FAQS (AEO & VOICE SEARCH OPTIMIZED) -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 1.9rem; border-bottom: 2px solid rgba(212,175,55,0.3); padding-bottom: 8px;">Frequently Asked Questions (Chhath Puja Varanasi FAQs)</h2>
+      
+      <div style="display: flex; flex-direction: column; gap: 14px; margin-top: 18px;">
+        
+        <details class="aeo-faq-item" style="background: #ffffff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px;" open>
+          <summary style="font-weight: 700; color: var(--maroon); cursor: pointer; font-size: 1.05rem;">What are the exact dates and Arghya timings for Chhath Puja 2026 in Varanasi?</summary>
+          <p style="margin: 10px 0 0; color: var(--ink-2); line-height: 1.6;">Chhath Puja 2026 runs from Friday, 13 November to Monday, 16 November 2026. The 1st Arghya (Sandhya Arghya) is offered at sunset on Sunday, 15 November 2026 at <strong>05:12 PM</strong>. The 2nd Arghya (Usha Arghya) is offered at sunrise on Monday, 16 November 2026 at <strong>06:18 AM</strong>.</p>
+        </details>
+
+        <details class="aeo-faq-item" style="background: #ffffff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px;">
+          <summary style="font-weight: 700; color: var(--maroon); cursor: pointer; font-size: 1.05rem;">Can devotees rent a private boat for offering Chhath Puja Arghya in River Ganga?</summary>
+          <p style="margin: 10px 0 0; color: var(--ink-2); line-height: 1.6;">Yes, renting a private wooden row boat or motorboat is the most preferred option for families. It allows Vratis to carry their Puja Daura and Soop directly into the calm waters of the Ganges and offer Arghya peacefully without struggling through massive ghat crowds.</p>
+        </details>
+
+        <details class="aeo-faq-item" style="background: #ffffff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px;">
+          <summary style="font-weight: 700; color: var(--maroon); cursor: pointer; font-size: 1.05rem;">How much does a boat ride cost for Chhath Puja in Varanasi?</summary>
+          <p style="margin: 10px 0 0; color: var(--ink-2); line-height: 1.6;">During Chhath Puja, private wooden row boats (4 to 6 persons) cost ₹1,500 to ₹2,500 for a 3-hour booking. Medium motorboats cost ₹3,000 to ₹4,500, and shared seats on double-decker Bajras cost ₹300 to ₹500 per person.</p>
+        </details>
+
+        <details class="aeo-faq-item" style="background: #ffffff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px;">
+          <summary style="font-weight: 700; color: var(--maroon); cursor: pointer; font-size: 1.05rem;">Which ghats in Varanasi are best for performing Chhath Puja?</summary>
+          <p style="margin: 10px 0 0; color: var(--ink-2); line-height: 1.6;">Dashashwamedh Ghat is the most vibrant and grand. Assi Ghat offers wide stone steps and easy access. For elderly devotees and families with wheelchairs, Namo Ghat is the best due to barrier-free ramps, clean facilities, and dedicated car parking.</p>
+        </details>
+
+        <details class="aeo-faq-item" style="background: #ffffff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px;">
+          <summary style="font-weight: 700; color: var(--maroon); cursor: pointer; font-size: 1.05rem;">What time should families reach the ghats for Sandhya Arghya?</summary>
+          <p style="margin: 10px 0 0; color: var(--ink-2); line-height: 1.6;">Families should reach their chosen ghat by <strong>03:30 PM</strong> on Sunday, 15 November 2026. Sunset occurs at 05:12 PM, but ghat stone steps fill up completely with colorful Daura and diyas by 04:15 PM.</p>
+        </details>
+
+        <details class="aeo-faq-item" style="background: #ffffff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px;">
+          <summary style="font-weight: 700; color: var(--maroon); cursor: pointer; font-size: 1.05rem;">What are the 4 days of Chhath Puja called and what rituals happen?</summary>
+          <p style="margin: 10px 0 0; color: var(--ink-2); line-height: 1.6;">Day 1 is Nahay Khay (13 Nov: ritual bath and Kaddu-Bhaat). Day 2 is Kharna (14 Nov: 36-hour nirjala fast begins, Rasiyaav kheer prasad at dusk). Day 3 is Sandhya Arghya (15 Nov: sunset offering with Thekua and fruits). Day 4 is Usha Arghya &amp; Paran (16 Nov: sunrise offering and breaking of fast).</p>
+        </details>
+
+      </div>
+    </section>
+
+    <!-- SECTION 7: RELATED GUIDES -->
+    <div style="background: #fdfaf5; border: 1px solid var(--line); border-radius: 12px; padding: 22px; margin-top: 30px;">
+      <h3 style="color: var(--maroon); font-family: var(--font-display); font-size: 1.3rem; margin: 0 0 12px;">Related Varanasi Winter &amp; Festival Guides</h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; font-size: 0.95rem;">
+        <div>👉 <a href="kashi-tour-package" style="color: var(--saffron-deep); font-weight: 700; text-decoration: none;">Kashi Tour Package (Rates &amp; Booking)</a></div>
+        <div>👉 <a href="blog-varanasi-dev-deepawali-tour-package-2026-complete-itinerary-cost" style="color: var(--saffron-deep); font-weight: 700; text-decoration: none;">Dev Deepawali 2026 Package Guide (24 Nov)</a></div>
+        <div>👉 <a href="blog-maa-annapurna-swarna-darshan-golden-idol-annakoot-dates-timings-2026" style="color: var(--saffron-deep); font-weight: 700; text-decoration: none;">Maa Annapurna Swarna Darshan (6–10 Nov)</a></div>
+        <div>👉 <a href="blog-varanasi-ganga-aarti-winter-timings-2026-2027-schedule-guide" style="color: var(--saffron-deep); font-weight: 700; text-decoration: none;">Varanasi Ganga Aarti Winter Timings (06:00 PM)</a></div>
+        <div>👉 <a href="blog-kashi-darshan-places-to-visit-1-day-2-days-itinerary-guide-2026" style="color: var(--saffron-deep); font-weight: 700; text-decoration: none;">Kashi Darshan Top 10 Places (1-Day &amp; 2-Day)</a></div>
+        <div>👉 <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats" style="color: var(--saffron-deep); font-weight: 700; text-decoration: none;">Best Hotels in Varanasi (3★, 4★, 5★)</a></div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-foot">
+  <div class="container foot-grid">
+    <div class="foot-brand">
+      <span class="brand-name">Kashi Dharshan<small>Teerth Yatra Seva</small></span>
+      <p>Official pilgrimage portal for Shri Kashi Vishwanath, Ayodhya Ram Mandir &amp; Prayagraj Triveni Sangam. Verified by UP Tourism stakeholders.</p>
+      <p class="foot-contact"><strong>Helpline:</strong> <a href="tel:+917011960307">+91 70119 60307</a><br><strong>Office:</strong> Godowlia Crossing, Kashi Vishwanath Dham Road, Varanasi, UP 221001</p>
+    </div>
+    <div class="foot-nav">
+      <h4>Divine Yatras</h4>
+      <a href="kashi-tour-package">Kashi Tour Package</a>
+      <a href="kashi-vishwanath-tour-package">Kashi Vishwanath Tour</a>
+      <a href="varanasi-tour-package">Varanasi Tour Package</a>
+      <a href="kashi-vishwanath-sugam-darshan-vip-pass">Sugam Darshan VIP Pass</a>
+      <a href="varanasi-ganga-aarti-boat-booking-cost">Ganga Aarti Boat Booking</a>
+    </div>
+    <div class="foot-nav">
+      <h4>Hotels &amp; Cities</h4>
+      <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats">Hotels in Varanasi</a>
+      <a href="varanasi-guide">Varanasi Travel Guide</a>
+      <a href="destinations">All Destinations</a>
+      <a href="services">Our VIP Services</a>
+      <a href="blog">Yatra Blog</a>
+    </div>
+    <div class="foot-nav">
+      <h4>Trust &amp; Assistance</h4>
+      <a href="contact">Contact Official Team</a>
+      <a href="https://share.google/Q6wXLDvNd2VDOzNUp" target="_blank" rel="noopener">Find us on Google Maps</a>
+      <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Kashi%20Dharshan%20tour%20packages." target="_blank" rel="noopener">WhatsApp · 24×7</a>
+    </div>
+  </div>
+  
+  <div class="foot-quick-services" style="border-top:1px solid rgba(255,255,255,0.12); padding:16px 0; margin-top:28px;">
+    <div class="container" style="display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; justify-content:center; font-size:0.86rem; text-align:center;">
+      <span style="color:var(--gold-soft, #f59e0b); font-weight:700; text-transform:uppercase; letter-spacing:0.8px; font-size:0.78rem;">⚡ Quick VIP Services:</span>
+      <a href="kashi-tour-package" style="color:#FCEFD9; text-decoration:none; font-weight:700;">Kashi Tour Package (Best Rates)</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="kashi-vishwanath-sugam-darshan-vip-pass" style="color:#FCEFD9; text-decoration:none;">Kashi Vishwanath VIP Sugam Pass</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="varanasi-ganga-aarti-boat-booking-cost" style="color:#FCEFD9; text-decoration:none;">Ganga Aarti Boat Booking Rates</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="mangla-aarti-kashi-vishwanath-booking-guide" style="color:#FCEFD9; text-decoration:none;">Mangla Aarti Booking Guide</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="varanasi-airport-to-kashi-vishwanath-taxi-fare" style="color:#FCEFD9; text-decoration:none;">Varanasi Airport Cab Fare</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="blog-kashi-darshan-places-to-visit-1-day-2-days-itinerary-guide-2026" style="color:#FCEFD9; text-decoration:none;">Kashi Darshan Guide</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="blog-varanasi-dev-deepawali-tour-package-2026-complete-itinerary-cost" style="color:#FCEFD9; text-decoration:none;">Dev Deepawali 2026 Package</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats" style="color:#FCEFD9; text-decoration:none;">Hotels in Varanasi (3★, 4★, 5★)</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="blog-maa-annapurna-swarna-darshan-golden-idol-annakoot-dates-timings-2026" style="color:#FCEFD9; text-decoration:none;">Maa Annapurna Swarna Darshan (6-10 Nov)</a>
+    </div>
+  </div>
+
+  <div class="container foot-bottom">
+    <span>© 2026 Kashi Dharshan · Teerth Yatra Seva</span>
+    <span>॥ हर हर महादेव ॥</span>
+  </div>
+</footer>
+
+<!-- Desktop Floating WhatsApp Button -->
+<a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Chhath%20Puja%20boat%20booking%20and%20Kashi%20yatra." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm5.83 14.12c-.24.68-1.22 1.25-1.7 1.29-.48.04-.97.19-3.07-.63-2.67-1.05-4.4-3.76-4.53-3.94-.13-.18-1.07-1.42-1.07-2.72 0-1.29.67-1.93.91-2.19.24-.26.54-.33.72-.33.18 0 .36.01.52.02.17.01.39-.06.61.47.24.58.82 2.01.89 2.16.07.15.12.33.02.52-.1.19-.21.31-.36.48-.15.17-.32.39-.46.52-.16.15-.33.31-.14.63.19.32.85 1.4 1.82 2.26.97.86 1.79 1.13 2.11 1.26.32.13.51.1.7-.12.19-.22.82-.96 1.04-1.29.22-.33.45-.28.76-.16.31.12 1.99.94 2.33 1.11.34.17.57.26.65.41.08.15.08.88-.16 1.56z"/></svg>
+</a>
+
+<!-- Mobile Sticky Call/WhatsApp Bar -->
+<div class="mobile-sticky-cta-bar" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; width: 100%; background: #ffffff; border-top: 2px solid #FF6B00; z-index: 999999; box-shadow: 0 -4px 15px rgba(0,0,0,0.18); padding: 8px 12px;">
+  <div style="display: flex; gap: 10px; max-width: 500px; margin: 0 auto;">
+    <a href="tel:+917011960307" style="flex: 1; background: #800000; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      📞 Call Helpline
+    </a>
+    <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20book%20a%20private%20boat%20for%20Chhath%20Puja%20in%20Varanasi." target="_blank" rel="noopener" style="flex: 1; background: #25D366; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      💬 WhatsApp Booking
+    </a>
+  </div>
+</div>
+<style>
+@media (max-width: 768px) {
+  .mobile-sticky-cta-bar { display: block !important; }
+  body { padding-bottom: 65px !important; }
+}
+</style>
+
+<script>
+const navToggle=document.getElementById('navToggle'), navLinks=document.getElementById('navLinks');
+navToggle?.addEventListener('click',()=>navLinks.classList.toggle('open'));
+</script>
+</body>
+</html>
+"""
+
+filepath = "/Users/rishabhjaiswal/.gemini/antigravity/scratch/kashidharshan/blog-varanasi-chhath-puja-2026-ghat-arghya-timings-boat-booking-guide.html"
+with open(filepath, "w", encoding="utf-8") as f:
+    f.write(blog_html.strip() + "\n")
+
+print(f"Created {filepath} successfully with {len(blog_html)} characters.")
