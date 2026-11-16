@@ -1,0 +1,573 @@
+import os
+
+blog_html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="favicon.png" type="image/png" sizes="192x192">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Varanasi Dev Deepawali 2026: 84 Ghats Diya Timings, Laser Show &amp; Boat Rates | Kashi Dharshan</title>
+<meta name="description" content="Official 2026 Varanasi Dev Deepawali guide (24 Nov): Exact 84 ghats diya lighting time (5:15 PM), Chet Singh laser show schedule, green fireworks, boat rates &amp; traffic rules.">
+<meta name="keywords" content="dev deepawali varanasi 2026 timings, dev deepawali 2026 date varanasi, dev deepawali laser show timings chet singh ghat, dev deepawali boat booking rates 2026, ganga mahotsav varanasi 2026 schedule, 84 ghats diya lighting time varanasi, dev deepawali vip bajra pass">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="geo.region" content="IN-UP">
+<meta name="geo.placename" content="Varanasi">
+<meta name="geo.position" content="25.3109;83.0107">
+<meta name="ICBM" content="25.3109, 83.0107">
+<link rel="canonical" href="https://www.kashidharshan.com/blog-varanasi-dev-deepawali-2026-schedule-timings-laser-show-boat-guide" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Kashi Dharshan">
+<meta property="og:title" content="Varanasi Dev Deepawali 2026: 84 Ghats Diya Timings, Laser Show &amp; Boat Guide">
+<meta property="og:description" content="Complete official schedule for Dev Deepawali (24 Nov 2026): 12 Lakh+ diyas, Chet Singh Ghat 3D laser show, green fireworks &amp; VIP boat booking rates.">
+<meta property="og:url" content="https://www.kashidharshan.com/blog-varanasi-dev-deepawali-2026-schedule-timings-laser-show-boat-guide">
+<meta property="og:image" content="https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Varanasi Dev Deepawali 2026: Diya Lighting Timings &amp; Laser Show Schedule">
+<meta name="twitter:description" content="Hour-by-hour schedule of Dev Deepawali 2026: Diya lighting, Chet Singh laser show, drone show, boat fares &amp; traffic advisory.">
+<meta name="twitter:image" content="https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Cormorant+Garamond:wght@400;600;700&family=Mukta:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Structured Data: BlogPosting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Varanasi Dev Deepawali 2026: 84 Ghats Diya Timings, Laser Show & Boat Rates",
+  "description": "Comprehensive visitor and pilgrim guide to Varanasi Dev Deepawali on Tuesday, 24 November 2026 (Kartik Purnima), featuring official diya lighting timings, Chet Singh Ghat 3D laser projection schedule, green fireworks, boat fare caps, and traffic advisories.",
+  "image": "https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.kashidharshan.com/assets/logo.png"
+    }
+  },
+  "datePublished": "2026-11-16T21:45:00+05:30",
+  "dateModified": "2026-11-16T21:45:00+05:30",
+  "mainEntityOfPage": "https://www.kashidharshan.com/blog-varanasi-dev-deepawali-2026-schedule-timings-laser-show-boat-guide",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".aeo-direct-answer", ".aeo-faq-item"]
+  }
+}
+</script>
+
+<!-- Structured Data: Event Schema for Dev Deepawali -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Festival",
+  "name": "Varanasi Dev Deepawali 2026 (Kartik Purnima Mahotsav)",
+  "startDate": "2026-11-24T17:15:00+05:30",
+  "endDate": "2026-11-24T22:30:00+05:30",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "location": {
+    "@type": "Place",
+    "name": "84 Ghats of River Ganga, Varanasi",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Dashashwamedh Ghat to Assi Ghat",
+      "addressLocality": "Varanasi",
+      "postalCode": "221001",
+      "addressRegion": "UP",
+      "addressCountry": "IN"
+    }
+  },
+  "image": [
+    "https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp"
+  ],
+  "description": "The world-famous Festival of Gods on Kartik Purnima where over 12 Lakh earthen lamps illuminate all 84 ghats of Varanasi, accompanied by 3D laser projection at Chet Singh Ghat and grand Maha Aarti.",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.kashidharshan.com/kashi-tour-package",
+    "price": "0",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2026-11-16T00:00:00+05:30"
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Varanasi District Administration & UP Tourism",
+    "url": "https://www.kashidharshan.com/"
+  }
+}
+</script>
+
+<!-- Structured Data: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the exact date and diya lighting timing for Dev Deepawali 2026 in Varanasi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dev Deepawali will be celebrated on Tuesday, 24 November 2026 (Kartik Purnima). The ceremonial lighting of the first earthen lamp takes place at 05:15 PM at Dashashwamedh Ghat, and by 05:30 PM to 06:15 PM, all 84 ghats are completely illuminated with over 12 Lakh glowing diyas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What time does the 3D Laser Show start at Chet Singh Ghat during Dev Deepawali?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Chet Singh Ghat 3D Projection Mapping & Laser Light Sound Show will have two shows on 24 November 2026: the first show at 07:00 PM and the second show at 08:30 PM. The 20-minute show narrates the story of the descent of River Ganga and Lord Shiva defeating demon Tripurasur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What time should visitors board a boat on Dev Deepawali?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Visitors must board their pre-reserved boat by 03:30 PM to 04:00 PM. By 04:30 PM, the water police stops boats from leaving boarding points, and latecomers risk missing riverfront viewing completely."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a boat ride cost on Dev Deepawali 2026 in Varanasi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "During Dev Deepawali, private traditional row boats cost ₹4,000 to ₹7,000. Private motorboats (10–15 persons) range between ₹14,000 and ₹22,000, and shared upper-deck seats on double-decker VIP Bajras cost ₹1,500 to ₹3,000 per person."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Ganga Mahotsav 2026 schedule in Varanasi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ganga Mahotsav 2026 takes place from Saturday, 21 November to Tuesday, 24 November 2026 at Rajghat and Assi Ghat. It features classical vocal, sitar, shehnai, and kathak recitals by national maestros each evening from 05:30 PM to 10:00 PM."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are vehicles allowed near Godowlia and the Ghats on Dev Deepawali?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. From 02:00 PM on 24 November 2026 until midnight, all roads leading to the ghats (including Godowlia, Maidagin, Assi, Sonarpura, and Sigra) are strict pedestrian-only zones. Vehicles must park at designated lots such as Town Hall, Beniya Bagh, or Sampurnanand Stadium."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Structured Data: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.kashidharshan.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.kashidharshan.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Dev Deepawali 2026 Master Guide",
+      "item": "https://www.kashidharshan.com/blog-varanasi-dev-deepawali-2026-schedule-timings-laser-show-boat-guide"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="brand" href="/" aria-label="Kashi Dharshan home">
+      <img width="500" height="500" src="assets/logo.webp" alt="Kashi Dharshan Logo" class="brand-mark" fetchpriority="high" decoding="async">
+      <span class="brand-name">Kashi Dharshan<small>Teerth Yatra</small></span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="/">Home</a>
+      <a href="kashi-tour-package">Kashi Tour Packages</a>
+      <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats">Hotels</a>
+      <a href="destinations">Destinations</a>
+      <a href="services">Services</a>
+      <a href="blog" class="active">Blog</a>
+      <a href="contact">Contact</a>
+    </div>
+    <div class="nav-cta">
+      <a href="contact" class="btn btn-primary" aria-label="Plan Your Yatra">
+        <span class="btn-text">Plan Your Yatra</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="/">Home</a> &nbsp;/&nbsp; <a href="blog">Blog</a> &nbsp;/&nbsp; Dev Deepawali 2026 Master Guide</p>
+    <p class="eyebrow">॥ ॐ नमः शिवाय · श्री काशी देव दीपावली महोत्सव २०२६ ॥</p>
+    <h1 class="display hero-title-2line"><span class="hero-line-1">Varanasi Dev Deepawali 2026: </span> <span class="hero-line-2">84 Ghats Diya Timings, Laser Show &amp; Boat Rates</span></h1>
+    <p class="lead">Complete, verified master schedule for the Festival of Gods on <strong>Tuesday, 24 November 2026 (Kartik Purnima)</strong>. Official 84 ghats diya lighting timings, Chet Singh Ghat 3D laser projection show schedule, green fireworks, official boat fare caps, and traffic survival rules.</p>
+  </div>
+</section>
+
+<main class="section">
+  <div class="container" style="max-width: 1000px; margin: 0 auto; padding: 20px;">
+    
+    <div class="featured-image-container" style="margin: 0 0 32px; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.12); border: 1px solid rgba(212,175,55,0.25);">
+      <img width="900" height="480" src="assets/destinations/ganga-aarti.webp" alt="Varanasi Dev Deepawali 2026 84 Ghats Diya Illumination Dashashwamedh" style="width: 100%; height: auto; max-height: 440px; object-fit: cover; display: block;" loading="lazy" decoding="async">
+    </div>
+
+    <!-- AEO DIRECT ANSWER HIGHLIGHT BOX (Zero-Click Answer Engine Target) -->
+    <div class="aeo-direct-answer" style="background: #fffcf7; border: 2.5px solid var(--saffron); border-radius: 14px; padding: 24px; margin-bottom: 34px; box-shadow: 0 6px 20px rgba(220,122,31,0.15);">
+      <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+        <span style="font-size: 2rem;">🪔</span>
+        <h2 style="font-size: 1.4rem; color: var(--maroon); margin: 0; font-family: var(--font-display);">Direct Answer: What Time Does Dev Deepawali Lighting Start in Varanasi?</h2>
+      </div>
+      <p style="font-size: 1.1rem; line-height: 1.7; color: var(--ink); margin: 0 0 14px; font-weight: 500;">
+        On <strong>Tuesday, 24 November 2026</strong>, the ceremonial lighting of the first earthen lamp (<em>Akash Deep</em>) begins at <strong>05:15 PM</strong> at Dashashwamedh and Panchganga Ghats. Between <strong>05:30 PM and 06:15 PM</strong>, all 84 ghats across 7 kilometers are fully lit with over 12 Lakh diyas. The Grand Maha Aarti starts at <strong>06:00 PM</strong>, followed by the Chet Singh Ghat 3D Laser Show at <strong>07:00 PM</strong> and green fireworks across the sand dunes at <strong>07:30 PM</strong>.
+      </p>
+      <div style="background: rgba(180,83,9,0.08); border-left: 4px solid #b45309; padding: 10px 14px; border-radius: 4px; font-size: 0.95rem; color: #78350f;">
+        <strong>⚠️ Crucial Boat Boarding Rule:</strong> All tourists with boat reservations must board by <strong>03:30 PM to 04:00 PM</strong>. Water police seals river boarding points at 04:30 PM sharp to maintain safety barricades, and latecomers will NOT be permitted to board!
+      </div>
+    </div>
+
+    <!-- SECTION 1: MASTER EVENT TIMETABLE (GEO TABLE) -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 1.9rem; border-bottom: 2px solid rgba(212,175,55,0.3); padding-bottom: 8px;">1. Dev Deepawali 2026: Official Hour-by-Hour Event Timetable</h2>
+      <p style="line-height: 1.7; color: var(--ink-2); font-size: 1.05rem;">Dev Deepawali celebrates Lord Shiva's victory over the demon Tripurasur, when all the gods descend from heaven to celebrate in Kashi. Here is the official hour-by-hour program on 24 November 2026:</p>
+
+      <div style="overflow-x: auto; margin-top: 18px;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.96rem; text-align: left;">
+          <thead>
+            <tr style="background: var(--maroon); color: #fff;">
+              <th style="padding: 13px 14px; border: 1px solid rgba(255,255,255,0.2);">Time Slot</th>
+              <th style="padding: 13px 14px; border: 1px solid rgba(255,255,255,0.2);">Event / Ceremony</th>
+              <th style="padding: 13px 14px; border: 1px solid rgba(255,255,255,0.2);">Location / Ghat</th>
+              <th style="padding: 13px 14px; border: 1px solid rgba(255,255,255,0.2);">Key Instructions for Pilgrims</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background: #ffffff; border-bottom: 1px solid var(--line);">
+              <td style="padding: 13px 14px; font-weight: 700; color: #b45309;">05:00 AM – 08:00 AM</td>
+              <td style="padding: 13px 14px; font-weight: 600;">Kartik Purnima Brahma Muhurta Snan</td>
+              <td style="padding: 13px 14px;">Dashashwamedh, Assi &amp; Manikarnika</td>
+              <td style="padding: 13px 14px; color: #047857;">Over 5 Lakh devotees take a holy dip in River Ganga.</td>
+            </tr>
+            <tr style="background: #faf7f2; border-bottom: 1px solid var(--line);">
+              <td style="padding: 13px 14px; font-weight: 700; color: #b45309;">02:00 PM – 03:30 PM</td>
+              <td style="padding: 13px 14px; font-weight: 600;">Reach Ghat Zone &amp; Board Boats</td>
+              <td style="padding: 13px 14px;">Assi, Dashashwamedh, Namo Ghats</td>
+              <td style="padding: 13px 14px; color: #dc2626; font-weight: 700;">Mandatory boarding cut-off: 04:00 PM!</td>
+            </tr>
+            <tr style="background: #ffffff; border-bottom: 1px solid var(--line);">
+              <td style="padding: 13px 14px; font-weight: 700; color: #b45309;">05:15 PM – 05:30 PM</td>
+              <td style="padding: 13px 14px; font-weight: 600;">First Diya Lighting (Pratham Deep)</td>
+              <td style="padding: 13px 14px;">Dashashwamedh &amp; Panchganga Ghat</td>
+              <td style="padding: 13px 14px;">Lighting of Akash Deep atop tall bamboo poles.</td>
+            </tr>
+            <tr style="background: #faf7f2; border-bottom: 1px solid var(--line);">
+              <td style="padding: 13px 14px; font-weight: 700; color: #b45309;">05:30 PM – 06:15 PM</td>
+              <td style="padding: 13px 14px; font-weight: 600;">Lighting of 12 Lakh+ Diyas</td>
+              <td style="padding: 13px 14px;">All 84 Ghats (Assi to Rajghat)</td>
+              <td style="padding: 13px 14px; color: #047857; font-weight: 600;">Entire 7 km crescent riverfront turns into liquid gold.</td>
+            </tr>
+            <tr style="background: #ffffff; border-bottom: 1px solid var(--line);">
+              <td style="padding: 13px 14px; font-weight: 700; color: #b45309;">06:00 PM – 06:50 PM</td>
+              <td style="padding: 13px 14px; font-weight: 600;">Grand Maha Aarti (21 Priests)</td>
+              <td style="padding: 13px 14px;">Dashashwamedh Ghat (Ganga Seva Nidhi)</td>
+              <td style="padding: 13px 14px;">Spectacular synchronized Aarti with 42 Kanya Batuks.</td>
+            </tr>
+            <tr style="background: #faf7f2; border-bottom: 1px solid var(--line);">
+              <td style="padding: 13px 14px; font-weight: 700; color: #dc2626;">07:00 PM &amp; 08:30 PM</td>
+              <td style="padding: 13px 14px; font-weight: 600;">3D Projection Laser Light Show</td>
+              <td style="padding: 13px 14px;">Historic Chet Singh Ghat Fort</td>
+              <td style="padding: 13px 14px; color: #dc2626; font-weight: 700;">Two 20-min shows narrating Kashi history &amp; Shiva's victory.</td>
+            </tr>
+            <tr style="background: #ffffff; border-bottom: 1px solid var(--line);">
+              <td style="padding: 13px 14px; font-weight: 700; color: #b45309;">07:30 PM – 08:00 PM</td>
+              <td style="padding: 13px 14px; font-weight: 600;">Green Fireworks &amp; Drone Show</td>
+              <td style="padding: 13px 14px;">Opposite Sand Dunes (Reti Ghat)</td>
+              <td style="padding: 13px 14px;">Eco-friendly sky fireworks visible from all boats on Ganga.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SECTION 2: GANGA MAHOTSAV 2026 -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 1.9rem; border-bottom: 2px solid rgba(212,175,55,0.3); padding-bottom: 8px;">2. Ganga Mahotsav 2026: 4-Day Cultural Festival (21–24 Nov)</h2>
+      <p style="line-height: 1.7; color: var(--ink-2); font-size: 1.05rem;">
+        Dev Deepawali is the grand finale of the 4-day <strong>Ganga Mahotsav</strong> organized by UP Tourism from <strong>21 November to 24 November 2026</strong> at Rajghat and Assi Ghat. The festival showcases:
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 14px;">
+        <div style="background: #ffffff; border: 1px solid var(--line); border-left: 4px solid var(--maroon); border-radius: 8px; padding: 14px 18px;">
+          <h4 style="color: var(--maroon); margin: 0 0 6px;">🎶 Classical Music Maestros</h4>
+          <p style="margin: 0; color: var(--ink-2); font-size: 0.95rem; line-height: 1.6;">Evening vocal, sitar, sarod, and shehnai recitals by Banaras Gharana legends and Padma awardees from 05:30 PM to 10:00 PM.</p>
+        </div>
+        <div style="background: #ffffff; border: 1px solid var(--line); border-left: 4px solid var(--saffron); border-radius: 8px; padding: 14px 18px;">
+          <h4 style="color: var(--maroon); margin: 0 0 6px;">💃 Traditional Dance Dramas</h4>
+          <p style="margin: 0; color: var(--ink-2); font-size: 0.95rem; line-height: 1.6;">Mesmerizing Kathak performances, Shiv Tandav enactments, and folk dance troupes from across India on grand floating river stages.</p>
+        </div>
+        <div style="background: #ffffff; border: 1px solid var(--line); border-left: 4px solid #047857; border-radius: 8px; padding: 14px 18px;">
+          <h4 style="color: var(--maroon); margin: 0 0 6px;">🛍️ Shilp Mela &amp; Food Trail</h4>
+          <p style="margin: 0; color: var(--ink-2); font-size: 0.95rem; line-height: 1.6;">Handloom handicraft exhibitions featuring authentic Banarasi silk sarees, wooden toys, Gulabi Meenakari, and traditional winter delicacies.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: BOAT FARE CAPS & OFFICIAL GUIDELINES -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 1.9rem; border-bottom: 2px solid rgba(212,175,55,0.3); padding-bottom: 8px;">3. Dev Deepawali Boat Booking Rates &amp; Official Guidelines (2026)</h2>
+      <p style="line-height: 1.7; color: var(--ink-2);">Due to astronomical demand, boat fares surge heavily on Dev Deepawali. To ensure you don't fall prey to black-marketing, here are the verified rate benchmarks:</p>
+
+      <div style="overflow-x: auto; margin-top: 16px;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; text-align: left;">
+          <thead>
+            <tr style="background: var(--maroon); color: #fff;">
+              <th style="padding: 12px 14px; border: 1px solid rgba(255,255,255,0.2);">Boat Type</th>
+              <th style="padding: 12px 14px; border: 1px solid rgba(255,255,255,0.2);">Capacity</th>
+              <th style="padding: 12px 14px; border: 1px solid rgba(255,255,255,0.2);">Dev Deepawali Special Rate (Entire Evening)</th>
+              <th style="padding: 12px 14px; border: 1px solid rgba(255,255,255,0.2);">Recommended For</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="background: #fff; border-bottom: 1px solid var(--line);">
+              <td style="padding: 12px 14px; font-weight: 700; color: var(--maroon);">Traditional Wooden Row Boat</td>
+              <td style="padding: 12px 14px;">4–6 Persons</td>
+              <td style="padding: 12px 14px; font-weight: 700; color: #047857;">₹4,000 – ₹7,000</td>
+              <td style="padding: 12px 14px;">Couples &amp; photographers seeking intimate water views</td>
+            </tr>
+            <tr style="background: #faf7f2; border-bottom: 1px solid var(--line);">
+              <td style="padding: 12px 14px; font-weight: 700; color: var(--maroon);">Medium Private Motorboat</td>
+              <td style="padding: 12px 14px;">10–15 Persons</td>
+              <td style="padding: 12px 14px; font-weight: 700; color: #047857;">₹14,000 – ₹22,000</td>
+              <td style="padding: 12px 14px;">Family groups desiring quick navigation between ghats</td>
+            </tr>
+            <tr style="background: #fff; border-bottom: 1px solid var(--line);">
+              <td style="padding: 12px 14px; font-weight: 700; color: var(--maroon);">VIP Double-Decker Bajra (Shared Seat)</td>
+              <td style="padding: 12px 14px;">Per Person</td>
+              <td style="padding: 12px 14px; font-weight: 700; color: #047857;">₹1,500 – ₹3,000 / seat</td>
+              <td style="padding: 12px 14px;">Solo travelers, small families needing upper-deck elevation</td>
+            </tr>
+            <tr style="background: #faf7f2; border-bottom: 1px solid var(--line);">
+              <td style="padding: 12px 14px; font-weight: 700; color: var(--maroon);">Luxury Electric Cruise (Alaknanda / Bhagirathi)</td>
+              <td style="padding: 12px 14px;">Per Person</td>
+              <td style="padding: 12px 14px; font-weight: 700; color: #047857;">₹3,500 – ₹5,500 / seat</td>
+              <td style="padding: 12px 14px;">AC lounge, snacks, and live commentary (Sold out fast)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size: 0.88rem; color: var(--ink-3); margin-top: 8px;"><em>*All boats booked with Kashi Dharshan Travels are government-licensed, equipped with adult &amp; child life jackets, and verified captain credentials.</em></p>
+    </section>
+
+    <!-- SECTION 4: TRAFFIC & SURVIVAL GUIDE -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 1.9rem; border-bottom: 2px solid rgba(212,175,55,0.3); padding-bottom: 8px;">4. Varanasi Traffic &amp; Pedestrian Survival Plan (24 Nov)</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; margin-top: 18px;">
+        
+        <div style="background: #fffcf7; border: 1px solid var(--line); border-radius: 10px; padding: 18px;">
+          <h4 style="color: var(--maroon); margin: 0 0 8px; font-size: 1.15rem;">🚫 Complete No-Vehicle Zone</h4>
+          <p style="color: var(--ink-2); font-size: 0.95rem; line-height: 1.6; margin: 0;">From 02:00 PM to midnight, all cars, auto-rickshaws, and two-wheelers are prohibited beyond Godowlia, Maidagin, Sonarpura, and Assi. Be prepared to walk 15 to 20 minutes to reach ghat stone steps.</p>
+        </div>
+
+        <div style="background: #fffcf7; border: 1px solid var(--line); border-radius: 10px; padding: 18px;">
+          <h4 style="color: var(--maroon); margin: 0 0 8px; font-size: 1.15rem;">🅿️ Designated Parking Hubs</h4>
+          <p style="color: var(--ink-2); font-size: 0.95rem; line-height: 1.6; margin: 0;">Park your private vehicle or taxi at Town Hall Maidagin, Beniya Bagh Underground Parking, or Sampurnanand Sports Stadium Sigra, then take e-rickshaws up to the traffic diversion barrier.</p>
+        </div>
+
+        <div style="background: #fffcf7; border: 1px solid var(--line); border-radius: 10px; padding: 18px;">
+          <h4 style="color: var(--maroon); margin: 0 0 8px; font-size: 1.15rem;">🧥 Riverfront Warm Clothing</h4>
+          <p style="color: var(--ink-2); font-size: 0.95rem; line-height: 1.6; margin: 0;">November nights on the open river are significantly chilly. Temperatures on water drop to 13°C by 08:00 PM. Carry woolen shawls, windcheaters, and ear caps especially for elderly parents and kids.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 5: PACKAGE & BOAT BOOKING CTA -->
+    <div style="background: linear-gradient(135deg, #180900, #381206); border: 2px solid var(--gold-soft, #f59e0b); border-radius: 14px; padding: 32px 28px; text-align: center; color: #fff; margin-bottom: 40px; box-shadow: 0 12px 36px rgba(0,0,0,0.25);">
+      <span style="color: var(--gold-soft, #f59e0b); text-transform: uppercase; letter-spacing: 2px; font-weight: 700; font-size: 0.85rem;">Official Kashi Teerth Yatra Seva</span>
+      <h3 style="color: #FCEFD9; font-family: var(--font-display); font-size: clamp(1.6rem, 3.5vw, 2.3rem); margin: 8px 0 14px;">Reserve Last-Minute Dev Deepawali Boat Seats &amp; Stays</h3>
+      <p style="max-width: 680px; margin: 0 auto 24px; color: #EAD9C2; font-size: 1.05rem; line-height: 1.6;">Don't get stranded on overcrowded ghat steps. Secure guaranteed private boat seats, frontline Aarti anchoring, verified hotel rooms, and Kashi Vishwanath VIP Sugam Darshan passes with Kashi Dharshan Travels.</p>
+      
+      <div style="display: flex; flex-wrap: wrap; gap: 14px; justify-content: center;">
+        <a href="kashi-tour-package" class="btn btn-saffron" style="padding: 13px 28px; font-weight: 700;">View Dev Deepawali Packages</a>
+        <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20reserve%20a%20boat%20and%20package%20for%20Dev%20Deepawali%202026%20in%20Varanasi." class="btn" style="background:#25d366; color:#fff; font-weight:700; padding:13px 26px; border-radius:8px; text-decoration:none; display:inline-flex; align-items:center; gap:8px;" target="_blank" rel="noopener">💬 WhatsApp Instant Reservation</a>
+      </div>
+    </div>
+
+    <!-- SECTION 6: FAQS (AEO & VOICE SEARCH OPTIMIZED) -->
+    <section style="margin-bottom: 40px;">
+      <h2 style="color: var(--maroon); font-family: var(--font-display); font-size: 1.9rem; border-bottom: 2px solid rgba(212,175,55,0.3); padding-bottom: 8px;">Frequently Asked Questions (Dev Deepawali 2026 FAQs)</h2>
+      
+      <div style="display: flex; flex-direction: column; gap: 14px; margin-top: 18px;">
+        
+        <details class="aeo-faq-item" style="background: #ffffff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px;" open>
+          <summary style="font-weight: 700; color: var(--maroon); cursor: pointer; font-size: 1.05rem;">What is the exact date and diya lighting timing for Dev Deepawali 2026 in Varanasi?</summary>
+          <p style="margin: 10px 0 0; color: var(--ink-2); line-height: 1.6;">Dev Deepawali will be celebrated on Tuesday, 24 November 2026 (Kartik Purnima). The ceremonial lighting of the first earthen lamp takes place at 05:15 PM at Dashashwamedh Ghat, and by 05:30 PM to 06:15 PM, all 84 ghats are completely illuminated with over 12 Lakh glowing diyas.</p>
+        </details>
+
+        <details class="aeo-faq-item" style="background: #ffffff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px;">
+          <summary style="font-weight: 700; color: var(--maroon); cursor: pointer; font-size: 1.05rem;">What time does the 3D Laser Show start at Chet Singh Ghat during Dev Deepawali?</summary>
+          <p style="margin: 10px 0 0; color: var(--ink-2); line-height: 1.6;">The Chet Singh Ghat 3D Projection Mapping &amp; Laser Light Sound Show will have two shows on 24 November 2026: the first show at 07:00 PM and the second show at 08:30 PM. The 20-minute show narrates the story of the descent of River Ganga and Lord Shiva defeating demon Tripurasur.</p>
+        </details>
+
+        <details class="aeo-faq-item" style="background: #ffffff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px;">
+          <summary style="font-weight: 700; color: var(--maroon); cursor: pointer; font-size: 1.05rem;">What time should visitors board a boat on Dev Deepawali?</summary>
+          <p style="margin: 10px 0 0; color: var(--ink-2); line-height: 1.6;">Visitors must board their pre-reserved boat by 03:30 PM to 04:00 PM. By 04:30 PM, the water police stops boats from leaving boarding points, and latecomers risk missing riverfront viewing completely.</p>
+        </details>
+
+        <details class="aeo-faq-item" style="background: #ffffff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px;">
+          <summary style="font-weight: 700; color: var(--maroon); cursor: pointer; font-size: 1.05rem;">How much does a boat ride cost on Dev Deepawali 2026 in Varanasi?</summary>
+          <p style="margin: 10px 0 0; color: var(--ink-2); line-height: 1.6;">During Dev Deepawali, private traditional row boats cost ₹4,000 to ₹7,000. Private motorboats (10–15 persons) range between ₹14,000 and ₹22,000, and shared upper-deck seats on double-decker VIP Bajras cost ₹1,500 to ₹3,000 per person.</p>
+        </details>
+
+        <details class="aeo-faq-item" style="background: #ffffff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px;">
+          <summary style="font-weight: 700; color: var(--maroon); cursor: pointer; font-size: 1.05rem;">What is the Ganga Mahotsav 2026 schedule in Varanasi?</summary>
+          <p style="margin: 10px 0 0; color: var(--ink-2); line-height: 1.6;">Ganga Mahotsav 2026 takes place from Saturday, 21 November to Tuesday, 24 November 2026 at Rajghat and Assi Ghat. It features classical vocal, sitar, shehnai, and kathak recitals by national maestros each evening from 05:30 PM to 10:00 PM.</p>
+        </details>
+
+        <details class="aeo-faq-item" style="background: #ffffff; border: 1px solid var(--line); border-radius: 8px; padding: 14px 18px;">
+          <summary style="font-weight: 700; color: var(--maroon); cursor: pointer; font-size: 1.05rem;">Are vehicles allowed near Godowlia and the Ghats on Dev Deepawali?</summary>
+          <p style="margin: 10px 0 0; color: var(--ink-2); line-height: 1.6;">No. From 02:00 PM on 24 November 2026 until midnight, all roads leading to the ghats (including Godowlia, Maidagin, Assi, Sonarpura, and Sigra) are strict pedestrian-only zones. Vehicles must park at designated lots such as Town Hall, Beniya Bagh, or Sampurnanand Stadium.</p>
+        </details>
+
+      </div>
+    </section>
+
+    <!-- SECTION 7: RELATED GUIDES -->
+    <div style="background: #fdfaf5; border: 1px solid var(--line); border-radius: 12px; padding: 22px; margin-top: 30px;">
+      <h3 style="color: var(--maroon); font-family: var(--font-display); font-size: 1.3rem; margin: 0 0 12px;">Related Varanasi Winter &amp; Festival Guides</h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; font-size: 0.95rem;">
+        <div>👉 <a href="kashi-tour-package" style="color: var(--saffron-deep); font-weight: 700; text-decoration: none;">Kashi Tour Package (Rates &amp; Booking)</a></div>
+        <div>👉 <a href="blog-varanasi-dev-deepawali-tour-package-2026-complete-itinerary-cost" style="color: var(--saffron-deep); font-weight: 700; text-decoration: none;">Dev Deepawali 3-Day Package Cost &amp; Itinerary</a></div>
+        <div>👉 <a href="blog-varanasi-ganga-aarti-winter-timings-2026-2027-schedule-guide" style="color: var(--saffron-deep); font-weight: 700; text-decoration: none;">Varanasi Ganga Aarti Winter Timings (06:00 PM)</a></div>
+        <div>👉 <a href="blog-kashi-darshan-places-to-visit-1-day-2-days-itinerary-guide-2026" style="color: var(--saffron-deep); font-weight: 700; text-decoration: none;">Kashi Darshan Top 10 Places (1-Day &amp; 2-Day)</a></div>
+        <div>👉 <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats" style="color: var(--saffron-deep); font-weight: 700; text-decoration: none;">Best Hotels in Varanasi (3★, 4★, 5★)</a></div>
+        <div>👉 <a href="blog-subah-e-banaras-assi-ghat-morning-aarti-timings-guide" style="color: var(--saffron-deep); font-weight: 700; text-decoration: none;">Subah-e-Banaras Assi Ghat Morning Aarti</a></div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-foot">
+  <div class="container foot-grid">
+    <div class="foot-brand">
+      <span class="brand-name">Kashi Dharshan<small>Teerth Yatra Seva</small></span>
+      <p>Official pilgrimage portal for Shri Kashi Vishwanath, Ayodhya Ram Mandir &amp; Prayagraj Triveni Sangam. Verified by UP Tourism stakeholders.</p>
+      <p class="foot-contact"><strong>Helpline:</strong> <a href="tel:+917011960307">+91 70119 60307</a><br><strong>Office:</strong> Godowlia Crossing, Kashi Vishwanath Dham Road, Varanasi, UP 221001</p>
+    </div>
+    <div class="foot-nav">
+      <h4>Divine Yatras</h4>
+      <a href="kashi-tour-package">Kashi Tour Package</a>
+      <a href="kashi-vishwanath-tour-package">Kashi Vishwanath Tour</a>
+      <a href="varanasi-tour-package">Varanasi Tour Package</a>
+      <a href="kashi-vishwanath-sugam-darshan-vip-pass">Sugam Darshan VIP Pass</a>
+      <a href="varanasi-ganga-aarti-boat-booking-cost">Ganga Aarti Boat Booking</a>
+    </div>
+    <div class="foot-nav">
+      <h4>Hotels &amp; Cities</h4>
+      <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats">Hotels in Varanasi</a>
+      <a href="varanasi-guide">Varanasi Travel Guide</a>
+      <a href="destinations">All Destinations</a>
+      <a href="services">Our VIP Services</a>
+      <a href="blog">Yatra Blog</a>
+    </div>
+    <div class="foot-nav">
+      <h4>Trust &amp; Assistance</h4>
+      <a href="contact">Contact Official Team</a>
+      <a href="https://share.google/Q6wXLDvNd2VDOzNUp" target="_blank" rel="noopener">Find us on Google Maps</a>
+      <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Dev%20Deepawali%20tour%20packages." target="_blank" rel="noopener">WhatsApp · 24×7</a>
+    </div>
+  </div>
+  
+  <div class="foot-quick-services" style="border-top:1px solid rgba(255,255,255,0.12); padding:16px 0; margin-top:28px;">
+    <div class="container" style="display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; justify-content:center; font-size:0.86rem; text-align:center;">
+      <span style="color:var(--gold-soft, #f59e0b); font-weight:700; text-transform:uppercase; letter-spacing:0.8px; font-size:0.78rem;">⚡ Quick VIP Services:</span>
+      <a href="kashi-tour-package" style="color:#FCEFD9; text-decoration:none; font-weight:700;">Kashi Tour Package (Best Rates)</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="kashi-vishwanath-sugam-darshan-vip-pass" style="color:#FCEFD9; text-decoration:none;">Kashi Vishwanath VIP Sugam Pass</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="varanasi-ganga-aarti-boat-booking-cost" style="color:#FCEFD9; text-decoration:none;">Ganga Aarti Boat Booking Rates</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="mangla-aarti-kashi-vishwanath-booking-guide" style="color:#FCEFD9; text-decoration:none;">Mangla Aarti Booking Guide</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="varanasi-airport-to-kashi-vishwanath-taxi-fare" style="color:#FCEFD9; text-decoration:none;">Varanasi Airport Cab Fare</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="blog-kashi-darshan-places-to-visit-1-day-2-days-itinerary-guide-2026" style="color:#FCEFD9; text-decoration:none;">Kashi Darshan Guide</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="blog-varanasi-dev-deepawali-2026-schedule-timings-laser-show-boat-guide" style="color:#FCEFD9; text-decoration:none; font-weight:700;">Dev Deepawali 2026 Timings &amp; Boat</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="hotels-in-varanasi-near-kashi-vishwanath-ghats" style="color:#FCEFD9; text-decoration:none;">Hotels in Varanasi (3★, 4★, 5★)</a>
+      <span style="color:rgba(255,255,255,0.25);">•</span>
+      <a href="blog-varanasi-ganga-aarti-winter-timings-2026-2027-schedule-guide" style="color:#FCEFD9; text-decoration:none;">Winter Ganga Aarti (6 PM)</a>
+    </div>
+  </div>
+
+  <div class="container foot-bottom">
+    <span>© 2026 Kashi Dharshan · Teerth Yatra Seva</span>
+    <span>॥ हर हर महादेव ॥</span>
+  </div>
+</footer>
+
+<!-- Desktop Floating WhatsApp Button -->
+<a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Dev%20Deepawali%202026%20boat%20booking%20and%20Kashi%20yatra." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm5.83 14.12c-.24.68-1.22 1.25-1.7 1.29-.48.04-.97.19-3.07-.63-2.67-1.05-4.4-3.76-4.53-3.94-.13-.18-1.07-1.42-1.07-2.72 0-1.29.67-1.93.91-2.19.24-.26.54-.33.72-.33.18 0 .36.01.52.02.17.01.39-.06.61.47.24.58.82 2.01.89 2.16.07.15.12.33.02.52-.1.19-.21.31-.36.48-.15.17-.32.39-.46.52-.16.15-.33.31-.14.63.19.32.85 1.4 1.82 2.26.97.86 1.79 1.13 2.11 1.26.32.13.51.1.7-.12.19-.22.82-.96 1.04-1.29.22-.33.45-.28.76-.16.31.12 1.99.94 2.33 1.11.34.17.57.26.65.41.08.15.08.88-.16 1.56z"/></svg>
+</a>
+
+<!-- Mobile Sticky Call/WhatsApp Bar -->
+<div class="mobile-sticky-cta-bar" style="display: none; position: fixed; bottom: 0; left: 0; right: 0; width: 100%; background: #ffffff; border-top: 2px solid #FF6B00; z-index: 999999; box-shadow: 0 -4px 15px rgba(0,0,0,0.18); padding: 8px 12px;">
+  <div style="display: flex; gap: 10px; max-width: 500px; margin: 0 auto;">
+    <a href="tel:+917011960307" style="flex: 1; background: #800000; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      📞 Call Helpline
+    </a>
+    <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20reserve%20a%20Dev%20Deepawali%20boat%20and%20Kashi%20yatra." target="_blank" rel="noopener" style="flex: 1; background: #25D366; color: #ffffff; text-align: center; padding: 11px 5px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 14px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+      💬 WhatsApp Booking
+    </a>
+  </div>
+</div>
+<style>
+@media (max-width: 768px) {
+  .mobile-sticky-cta-bar { display: block !important; }
+  body { padding-bottom: 65px !important; }
+}
+</style>
+
+<script>
+const navToggle=document.getElementById('navToggle'), navLinks=document.getElementById('navLinks');
+navToggle?.addEventListener('click',()=>navLinks.classList.toggle('open'));
+</script>
+</body>
+</html>
+"""
+
+filepath = "/Users/rishabhjaiswal/.gemini/antigravity/scratch/kashidharshan/blog-varanasi-dev-deepawali-2026-schedule-timings-laser-show-boat-guide.html"
+with open(filepath, "w", encoding="utf-8") as f:
+    f.write(blog_html.strip() + "\n")
+
+print(f"Created {filepath} successfully with {len(blog_html)} characters.")
