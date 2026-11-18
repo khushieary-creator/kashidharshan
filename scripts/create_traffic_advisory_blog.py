@@ -1,0 +1,437 @@
+#!/usr/bin/env python3
+import os
+
+ROOT = "/Users/rishabhjaiswal/.gemini/antigravity/scratch/kashidharshan"
+output_file = os.path.join(ROOT, "blog-varanasi-dev-deepawali-2026-traffic-advisory-parking-boat-safety-rules.html")
+
+html_content = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="favicon.png" type="image/png" sizes="192x192">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dev Deepawali 2026 Varanasi Traffic Advisory: Parking &amp; Routes</title>
+<meta name="description" content="Official 2026 Dev Deepawali Varanasi traffic advisory (24 Nov). Route diversions, Godowlia no-entry timings, 12 parking zones &amp; boat safety rules guide.">
+<meta name="keywords" content="varanasi dev deepawali traffic advisory 2026, dev deepawali route diversion varanasi, godowlia no vehicle zone timings dev deepawali, dev deepawali car parking varanasi, dev deepawali boat capacity rules life jacket, dev deepawali kashi darshan travel advisory">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="geo.region" content="IN-UP">
+<meta name="geo.placename" content="Varanasi">
+<meta name="geo.position" content="25.3109;83.0107">
+<meta name="ICBM" content="25.3109, 83.0107">
+<link rel="canonical" href="https://www.kashidharshan.com/blog-varanasi-dev-deepawali-2026-traffic-advisory-parking-boat-safety-rules" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Kashi Dharshan">
+<meta property="og:title" content="Varanasi Dev Deepawali 2026 Traffic Advisory: Parking &amp; Route Diversions">
+<meta property="og:description" content="Complete guide to Varanasi traffic diversions, Godowlia no-entry timings, 12 official car parking lots, and river safety rules for Dev Deepawali (24 Nov 2026).">
+<meta property="og:url" content="https://www.kashidharshan.com/blog-varanasi-dev-deepawali-2026-traffic-advisory-parking-boat-safety-rules">
+<meta property="og:image" content="https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dev Deepawali 2026 Varanasi Traffic Advisory: Parking &amp; Routes">
+<meta name="twitter:description" content="Police traffic advisory for Dev Deepawali (24 Nov 2026): No-vehicle zones, car parking locations, boat life jacket rules &amp; tourist survival tips.">
+<meta name="twitter:image" content="https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Cormorant+Garamond:wght@400;600;700&family=Mukta:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Structured Data: BlogPosting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Dev Deepawali 2026 Varanasi Traffic Advisory: Parking & Routes",
+  "description": "Comprehensive pilgrim and tourist guide to Varanasi traffic diversions, no-vehicle zones, designated parking locations, boat passenger capacity limits, and river safety guidelines for Dev Deepawali on Tuesday, 24 November 2026.",
+  "image": "https://www.kashidharshan.com/assets/destinations/ganga-aarti.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kashi Dharshan Travels",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.kashidharshan.com/assets/logo.png"
+    }
+  },
+  "datePublished": "2026-11-18T15:30:00+05:30",
+  "dateModified": "2026-11-18T15:30:00+05:30",
+  "mainEntityOfPage": "https://www.kashidharshan.com/blog-varanasi-dev-deepawali-2026-traffic-advisory-parking-boat-safety-rules",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".aeo-direct-answer", ".traffic-summary"]
+  }
+}
+</script>
+
+<!-- Structured Data: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What time does the no-vehicle zone start in Varanasi on Dev Deepawali 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Varanasi Police Commissionerate enforces the no-vehicle zone from 12:00 PM (Noon) until 11:00 PM on Tuesday, 24 November 2026. Roads leading to ghats including Godowlia, Maidagin, Dashashwamedh, Sonarpura, and Assi are sealed for all four-wheelers, autos, and e-rickshaws."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can tourists park cars in Varanasi on Dev Deepawali?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Major authorized parking lots include Beniabagh Multi-Level Underground Parking, Town Hall Ground (Maidagin), Sampurnanand Sanskrit University Ground, Machhodari Park Ground, Sigra Stadium Ground, and Ravindrapuri / BHU Gate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the boat boarding cutoff time on Dev Deepawali?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tourists must board their reserved boats by 03:30 PM to 04:00 PM. The River Police and NDRF completely halt new boat boardings from ghat stairs at 04:30 PM to manage river congestion and safety."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is wearing a life jacket mandatory on Dev Deepawali boats in Varanasi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, wearing an ISI-certified life jacket is 100% mandatory for every boat passenger under district administration orders. Boats carrying passengers without life jackets face immediate seizure and cancellation of operating licenses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can outside taxis or rental cars enter Godowlia or Assi on 24 November 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, commercial taxis, app cabs (Ola/Uber), and private cars with outstation number plates are strictly prohibited beyond outer perimeter barricades at Girijaghar, Rathyatra, and Bhelupur crossing from 12:00 PM onwards."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can senior citizens reach Kashi Vishwanath Temple on Dev Deepawali?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Senior citizens should arrive before 11:00 AM or enter via Namo Ghat/Rajghat route or through Gate 4B (Chhatadwar) where electric golf carts and wheelchair assistance are facilitated for pre-booked Sugam Darshan devotees."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Structured Data: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.kashidharshan.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://www.kashidharshan.com/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Dev Deepawali Traffic Advisory",
+      "item": "https://www.kashidharshan.com/blog-varanasi-dev-deepawali-2026-traffic-advisory-parking-boat-safety-rules"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container header-container">
+    <div class="logo-wrapper">
+      <a href="/" class="brand-link">
+        <span class="brand-title">Kashi Dharshan</span>
+        <span class="brand-sub">Travels Varanasi</span>
+      </a>
+    </div>
+    <nav class="nav-menu">
+      <a href="/" class="nav-link">Kashi Darshan</a>
+      <a href="kashi-tour-package" class="nav-link">Kashi Packages</a>
+      <a href="varanasi-same-day-tour-package" class="nav-link">1-Day Yatra</a>
+      <a href="varanasi-ganga-aarti-boat-booking-cost" class="nav-link">Boat Booking</a>
+      <a href="blog" class="nav-link active">Yatra Blog</a>
+      <a href="contact" class="nav-link">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a href="tel:+917011960307" class="btn-phone">📞 +91 70119 60307</a>
+    </div>
+  </div>
+</header>
+
+<main class="blog-main">
+  <article class="blog-article container" style="max-width: 900px; margin: 30px auto; padding: 0 16px;">
+    
+    <nav class="breadcrumbs" style="font-size: 14px; margin-bottom: 16px; color: #666;">
+      <a href="/" style="color:#b45309; text-decoration:none;">Kashi Darshan</a> &raquo; 
+      <a href="blog" style="color:#b45309; text-decoration:none;">Blog</a> &raquo; 
+      <span>Dev Deepawali 2026 Traffic &amp; Parking Advisory</span>
+    </nav>
+
+    <header class="article-header" style="margin-bottom: 24px;">
+      <span class="badge" style="background:#fee2e2; color:#991b1b; padding:6px 12px; border-radius:16px; font-weight:700; font-size:13px; text-transform:uppercase;">🚨 Official Travel Advisory · 24 Nov 2026</span>
+      <h1 style="font-size: 2.2rem; color: #78350f; margin: 12px 0 10px; line-height: 1.25; font-family: 'Marcellus', serif;">Varanasi Dev Deepawali 2026 Traffic Advisory: Route Diversions, Parking Lots &amp; Boat Safety Guidelines</h1>
+      <div class="meta" style="font-size: 14px; color: #78716c; margin-bottom: 16px;">
+        <span>Published: 18 November 2026</span> &bull; 
+        <span>Author: Kashi Dharshan Logistics &amp; Pilgrimage Team</span> &bull; 
+        <span>7 min read</span>
+      </div>
+    </header>
+
+    <div class="featured-img" style="margin-bottom: 24px; border-radius: 12px; overflow: hidden; box-shadow: 0 6px 20px rgba(0,0,0,0.08);">
+      <img width="900" height="480" src="assets/destinations/ganga-aarti.webp" alt="Varanasi Dev Deepawali Traffic Diversion and Police Advisory 2026" style="width:100%; height:auto; display:block;" loading="eager" fetchpriority="high">
+    </div>
+
+    <!-- AEO DIRECT ANSWER CALLOUT BOX -->
+    <div class="aeo-direct-answer" style="background: #fffbeb; border: 2px solid #dc2626; border-radius: 12px; padding: 22px; margin-bottom: 32px; box-shadow: 0 4px 14px rgba(220, 38, 38, 0.12);">
+      <h3 style="color: #991b1b; margin-top: 0; font-size: 1.3rem; display: flex; align-items: center; gap: 8px;">
+        <span>🚦 Essential Traffic &amp; Safety Summary (24 November 2026)</span>
+      </h3>
+      <ul style="margin: 0; padding-left: 20px; line-height: 1.8; color: #7f1d1d; font-size: 15px;">
+        <li><strong>No-Vehicle Zone Timings:</strong> <strong>12:00 PM (Noon) to 11:00 PM</strong> on Tuesday, 24 November 2026.</li>
+        <li><strong>Strictly Sealed Sectors:</strong> Godowlia Crossing, Dashashwamedh Ghat Road, Maidagin to Chowk, Sonarpura to Bhelupur, Luxa, and Assi Ghat circle (Zero commercial vehicles, auto-rickshaws, or private cars).</li>
+        <li><strong>Primary Parking Grounds:</strong> Beniabagh Underground Parking, Town Hall (Maidagin), Sampurnanand Sanskrit University, Machhodari Ground, and Sigra Stadium.</li>
+        <li><strong>River Boat Boarding Cutoff:</strong> Tourists must board boats by <strong>03:30 PM – 04:00 PM</strong>. Water police seals boarding points at 04:30 PM sharp.</li>
+        <li><strong>Mandatory Life Jackets:</strong> 100% compliance enforced by NDRF &amp; River Police. No life jacket = immediate boat seizure.</li>
+        <li><strong>Emergency Police &amp; Yatra Assistance:</strong> Dial 112 (Police) or call Kashi Dharshan verified local helpline at <a href="tel:+917011960307" style="color:#991b1b; font-weight:700;">+91 70119 60307</a>.</li>
+      </ul>
+    </div>
+
+    <section class="content-section" style="line-height: 1.8; font-size: 16px; color: #292524;">
+      <h2 style="color: #800000; font-family: 'Marcellus', serif; margin-top: 36px;">Why Traffic Planning is Crucial for Dev Deepawali in Kashi</h2>
+      <p>On <strong>Kartik Purnima (Tuesday, 24 November 2026)</strong>, an estimated 12 to 15 Lakh pilgrims and tourists from India and overseas converge upon Varanasi's 84 ghats. To ensure public safety, prevent human stampedes, and facilitate VIP movements, the <strong>Varanasi Police Commissionerate</strong> implements strict traffic diversions and converts the entire 5 km riverfront belt into a pedestrian-only zone.</p>
+      <p>Tourists arriving without prior knowledge of parking locations often get stranded in traffic jams 4–6 km away from the ghats, frequently missing their pre-booked sunset boat rides. This guide outlines the exact route maps, parking capacities, and local survival rules so your <a href="/" style="color:#b45309; font-weight:600;">Kashi Darshan</a> experience remains flawless.</p>
+    </section>
+
+    <section class="content-section" style="margin-top: 36px;">
+      <h2 style="color: #800000; font-family: 'Marcellus', serif;">Official Route Diversions by Origin Direction</h2>
+      <p>Check where your vehicle will be stopped based on where you are entering Varanasi from:</p>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin: 24px 0;">
+        <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 10px; padding: 18px;">
+          <h3 style="color: #92400e; font-size: 1.15rem; margin-top: 0;">✈️ From Babatpur Airport / Lucknow NH-31</h3>
+          <p style="font-size: 14.5px; color: #44403c; line-height: 1.6; margin: 0;">Vehicles will be diverted at Shivpur and Bhojubir. No direct vehicles allowed towards Cantt Station after 02:00 PM. Park at <strong>Sampurnanand University Ground</strong> or take ring road to <strong>Namo Ghat plateau</strong>.</p>
+        </div>
+        <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 10px; padding: 18px;">
+          <h3 style="color: #92400e; font-size: 1.15rem; margin-top: 0;">🚆 From Cantt Railway Station (Varanasi Jn)</h3>
+          <p style="font-size: 14.5px; color: #44403c; line-height: 1.6; margin: 0;">Vehicles heading towards Godowlia will be stopped at <strong>Andhrapul and Sigra Crossing</strong>. Passengers must either walk or hire e-rickshaws up to Beniabagh, walking the remaining 800m to Dashashwamedh.</p>
+        </div>
+        <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 10px; padding: 18px;">
+          <h3 style="color: #92400e; font-size: 1.15rem; margin-top: 0;">🚗 From Prayagraj / Mirzapur Highway</h3>
+          <p style="font-size: 14.5px; color: #44403c; line-height: 1.6; margin: 0;">Vehicles entering via Akhari bypass will be stopped at <strong>Lanka / BHU Gate</strong>. Park at BHU Amphitheatre ground or Ravindrapuri, and walk 1 km to reach Assi Ghat.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARKING COMPARISON TABLE -->
+    <section class="content-section" style="margin-top: 36px;">
+      <h2 style="color: #800000; font-family: 'Marcellus', serif;">Official Parking Lots &amp; Distance to Sacred Ghats</h2>
+      <p>Park only at district-authorized parking areas to prevent towing. Here is the distance and walking time comparison:</p>
+
+      <div class="table-wrapper" style="overflow-x: auto; margin: 24px 0;">
+        <table style="width: 100%; border-collapse: collapse; text-align: left; background: #fff; border: 1px solid #e7e5e4; border-radius: 8px;">
+          <thead>
+            <tr style="background: #78350f; color: #fff;">
+              <th style="padding: 12px 14px; border: 1px solid #a8a29e;">Designated Parking Lot</th>
+              <th style="padding: 12px 14px; border: 1px solid #a8a29e;">Vehicle Types</th>
+              <th style="padding: 12px 14px; border: 1px solid #a8a29e;">Target Ghat &amp; Distance</th>
+              <th style="padding: 12px 14px; border: 1px solid #a8a29e;">Walking Time to Ghat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid #e7e5e4; background: #fffcf7;">
+              <td style="padding: 12px 14px; font-weight: 700; color: #92400e;">Beniabagh Underground Parking</td>
+              <td style="padding: 12px 14px;">4-Wheelers &amp; 2-Wheelers (600+ Cars)</td>
+              <td style="padding: 12px 14px;">Dashashwamedh / Vishwanath Dham (1.2 km)</td>
+              <td style="padding: 12px 14px; font-weight: 600; color: #047857;">15–18 Mins Walk</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e7e5e4;">
+              <td style="padding: 12px 14px; font-weight: 700; color: #92400e;">Town Hall Ground (Maidagin)</td>
+              <td style="padding: 12px 14px;">Cars &amp; Tempo Travellers</td>
+              <td style="padding: 12px 14px;">Manikarnika &amp; Scindia Ghat (800m)</td>
+              <td style="padding: 12px 14px; font-weight: 600; color: #047857;">10–12 Mins Walk</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e7e5e4; background: #fffcf7;">
+              <td style="padding: 12px 14px; font-weight: 700; color: #92400e;">Sampurnanand Sanskrit Univ. Ground</td>
+              <td style="padding: 12px 14px;">Tourist Buses &amp; Large Cabs</td>
+              <td style="padding: 12px 14px;">Godowlia Outer (2.5 km)</td>
+              <td style="padding: 12px 14px; font-weight: 600; color: #d97706;">E-rickshaw to Beniabagh + Walk</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e7e5e4;">
+              <td style="padding: 12px 14px; font-weight: 700; color: #92400e;">Machhodari Park Ground</td>
+              <td style="padding: 12px 14px;">Cars &amp; Minibuses</td>
+              <td style="padding: 12px 14px;">Namo Ghat &amp; Rajghat (1.5 km)</td>
+              <td style="padding: 12px 14px; font-weight: 600; color: #047857;">15 Mins Walk</td>
+            </tr>
+            <tr style="background: #fef3c7;">
+              <td style="padding: 12px 14px; font-weight: 700; color: #78350f;">Ravindrapuri / BHU Amphitheatre</td>
+              <td style="padding: 12px 14px;">All Private Vehicles</td>
+              <td style="padding: 12px 14px; font-weight: 700;">Assi Ghat (1.1 km)</td>
+              <td style="padding: 12px 14px; font-weight: 700; color: #047857;">12–15 Mins Walk</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- DISTRICT WATER POLICE & NDRF BOAT SAFETY REGULATIONS -->
+    <section class="content-section" style="margin-top: 36px; line-height: 1.8; color: #292524;">
+      <h2 style="color: #800000; font-family: 'Marcellus', serif;">NDRF &amp; Water Police Boat Safety Rules on River Ganga</h2>
+      <p>Due to the presence of over 3,000 boats navigating simultaneously during the evening diya illumination, the Varanasi District Magistrate and National Disaster Response Force (NDRF) enforce non-negotiable river safety mandates:</p>
+      
+      <div style="background: #f8fafc; border-left: 4px solid #0284c7; padding: 18px; margin: 20px 0; border-radius: 0 8px 8px 0;">
+        <h3 style="color: #0369a1; margin-top: 0; font-size: 1.15rem;">📋 River Ganga Dev Deepawali Safety Code:</h3>
+        <ol style="margin: 0; padding-left: 20px; line-height: 1.8;">
+          <li><strong>Mandatory Life Jackets:</strong> Every single boat occupant must wear a fastened life jacket from boarding until disembarking. Boat operators without sufficient life jackets are debarred from the river.</li>
+          <li><strong>Boarding Cutoff at 04:30 PM:</strong> To prevent dangerous river crowding, police barriers at all 84 ghat stairs will halt passenger boat boarding at 04:30 PM. <em>Always arrive at your designated boarding ghat by 03:30 PM.</em></li>
+          <li><strong>Capacity Enforcement:</strong> Hand-rowed wooden boats (max 6-8 persons), medium motorboats (max 20-25 persons), and double-decker Bajras (strictly limited to licensed capacity). Overcrowded boats will be stopped mid-stream by water police speedboats.</li>
+          <li><strong>Zero Alcohol &amp; Firecracker Ban:</strong> Consuming alcohol, bursting firecrackers, or carrying flammable gas on boats is strictly illegal and subject to immediate detention.</li>
+          <li><strong>Laser Show Viewing Corridor:</strong> Boats viewing the Chet Singh Ghat 3D Laser Show (07:00 PM &amp; 08:30 PM) must drop anchor at designated deep-water buoys and maintain safe distance from heritage walls.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PROMOTIONAL LOCAL OPERATOR ASSISTANCE BANNER -->
+    <div style="background: linear-gradient(135deg, #78350f 0%, #92400e 100%); color: #fff; padding: 24px; border-radius: 12px; margin: 36px 0; box-shadow: 0 8px 24px rgba(120, 53, 15, 0.25);">
+      <h3 style="color: #fef3c7; margin-top: 0; font-size: 1.4rem;">🛕 Don't Get Stranded! Book Verified Ghat Transfers &amp; VIP Boats</h3>
+      <p style="margin: 8px 0 16px; font-size: 15px; line-height: 1.6;">Avoid the chaos of last-minute touts, fake parking passes, and boat cancellations. Kashi Dharshan Travels provides pre-coordinated private boat boarding, verified hotel accommodations, and guided VIP Kashi Vishwanath Sugam Darshan.</p>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20need%20assistance%20with%20Dev%20Deepawali%202026%20boat%20booking%20and%20Kashi%20Darshan%20yatra." class="btn" style="background:#25d366; color:#fff; font-weight:700; padding:11px 22px; border-radius:8px; text-decoration:none; display:inline-flex; align-items:center; gap:8px;" target="_blank" rel="noopener">💬 WhatsApp Instant Support</a>
+        <a href="tel:+917011960307" class="btn" style="background:#fff; color:#78350f; font-weight:700; padding:11px 22px; border-radius:8px; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">📞 Call +91 70119 60307</a>
+      </div>
+    </div>
+
+    <!-- SURVIVAL TIPS FOR PILGRIMS -->
+    <section class="content-section" style="margin-top: 36px; line-height: 1.8; color: #292524;">
+      <h2 style="color: #800000; font-family: 'Marcellus', serif;">Pro-Tips for Families &amp; Senior Citizens</h2>
+      <ul style="padding-left: 20px;">
+        <li><strong>Choose Namo Ghat or Rajghat for Elderly:</strong> Dashashwamedh and Assi Ghat experience intense human density. Namo Ghat offers wide ramps, easy car drop-offs, clean facilities, and direct boat boarding with less physical strain.</li>
+        <li><strong>Pre-Book Vishwanath Sugam Darshan for Morning:</strong> Avoid trying to do temple darshan during peak evening hours (04:00 PM – 09:00 PM) when millions are navigating the alleys. Complete your darshan during the morning slot (06:00 AM – 11:00 AM) and keep your evening dedicated to boat viewing.</li>
+        <li><strong>Keep Mobile Batteries Charged &amp; Carry Cash:</strong> Mobile data towers near Godowlia and Dashashwamedh become heavily throttled due to extreme user density. Digital UPI payments often fail; always carry sufficient physical cash.</li>
+      </ul>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section" style="margin-top: 40px; background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 12px; padding: 24px;">
+      <h2 style="color: #78350f; font-family: 'Marcellus', serif; margin-top: 0;">Frequently Asked Questions (Traffic &amp; Safety Advisory)</h2>
+      
+      <div style="margin-bottom: 20px;">
+        <h3 style="font-size: 1.1rem; color: #92400e; margin-bottom: 6px;">Q1: What time does the no-vehicle zone start in Varanasi on Dev Deepawali?</h3>
+        <p style="margin: 0; color: #44403c;">The no-vehicle zone is enforced from 12:00 PM (Noon) to 11:00 PM on Tuesday, 24 November 2026. Key roads including Godowlia, Maidagin, Dashashwamedh, and Assi are closed to four-wheelers and autos.</p>
+      </div>
+
+      <div style="margin-bottom: 20px;">
+        <h3 style="font-size: 1.1rem; color: #92400e; margin-bottom: 6px;">Q2: Where should I park if I want to go to Dashashwamedh Ghat?</h3>
+        <p style="margin: 0; color: #44403c;">Beniabagh Underground Parking is the best authorized facility for Dashashwamedh Ghat, located approximately 1.2 km (15 minutes walk) from the riverfront.</p>
+      </div>
+
+      <div style="margin-bottom: 20px;">
+        <h3 style="font-size: 1.1rem; color: #92400e; margin-bottom: 6px;">Q3: What time should I reach the ghat to board my boat?</h3>
+        <p style="margin: 0; color: #44403c;">You must arrive by 03:30 PM to 04:00 PM. River police seals ghat boarding staircases at 04:30 PM to manage river safety.</p>
+      </div>
+
+      <div style="margin-bottom: 20px;">
+        <h3 style="font-size: 1.1rem; color: #92400e; margin-bottom: 6px;">Q4: Are life jackets compulsory for everyone on the boat?</h3>
+        <p style="margin: 0; color: #44403c;">Yes, 100% compulsory. Water police and NDRF patrol boats inspect all vessels; anyone without a life jacket is not permitted on the river.</p>
+      </div>
+
+      <div>
+        <h3 style="font-size: 1.1rem; color: #92400e; margin-bottom: 6px;">Q5: How do I book an all-inclusive yatra with boat and VIP pass?</h3>
+        <p style="margin: 0; color: #44403c;">Contact Kashi Dharshan Travels directly at +91 70119 60307 or message via WhatsApp for verified Dev Deepawali packages and Kashi Darshan bookings.</p>
+      </div>
+    </section>
+
+    <!-- INTERNAL LINKS RELATED SECTION -->
+    <div class="related-guides" style="margin-top: 40px; padding-top: 24px; border-top: 1px solid #e7e5e4;">
+      <h3 style="color: #78350f; font-family: 'Marcellus', serif;">Explore Related Dev Deepawali &amp; Kashi Darshan Guides</h3>
+      <ul style="line-height: 2; padding-left: 20px;">
+        <li><a href="/" style="color:#b45309; font-weight:700;">Official Kashi Darshan Tour Package 2026 (Home)</a></li>
+        <li><a href="blog-varanasi-dev-deepawali-2026-schedule-timings-laser-show-boat-guide" style="color:#b45309; font-weight:600;">Varanasi Dev Deepawali 2026 Master Schedule: 84 Ghats Diya Timings &amp; Laser Show</a></li>
+        <li><a href="blog-varanasi-ganga-mahotsav-2026-dates-schedule-rajghat-guide" style="color:#b45309; font-weight:600;">Varanasi Ganga Mahotsav 2026: 4-Day Schedule, Rajghat Artists Lineup &amp; Free Entry</a></li>
+        <li><a href="blog-varanasi-dev-deepawali-tour-package-2026-complete-itinerary-cost" style="color:#b45309; font-weight:600;">Dev Deepawali Tour Package 2026: Complete 3D/2N Itinerary &amp; Hotel Rates</a></li>
+        <li><a href="kashi-tour-package" style="color:#b45309; font-weight:600;">Kashi Tour Package 2026: VIP Darshan, Ganga Aarti &amp; Hotel Stays</a></li>
+      </ul>
+    </div>
+
+  </article>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer" style="background:#1c1917; color:#d6d3d1; padding: 48px 0 24px; margin-top: 48px;">
+  <div class="container" style="max-width: 1100px; margin: 0 auto; padding: 0 16px;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 32px; margin-bottom: 32px;">
+      <div>
+        <h4 style="color:#f59e0b; margin-top:0;">Kashi Dharshan Travels</h4>
+        <p style="font-size:14px; line-height:1.6; color:#a8a29e;">Govt. Registered Pilgrimage Tour Operator (GSTIN: 09CJPPJ6346G1ZR). Specialized in authentic Kashi Darshan yatras, Kashi Vishwanath VIP Sugam Darshan, private Ganga Aarti boats, and holy circuit tours.</p>
+      </div>
+      <div>
+        <h4 style="color:#f59e0b; margin-top:0;">Quick Yatra Links</h4>
+        <ul style="list-style:none; padding:0; line-height:2; font-size:14px;">
+          <li><a href="/" style="color:#d6d3d1; text-decoration:none;">Kashi Darshan Home</a></li>
+          <li><a href="kashi-tour-package" style="color:#d6d3d1; text-decoration:none;">Kashi Tour Package</a></li>
+          <li><a href="varanasi-same-day-tour-package" style="color:#d6d3d1; text-decoration:none;">1-Day Kashi Darshan</a></li>
+          <li><a href="varanasi-ganga-aarti-boat-booking-cost" style="color:#d6d3d1; text-decoration:none;">Ganga Boat Booking</a></li>
+          <li><a href="blog" style="color:#d6d3d1; text-decoration:none;">Yatra Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="color:#f59e0b; margin-top:0;">Contact &amp; Helpline</h4>
+        <p style="font-size:14px; line-height:1.6; margin:0 0 10px; color:#a8a29e;">
+          <strong>Helpline:</strong> <a href="tel:+917011960307" style="color:#f59e0b; text-decoration:none;">+91 70119 60307</a><br>
+          <strong>WhatsApp:</strong> <a href="https://wa.me/917011960307" style="color:#25d366; text-decoration:none;">+91 70119 60307</a><br>
+          <strong>Office:</strong> Godowlia Crossing, Kashi Vishwanath Dham Road, Varanasi, UP 221001
+        </p>
+      </div>
+    </div>
+    <div style="border-top:1px solid #44403c; padding-top:20px; text-align:center; font-size:13px; color:#78716c;">
+      &copy; 2026 Kashi Dharshan Travels. All Rights Reserved. Har Har Mahadev.
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float Button -->
+<a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20enquire%20about%20Dev%20Deepawali%20traffic%20advisory%20and%20boat%20booking." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" style="position:fixed; bottom:20px; right:20px; width:56px; height:56px; background:#25d366; border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 14px rgba(0,0,0,0.25); z-index:999;">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="#fff"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.971.531 1.838.813 2.796.813h.005c3.179 0 5.765-2.587 5.766-5.766 0-3.18-2.587-5.766-5.767-5.766zm3.393 8.163c-.144.405-.837.774-1.17.822-.312.043-.679.066-1.109-.071-.284-.09-.646-.217-1.119-.422-1.999-.868-3.298-2.887-3.399-3.022-.1-.135-.815-1.085-.815-2.07 0-.986.516-1.472.7-1.672.184-.2.403-.25.538-.25.134 0 .269.002.386.008.125.006.291-.047.456.347.169.405.578 1.411.629 1.513.051.102.085.221.017.356-.068.136-.102.22-.203.339-.102.119-.214.266-.305.357-.103.102-.211.213-.09.421.12.207.534.88 1.144 1.423.787.7 1.45.918 1.657 1.02.207.102.328.085.45-.051.121-.136.519-.604.657-.811.137-.207.275-.172.463-.102.188.069 1.196.564 1.402.667.206.103.344.155.394.241.051.086.051.5-.093.905z"/></svg>
+</a>
+
+<!-- Mobile Sticky Booking Bar -->
+<div class="mobile-sticky-bar" style="position:fixed; bottom:0; left:0; width:100%; background:#fff; border-top:1px solid #e7e5e4; padding:8px 12px; display:flex; gap:8px; z-index:998; box-shadow:0 -2px 10px rgba(0,0,0,0.08);">
+  <a href="tel:+917011960307" style="flex:1; background:#800000; color:#fff; text-align:center; padding:10px 5px; border-radius:8px; font-weight:700; text-decoration:none; font-size:14px; display:flex; align-items:center; justify-content:center; gap:6px;">
+    📞 Call Now
+  </a>
+  <a href="https://wa.me/917011960307?text=Har%20Har%20Mahadev!%20I%20want%20to%20reserve%20a%20yatra%20for%20Dev%20Deepawali%20and%20Kashi%20Darshan." target="_blank" rel="noopener" style="flex:1; background:#25D366; color:#fff; text-align:center; padding:10px 5px; border-radius:8px; font-weight:700; text-decoration:none; font-size:14px; display:flex; align-items:center; justify-content:center; gap:6px;">
+    💬 WhatsApp
+  </a>
+</div>
+
+</body>
+</html>
+"""
+
+with open(output_file, "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+print(f"✅ Generated Dev Deepawali Traffic Advisory Guide at {output_file}")
