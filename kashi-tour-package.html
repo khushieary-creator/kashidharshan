@@ -258,6 +258,28 @@ Travel Date: " + date;
   ]
 }
 </script>
+<script>
+function submitYatraFormToWhatsApp(e,pkg){
+  if(window.submitYatraFormToWhatsApp && window.submitYatraFormToWhatsApp !== submitYatraFormToWhatsApp){
+    return window.submitYatraFormToWhatsApp(e,pkg);
+  }
+  if(e && e.preventDefault) e.preventDefault();
+  var f = (e && e.target && e.target.tagName==='FORM') ? e.target : (document.getElementById('yatraForm') || document.getElementById('kashiPkgForm') || document.forms[0]);
+  if(!f) return false;
+  var p = (f.querySelector('[name="mobile"],[name="phone"],#phone,input[type="tel"]')||{}).value||'';
+  var n = (f.querySelector('[name="fullname"],[name="name"],#name,input[type="text"]')||{}).value||'Pilgrim Guest';
+  var d = (f.querySelector('[name="travel_date"],[name="date"],#date')||{}).value||'Upcoming';
+  var k = pkg || (f.querySelector('[name="package"],[name="city"],#city')||{}).value || (document.title ? document.title.split('|')[0].trim() : 'Tour Package');
+  var digits = p.replace(/\D/g,'');
+  if(!digits || digits.length < 10){
+    alert('कृपया सही 10-अंकों का मोबाइल नंबर दर्ज करें!');
+    return false;
+  }
+  var t = "🚩 *NEW YATRA ENQUIRY - KASHI DHARSHAN*\n\n👤 Name: "+n+"\n📞 Phone: "+p+"\n🛕 Package: "+k+"\n📅 Date: "+d+"\n\n🙏 Please send complete itinerary & lowest price quote!";
+  window.location.href = "https://wa.me/917011960307?text=" + encodeURIComponent(t);
+  return false;
+}
+</script>
 </head>
 <body>
 
@@ -447,7 +469,7 @@ Travel Date: " + date;
         <h2 style="color:var(--maroon); font-size:1.65rem; margin-top:0; margin-bottom:6px; font-family:var(--font-display);">Book Kashi Tour Package</h2>
         <p style="color:#6b7280; font-size:0.9rem; margin-bottom:20px; line-height:1.5;">Instant customized itinerary &amp; quotation on WhatsApp within 10 minutes. ॥ शुभ यात्रा ॥</p>
         
-        <form id="kashiPkgForm">
+        <form id="kashiPkgForm" onsubmit="return submitYatraFormToWhatsApp(event, 'Kashi Tour Package (3D/2N Complete Yatra)')">
           <div style="margin-bottom:16px;">
             <label style="display:block; font-size:0.88rem; font-weight:600; color:#374151; margin-bottom:6px;">Your Name *</label>
             <input type="text" name="name" id="name" placeholder="Enter full name" required style="width:100%; padding:11px 14px; border:1px solid #d1d5db; border-radius:8px; font-size:0.95rem;">
@@ -585,5 +607,6 @@ Travel Date: " + date;
 const navToggle=document.getElementById('navToggle'), navLinks=document.getElementById('navLinks');
 navToggle?.addEventListener('click',()=>navLinks.classList.toggle('open'));
 </script>
+<script src="conversion-tracker.js" defer></script>
 </body>
 </html>
