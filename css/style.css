@@ -949,3 +949,5 @@ html, body {
   padding-right: 24px !important;
   box-sizing: border-box !important;
 }
+
+.search-pill{background:#fff8f0;border:1px solid #fed7aa;border-radius:14px;padding:3px 9px;font-size:11.5px;font-weight:500;color:#78350f;display:inline-block}
